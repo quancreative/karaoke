@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Tells Internet Explorer to display content in the highest mode available. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Untitled Document</title>
+
+    <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
+
+    <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
+<body>
+
+<div class="container">
+    <header>
+    </header>
+    <nav>
+        <a href="#">Link one</a>
+    </nav>
+    <aside>
+    </aside>
+    <article class="content">
+        <section>
+            <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+            id="vlc"
+            width="100%"
+            height="300px"
+            target="musics/Kalimba.mp3"
+            >
+            </embed>
+            <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+            codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
+        </section>
+        <section>
+            <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"> Previous</span></button>
+            <button type="button" class="btn btn-ttc">Next <span class="glyphicon glyphicon-forward"></span></button>
+        </section>
+    </article>
+    <footer>
+        <address>
+        </address>
+    </footer>
+</div><!-- end .container -->
+<script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/debugger.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vlc.js"></script>
+</body>
+</html>
