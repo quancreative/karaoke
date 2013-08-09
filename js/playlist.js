@@ -1,29 +1,13 @@
 function PlaylistCtrl($scope, $http, $templateCache) {
-
+    var myDataRef = new Firebase('https://karaoke.firebaseio.com/');
     $scope.test = 'Where the fuck is my shit?';
-    $scope.songs = [
-        {
-            src: 'Maid with the Flaxen Hair.mp3',
-            played: false,
-            added: false
-        },
-        {
-            src: "Kalimba.mp3",
-            played: false,
-            added: false
-        },
-        {
-            src: 'Sleep Away.mp3',
-            played: false,
-            added: false
-        }
-    ];
+    $scope.playlist = [];
 
-    $scope.playlist = [
-    ];
+    var playlist = [];
 
     $scope.addSong = function (songSrc) {
-        $scope.playlist.push({src: songSrc, played: false});
+        // For some reason AngularJS add $$hash to every push()
+//        $scope.playlist.push({src: songSrc});
     }
 
     $scope.removeSong = function (rmSong)
@@ -40,34 +24,52 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         });
     }
 
+    $scope.forward = function() {
+        // Remove first one on the list.
+        playlist.splice(0,1);
+
+        myDataRef.child('playlist').child('src').remove();
+
+        update();
+    }
+
     $scope.clearPlaylist = function(){
         $scope.playlist = [];
     }
+    myDataRef.on('value', function(snapshot) {
+        var data = snapshot.val();
 
-    $http({
-        method: 'GET',
-        url: 'xml/songs.xml',
-        cache: $templateCache
-    }).success(function (data, status) {
-            $scope.status = status;
-            $scope.data = data;
-            console.log("Success loading song.xml.");
+        // Note: playlist may not be in numerical order.
+        playlist = data.playlist;
 
-            var xmlDoc = $.parseXML($scope.data);
-            $scope.$xml = $(xmlDoc);
-            var $song = $scope.$xml.find('file');
-            for (var i = 0; i < $song.length; i++) {
-            }
+        $scope.playlist = [];
 
-    }).error(function (data, status) {
-        $scope.data = data || "Request failed";
-        $scope.status = status;
+        // This will put it in numerical order.
+        angular.forEach(playlist, function(songObj){
+            $scope.playlist.push(songObj);
+        });
+//        console.log($scope.playlist);
+
+        // Update angular
+        $scope.safeApply(function() { });
+
+        vlc.play($scope.playlist[0]);
+
     });
+
+    $scope.safeApply = function(fn) {
+        var phase = this.$root.$$phase;
+        if(phase == '$apply' || phase == '$digest') {
+            if(fn && (typeof(fn) === 'function')) {
+                fn();
+            }
+        } else {
+            this.$apply(fn);
+        }
+    };
+
+    function update(){
+
+    }
 }
 
-var myDataRef = new Firebase('https://karaoke.firebaseio.com/');
-myDataRef.on('child_added', function(snapshot) {
-    var message = snapshot.val();
-    console.log(message.name, message.text);
-});
-myDataRef.set({name: 'quan', text: 'testing'});

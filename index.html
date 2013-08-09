@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
     <meta charset="utf-8">
     <!-- Tells Internet Explorer to display content in the highest mode available. -->
@@ -7,22 +7,17 @@
 
     <title>Karaoke</title>
 
-    <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
 
+    <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
 <body>
 
 <div class="container">
-    <header>
-    </header>
-    <nav>
-        <a href="#">Link one</a>
-    </nav>
-    <aside>
-    </aside>
     <article class="content">
-        <section>
+        <section id="vlc-content">
+            <!--
             <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
             id="vlc"
             width="100%"
@@ -32,20 +27,41 @@
             </embed>
             <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
             codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
+            -->
         </section>
-        <section>
-            <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"> Previous</span></button>
-            <button type="button" class="btn btn-ttc">Next <span class="glyphicon glyphicon-forward"></span></button>
+        <!--
+        <section id="vlc-content-test">
+            <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+            id="vlc"
+            width="100%"
+            height="300px"
+            target="musics/Sleep%20Away.mp3"></embed>
+            <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+            codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
         </section>
-    </article>
-    <footer>
-        <address>
-        </address>
-    </footer>
+
+        -->
+        <section ng-controller="PlaylistCtrl">
+
+        <h2>Playlist</h2>
+        <ul class="unstyled">
+            <li class="song-added-{{song}}" ng-repeat="song in playlist">
+                <button type="button" class="btn glyphicon-minus" ng-click="removeSong(song)"></button>
+                {{song.src}}
+            </li>
+        </ul>
+
+        <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
+        <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
+        <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
+    </section>
+</article>
 </div><!-- end .container -->
-<script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/bootstrap/v2.3.2/js/bootstrap.min.js"></script>
 <script src="js/debugger.js"></script>
-<script src="js/main.js"></script>
+<script src='https://cdn.firebase.com/v0/firebase.js'></script>
 <script src="js/vlc.js"></script>
+<script src="js/playlist.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

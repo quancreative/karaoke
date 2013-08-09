@@ -9,7 +9,6 @@
 
     <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
-    <link href="css/main.css" rel="stylesheet" media="screen">
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
@@ -28,18 +27,6 @@
 
         <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
     </section>
-
-    <hr/>
-
-    <input type="text" ng-model="search" class="search-query" placeholder="Search">
-    <ul class="unstyled">
-        <li ng-repeat="song in songs | filter:search">
-
-            <button type="button" class="btn glyphicon glyphicon-plus" ng-click="addSong(song.src)"
-            ng-model-instant></button>
-            {{song.src}}
-        </li>
-    </ul>
 
 </div>
 <!-- end .container -->

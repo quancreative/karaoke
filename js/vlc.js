@@ -1,9 +1,23 @@
 var vlc = (function () {
 
-    var me = {
-        next : function(){
+    var scope = {};
 
+    var currentSongSrc;
+
+    scope.play = function(songObj){
+        var originSongSrc = songObj.src;
+
+        // Don't play if it's same song.
+        if (currentSongSrc == originSongSrc)
+        {
+            return false;
+        } else
+        {
+            currentSongSrc = originSongSrc;
         }
+
+        var replaced = originSongSrc.replace(/ /g, '%20');
+        createVLC('musics/' + replaced);
     }
 
     function getVLC(id) {
@@ -13,7 +27,6 @@ var vlc = (function () {
     }
 
     function registerVLCEvent(event, handler) {
-        deb.trace('registerVLCEvent');
         var vlc = getVLC("vlc");
         if (vlc) {
             if (vlc.attachEvent) {
@@ -29,7 +42,7 @@ var vlc = (function () {
         }
     }
 
-// stop listening to event
+    // stop listening to event
     function unregisterVLCEvent(event, handler) {
         deb.trace('unregisterVLCEvent');
         var vlc = getVLC("vlc");
@@ -47,9 +60,9 @@ var vlc = (function () {
         }
     }
 
-// event callback function for testing
+    // event callback function for testing
     function handleEvents(event) {
-        deb.trace('handleEvents');
+//        deb.trace('handleEvents');
         if (!event)
             event = window.event; // IE
 
@@ -78,30 +91,48 @@ var vlc = (function () {
 //    alert("new position (" + X + "," + Y + ")");
     }
 
-    deb.trace(getVLC('vlc'));
-
     function onVLCOpen(event) {
         deb.trace('onVLCOpen');
     }
 
-    function onVLCError(){
-        deb.trace('MediaPlayerEncounteredError');
+    function onVLCError() {
+        console.log('VLC has encountered an error!');
     }
-//registerVLCEvent('MediaPlayerBuffering', handleEvents);
-//registerVLCEvent('MediaPlayerPlaying', handleEvents);
-//registerVLCEvent('MediaPlayerPaused', handleEvents);
-//registerVLCEvent('MediaPlayerForward', handleEvents);
-//registerVLCEvent('MediaPlayerBackward', handleEvents);
 
-// Register a bunch of callbacks.
-//registerVLCEvent('MediaPlayerNothingSpecial', handleEvents);
-    registerVLCEvent('MediaPlayerOpening', onVLCOpen);
-    registerVLCEvent('MediaPlayerEncounteredError', onVLCError);
-//registerVLCEvent('MediaPlayerEndReached', handleEvents);
-//registerVLCEvent('MediaPlayerTimeChanged', handleEvents);
-//registerVLCEvent('MediaPlayerPositionChanged', handleEvents);
-//registerVLCEvent('MediaPlayerSeekableChanged', handleEvents);
-//registerVLCEvent('MediaPlayerPausableChanged', handleEvents);
+    function onSongEnd() {
+        deb.trace('Song Ended');
+    }
 
-    return me;
+    function createVLC(songSrc) {
+        console.log('createVLC, params : ' + songSrc);
+        var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
+        html += 'id="vlc" width="100%" height="300px" target="' + songSrc + '"></embed>';
+        html += '<object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>'
+
+        $('#vlc-content').empty();
+        $('#vlc-content').html(html).ready(function () {
+            deb.trace('VLC HTML is ready!');
+            registerVLCEvents();
+        });
+    }
+
+    function registerVLCEvents() {
+        //registerVLCEvent('MediaPlayerBuffering', handleEvents);
+        //registerVLCEvent('MediaPlayerPlaying', handleEvents);
+        //registerVLCEvent('MediaPlayerPaused', handleEvents);
+        //registerVLCEvent('MediaPlayerForward', handleEvents);
+        //registerVLCEvent('MediaPlayerBackward', handleEvents);
+
+        // Register a bunch of callbacks.
+        //registerVLCEvent('MediaPlayerNothingSpecial', handleEvents);
+        registerVLCEvent('MediaPlayerOpening', onVLCOpen);
+        registerVLCEvent('MediaPlayerEncounteredError', onVLCError);
+        registerVLCEvent('MediaPlayerEndReached', onSongEnd);
+        //registerVLCEvent('MediaPlayerTimeChanged', handleEvents);
+        //registerVLCEvent('MediaPlayerPositionChanged', handleEvents);
+        //registerVLCEvent('MediaPlayerSeekableChanged', handleEvents);
+        //registerVLCEvent('MediaPlayerPausableChanged', handleEvents);
+    }
+
+    return scope;
 })();
