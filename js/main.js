@@ -1,8 +1,6 @@
+var playlistScope = {};
+//var playlistCtrl = new PlaylistCtrl(playlistScope);
 
-//vlc.play({'src' : 'Kalimba.mp3'});
-$('#ctrl-next').click(function(){
-    vlc.next();
-});
 
 //
 //var firebaseRef = new Firebase('https://karaoke.firebaseio.com/');

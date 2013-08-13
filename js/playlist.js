@@ -1,9 +1,11 @@
 function PlaylistCtrl($scope, $http, $templateCache) {
-    var myDataRef = new Firebase('https://karaoke.firebaseio.com/');
+    var myDataRef = new Firebase('https://karaoke.firebaseio.com/playlist');
+
     $scope.test = 'Where the fuck is my shit?';
     $scope.playlist = [];
 
     var playlist = [];
+
 
     $scope.addSong = function (songSrc) {
         // For some reason AngularJS add $$hash to every push()
@@ -24,39 +26,6 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         });
     }
 
-    $scope.forward = function() {
-        // Remove first one on the list.
-        playlist.splice(0,1);
-
-        myDataRef.child('playlist').child('src').remove();
-
-        update();
-    }
-
-    $scope.clearPlaylist = function(){
-        $scope.playlist = [];
-    }
-    myDataRef.on('value', function(snapshot) {
-        var data = snapshot.val();
-
-        // Note: playlist may not be in numerical order.
-        playlist = data.playlist;
-
-        $scope.playlist = [];
-
-        // This will put it in numerical order.
-        angular.forEach(playlist, function(songObj){
-            $scope.playlist.push(songObj);
-        });
-//        console.log($scope.playlist);
-
-        // Update angular
-        $scope.safeApply(function() { });
-
-        vlc.play($scope.playlist[0]);
-
-    });
-
     $scope.safeApply = function(fn) {
         var phase = this.$root.$$phase;
         if(phase == '$apply' || phase == '$digest') {
@@ -68,8 +37,36 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         }
     };
 
-    function update(){
-
+    $scope.forward = function() {
+        // Remove first one on the list.
+//        playlist.splice(0,1);
+        var id = $scope.playlist[0].id;
+        console.log(id);
+        myDataRef.child(id).remove();
     }
+
+    $scope.clearPlaylist = function(){
+        $scope.playlist = [];
+    }
+    myDataRef.on('value', function(snapshot) {
+
+        playlist = [];
+        $scope.playlist = [];
+
+        snapshot.forEach(function(item){
+//            console.log(item.name());
+            var id = item.name();
+            var songSrc = item.child('src').val();
+            $scope.playlist.push({ 'id' : id, 'src' : songSrc});
+        });
+
+
+        // Update angular
+        $scope.safeApply(function() {
+        });
+
+        vlc.play($scope.playlist[0]);
+
+    });
 }
 

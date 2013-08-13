@@ -17,19 +17,6 @@
 
 <div class="container" ng-controller="SongCtrl">
 
-    <section>
-        <h3>Playlist</h3>
-        <ul class="unstyled">
-            <li class="song-added-{{song}}" ng-repeat="song in playlist">
-                <button type="button" class="btn glyphicon-minus" ng-click="removeSong(song)"></button>
-                {{song.src}}
-            </li>
-        </ul>
-
-        <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
-    </section>
-
-    <hr/>
     <h3>Songs</h3>
 
     <input type="text" ng-model="search" class="search-query" width="600px" placeholder="Search">

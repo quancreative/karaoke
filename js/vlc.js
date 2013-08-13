@@ -1,10 +1,18 @@
 var vlc = (function () {
 
+    var playlistScope = {};
+    var playlistCtrl;
+
     var scope = {};
 
     var currentSongSrc;
 
     scope.play = function(songObj){
+
+        if (playlistCtrl == null){
+            //playlistCtrl = new PlaylistCtrl(playlistScope);
+        }
+
         var originSongSrc = songObj.src;
 
         // Don't play if it's same song.
@@ -101,6 +109,7 @@ var vlc = (function () {
 
     function onSongEnd() {
         deb.trace('Song Ended');
+        angular.element(document.getElementById('playlist-content')).scope().forward();
     }
 
     function createVLC(songSrc) {

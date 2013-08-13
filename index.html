@@ -12,6 +12,12 @@
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+    test = function(){
+        console.log('testing');
+        angular.element(document.getElementById('playlist-content')).scope().forward();
+    }
+    </script>
 <body>
 
 <div class="container">
@@ -41,7 +47,7 @@
         </section>
 
         -->
-        <section ng-controller="PlaylistCtrl">
+        <section id="playlist-content" ng-controller="PlaylistCtrl">
 
         <h2>Playlist</h2>
         <ul class="unstyled">
@@ -50,7 +56,7 @@
                 {{song.src}}
             </li>
         </ul>
-
+        <button type="button" class="btn" onclick="test()">Test</button>
         <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
         <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
         <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
