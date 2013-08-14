@@ -2,17 +2,7 @@ function SongCtrl($scope, $http, $templateCache) {
 
 //    var playlistScope = {}, playlist = new PlaylistCtrl(playlistScope);
     var myDataRef = new Firebase('https://karaoke.firebaseio.com/playlist');
-    $scope.songs = [
-        {
-            src: 'Người Đến Từ Triều Châu - Quang Linh.VOB'
-        },
-        {
-            src: "Xin Còn Gọi Tên Nhau - Ngọc Lan_NDBD3.mkv"
-        },
-        {
-            src: 'D - Side Invisible.mp3'
-        }
-    ];
+    $scope.songs = [ ];
 
     var test = [
         {
@@ -43,12 +33,14 @@ function SongCtrl($scope, $http, $templateCache) {
             $scope.$xml = $(xmlDoc);
             var $song = $scope.$xml.find('file');
             for (var i = 0; i < $song.length; i++) {
+//                console.log($song[i].innerHTML);
+//                console.log($song[i].textContent);
+                $scope.songs.push({'src' : $song[i].innerHTML});
             }
 
         }).error(function (data, status) {
             $scope.data = data || "Request failed";
             $scope.status = status;
         });
-
 }
 

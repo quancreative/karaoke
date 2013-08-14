@@ -52,7 +52,6 @@ var vlc = (function () {
 
     // stop listening to event
     function unregisterVLCEvent(event, handler) {
-        deb.trace('unregisterVLCEvent');
         var vlc = getVLC("vlc");
         if (vlc) {
             if (vlc.detachEvent) {
@@ -70,7 +69,6 @@ var vlc = (function () {
 
     // event callback function for testing
     function handleEvents(event) {
-//        deb.trace('handleEvents');
         if (!event)
             event = window.event; // IE
 
@@ -93,14 +91,14 @@ var vlc = (function () {
 
 // handle mouse grab event from video filter
     function handleMouseGrab(event, X, Y) {
-        deb.trace('handleMouseGrab');
+
         if (!event)
             event = window.event; // IE
 //    alert("new position (" + X + "," + Y + ")");
     }
 
     function onVLCOpen(event) {
-        deb.trace('onVLCOpen');
+        console.log('onVLCOpen');
     }
 
     function onVLCError() {
@@ -108,7 +106,7 @@ var vlc = (function () {
     }
 
     function onSongEnd() {
-        deb.trace('Song Ended');
+        console.log('Song Ended');
         angular.element(document.getElementById('playlist-content')).scope().forward();
     }
 
@@ -120,14 +118,52 @@ var vlc = (function () {
 
         $('#vlc-content').empty();
         $('#vlc-content').html(html).ready(function () {
-            deb.trace('VLC HTML is ready!');
+            console.log('VLC HTML is ready!');
+
+
+            var vlc = getVLC("vlc");
+//            vlc.audio.track = 'Track 2';
+            console.log('isPlaying : ' + vlc.playlist.isPlaying);
+            console.log('audio count : ' + vlc.audio.count);
+            console.log('track : ' + vlc.audio.track);
+            console.log('channel : ' + vlc.audio.channel);
+            console.log('mute : ' + vlc.audio.mute);
+            console.log('volume : ' + vlc.audio.volume);
+            console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
+
+            var audio = vlc.audio;
+
+            console.log(vlc.mediaDescription.trackNumber);
+
+//            for (var key in audio) {
+//
+//                alert("Key " + audio[key] + " is #" + key);
+//
+////                if (audio.hasOwnProperty(key)) {
+////
+////                }
+//            }
+
             registerVLCEvents();
         });
     }
 
+    function onPlyaerTimeChanged(event){
+        var vlc = getVLC("vlc");
+//            vlc.audio.track = 'Track 2';
+        console.log('isPlaying : ' + vlc.playlist.isPlaying);
+        console.log('audio count : ' + vlc.audio.count);
+        console.log('track : ' + vlc.audio.track);
+        console.log('channel : ' + vlc.audio.channel);
+        console.log('mute : ' + vlc.audio.mute);
+        console.log('volume : ' + vlc.audio.volume);
+        console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
+
+
+
+    }
+
     function registerVLCEvents() {
-        //registerVLCEvent('MediaPlayerBuffering', handleEvents);
-        //registerVLCEvent('MediaPlayerPlaying', handleEvents);
         //registerVLCEvent('MediaPlayerPaused', handleEvents);
         //registerVLCEvent('MediaPlayerForward', handleEvents);
         //registerVLCEvent('MediaPlayerBackward', handleEvents);
@@ -137,7 +173,9 @@ var vlc = (function () {
         registerVLCEvent('MediaPlayerOpening', onVLCOpen);
         registerVLCEvent('MediaPlayerEncounteredError', onVLCError);
         registerVLCEvent('MediaPlayerEndReached', onSongEnd);
-        //registerVLCEvent('MediaPlayerTimeChanged', handleEvents);
+        //registerVLCEvent('MediaPlayerBuffering', handleEvents);
+//        registerVLCEvent('MediaPlayerPlaying', onPlaying);
+        registerVLCEvent('MediaPlayerTimeChanged', onPlyaerTimeChanged);
         //registerVLCEvent('MediaPlayerPositionChanged', handleEvents);
         //registerVLCEvent('MediaPlayerSeekableChanged', handleEvents);
         //registerVLCEvent('MediaPlayerPausableChanged', handleEvents);

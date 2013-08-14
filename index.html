@@ -15,7 +15,6 @@
 <script type="text/javascript">
     test = function(){
         console.log('testing');
-        angular.element(document.getElementById('playlist-content')).scope().forward();
     }
     </script>
 <body>
@@ -49,7 +48,7 @@
         -->
         <section id="playlist-content" ng-controller="PlaylistCtrl">
 
-        <h2>Playlist</h2>
+        <h3>Playlist</h3>
         <ul class="unstyled">
             <li class="song-added-{{song}}" ng-repeat="song in playlist">
                 <button type="button" class="btn glyphicon-minus" ng-click="removeSong(song)"></button>
@@ -57,6 +56,7 @@
             </li>
         </ul>
         <button type="button" class="btn" onclick="test()">Test</button>
+        <button type="button" class="btn" onclick="switchAudio()">Switch Audio</button>
         <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
         <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
         <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
