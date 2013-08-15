@@ -7,20 +7,18 @@ var vlc = (function () {
 
     var currentSongSrc;
 
-    scope.play = function(songObj){
+    scope.play = function (songObj) {
 
-        if (playlistCtrl == null){
+        if (playlistCtrl == null) {
             //playlistCtrl = new PlaylistCtrl(playlistScope);
         }
 
         var originSongSrc = songObj.src;
 
         // Don't play if it's same song.
-        if (currentSongSrc == originSongSrc)
-        {
+        if (currentSongSrc == originSongSrc) {
             return false;
-        } else
-        {
+        } else {
             currentSongSrc = originSongSrc;
         }
 
@@ -117,36 +115,24 @@ var vlc = (function () {
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
         html += 'id="vlc" width="100%" height="300px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
-        html += '<script language="javascript">var vlc = document.getElementById("vlc");</script>'
 
         $('#vlc-content').empty();
         $('#vlc-content').html(html).ready(function () {
-            var vlc = getVLC('vlc');
-            vlc.playlist.stop();
+
             console.log('VLC HTML is ready!');
 
-
             registerVLCEvents();
-            console.log('------------------------------------------------' );
+            console.log('------------------------------------------------');
         });
     }
 
-    function setAudioTrack(){
-        var vlc = getVLC("vlc");
-        vlc.audio.track = 2;
-        vlc.audio = 2;
-        console.log('track : ' + vlc.audio.track);
-    }
 
-    function onPlayerTimeChanged(event){
+    function onPlayerTimeChanged(event) {
 
         var vlc = getVLC("vlc");
         vlc.audio.track = parseInt(0);
-//        vlc.audio.channel = 2;
-
 //        unregisterVLCEvent('MediaPlayerTimeChanged', onPlayerTimeChanged);
 
-//            vlc.audio.track = 'Track 2';
         console.log('isPlaying : ' + vlc.playlist.isPlaying);
         console.log('audio count : ' + vlc.audio.count);
         console.log('track : ' + vlc.audio.track);
@@ -154,53 +140,82 @@ var vlc = (function () {
 //        console.log('mute : ' + vlc.audio.mute);
 //        console.log('volume : ' + vlc.audio.volume);
         console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
-        console.log('------------------------------------------------' );
+        console.log('------------------------------------------------');
     }
 
-    function onPlaying(event){
+    function onPlaying(event) {
         console.log('onPlaying');
+        printProperties();
     }
 
-    var num = 0;
-    function onPositionChanged(event) {
-        // TODO: Optimize. this function gets called repeatedly. The unregisterEvent crashes the plugin.
-        var vlc = getVLC("vlc");
-        setAudioTrack();
+    function checkAudioTrack(hasTrack){
+        console.log('checkAudioTrack -> hasTrack : ' + hasTrack);
 
-        if (num < 2)
-        {
-
-            console.log('onPositionChanged');
-
-            vlc.playlist.pause();
-
+        if (hasTrack == undefined){
+            var vlc = getVLC("vlc");
             console.log('audio count : ' + vlc.audio.count);
-            console.log('channel : ' + vlc.audio.channel);
-            console.log('description : ' + vlc.audio.description(0));
-            console.log('description : ' + vlc.audio.description(1));
-            console.log('description : ' + vlc.audio.description(2));
-//            console.log('channel : ' + vlc.audio.description(3));
-            console.log('setting : ' +      vlc.mediaDescription.setting);
-            console.log('nowPlaying : ' +   vlc.mediaDescription.nowPlaying);
-            console.log('trackID : ' +      vlc.mediaDescription.trackID);
-            console.log('trackNumber : ' +  vlc.mediaDescription.trackNumber);
-            console.log('title : ' +      vlc.mediaDescription.title);
+            if (vlc.audio.count > 1)
+            {
+                vlc.audio.track = 2;
+                console.log('audio count : ' + vlc.audio.count);
+                console.log('track : ' + vlc.audio.track);
+                vlc.playlist.togglePause();
+            } else {
+                setTimeout(checkAudioTrack, 500, false);
+            }
 
-            setAudioTrack();
-
-//        console.log('mute : ' + vlc.audio.mute);
-//        console.log('volume : ' + vlc.audio.volume);
-//            console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
-            vlc.playlist.play();
-            console.log('------------------------------------------------' );
-
+        } else {
+            setTimeout(checkAudioTrack, 500, false);
         }
+    }
 
-        num ++;
+    function printProperties() {
+        var vlc = getVLC("vlc");
+        console.log('audio count : ' + vlc.audio.count);
+        console.log('track : ' + vlc.audio.track);
+        console.log('channel : ' + vlc.audio.channel);
+//        console.log('description : ' + vlc.audio.description(0));
+//        console.log('description : ' + vlc.audio.description(1));
+//        console.log('description : ' + vlc.audio.description(2));
+//      console.log('channel : ' + vlc.audio.description(3));
+//      console.log('mute : ' + vlc.audio.mute);
+//      console.log('volume : ' + vlc.audio.volume);
+        console.log('setting : ' + vlc.mediaDescription.setting);
+        console.log('nowPlaying : ' + vlc.mediaDescription.nowPlaying);
+        console.log('trackID : ' + vlc.mediaDescription.trackID);
+        console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
+        console.log('title : ' + vlc.mediaDescription.title);
+
+        console.log('------------------------------------------------');
+    }
+
+    function onPaused(event){
+        console.log('onPaused');
+    }
+
+    function onPositionChanged(event) {
+        // Data has loaded such as audio tracks.
+        console.log('onPositionChanged');
+        var vlc = getVLC('vlc');
+        if (vlc.audio.count > 1)
+        {
+            vlc.audio.track = 2;
+            // event spits out time coded format.
+//            console.log(event);
+
+            // TODO: Removing event crashes the plugin.
+//            unregisterVLCEvent('MediaPlayerPositionChanged', onPositionChanged);
+
+
+//            console.log('audio count : ' + vlc.audio.count);
+//            console.log('track : ' + vlc.audio.track);
+
+//                printProperties();
+        }
     }
 
     function registerVLCEvents() {
-        //registerVLCEvent('MediaPlayerPaused', handleEvents);
+        registerVLCEvent('MediaPlayerPaused', onPaused);
         //registerVLCEvent('MediaPlayerForward', handleEvents);
         //registerVLCEvent('MediaPlayerBackward', handleEvents);
 
