@@ -22,7 +22,7 @@ function SongCtrl($scope, $http, $templateCache) {
 
     $http({
         method: 'GET',
-        url: 'xml/songs.xml',
+        url: 'xml/test.xml',
         cache: $templateCache
     }).success(function (data, status) {
             $scope.status = status;
