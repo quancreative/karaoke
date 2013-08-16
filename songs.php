@@ -17,17 +17,31 @@
 
 <div class="container" ng-controller="SongCtrl">
 
-    <h3>Songs</h3>
 
-    <input type="text" ng-model="search" class="search-query" width="600px" placeholder="Search">
-    <ul class="unstyled">
-        <li ng-repeat="song in songs | filter:search">
-
-            <button type="button" class="btn glyphicon glyphicon-plus" ng-click="addSong(song.src)"
-                    ng-model-instant></button>
-            {{song.src}}
-        </li>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">All</a></li>
+        <li><a href="#">By Title</a></li>
+        <li><a href="#">By Artist</a></li>
     </ul>
+
+    <input type="text" class="search-query span5" ng-model="search" width="600px" placeholder="Search">
+
+    <table class="table table-hover table-condensed">
+        <thead>
+        <tr>
+            <th>Add</th>
+            <th>Title</th>
+            <th>Artist</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="song in songs | filter:search | orderBy:'name'">
+            <td><button type="button" class="btn btn-small glyphicon glyphicon-plus" ng-click="addSong(song.src)" ng-model-instant></button></td>
+            <td>{{song.title}}<span class='hide'>{{song.songSrcNoDiacritics}}</span></td>
+            <td>{{song.artist}}</td>
+        </tr>
+        </tbody>
+    </table>
 
 </div>
 <!-- end .container -->

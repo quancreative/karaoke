@@ -12,10 +12,10 @@
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
-<script type="text/javascript">
-    test = function(){
-        console.log('testing');
-    }
+    <script type="text/javascript">
+        test = function () {
+            console.log('testing');
+        }
     </script>
 <body>
 
@@ -48,21 +48,26 @@
         -->
         <section id="playlist-content" ng-controller="PlaylistCtrl">
 
-        <h3>Playlist</h3>
-        <ul class="unstyled">
-            <li class="song-added-{{song}}" ng-repeat="song in playlist">
-                <button type="button" class="btn glyphicon-minus" ng-click="removeSong(song)"></button>
-                {{song.src}}
-            </li>
-        </ul>
-        <button type="button" class="btn" onclick="test()">Test</button>
-        <button type="button" class="btn" onclick="switchAudio()">Switch Audio</button>
-        <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button>
-        <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
-        <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
-    </section>
-</article>
-</div><!-- end .container -->
+            <button id="switch-track" type="button" class="btn">Switch Track</button>
+            <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
+            <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
+            <button type="button" class="btn btn-ttc" ng-click="forward()"><span
+                    class="glyphicon glyphicon-forward"></span></button>
+
+            <h6>Playlist</h6>
+            <ul class="media-list">
+                <li class="media" ng-repeat="song in playlist">
+                    <button type="button" class="pull-left glyphicon-minus" ng-click="removeSong(song.id)"></button>
+                    <div class="media-body">
+                        <h5 class="media-heading">{{song.title}}</h5>
+                        {{song.artist}}
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </article>
+</div>
+<!-- end .container -->
 <script src="libraries/bootstrap/v2.3.2/js/bootstrap.min.js"></script>
 <script src="js/debugger.js"></script>
 <script src='https://cdn.firebase.com/v0/firebase.js'></script>

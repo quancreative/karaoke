@@ -1,29 +1,18 @@
 function PlaylistCtrl($scope, $http, $templateCache) {
     var myDataRef = new Firebase('https://karaoke.firebaseio.com/playlist');
 
-    $scope.test = 'Where the fuck is my shit?';
     $scope.playlist = [];
 
     var playlist = [];
-
 
     $scope.addSong = function (songSrc) {
         // For some reason AngularJS add $$hash to every push()
 //        $scope.playlist.push({src: songSrc});
     }
 
-    $scope.removeSong = function (rmSong)
+    $scope.removeSong = function (id)
     {
-        var oldPlaylist = $scope.playlist;
-        $scope.playlist = [];
-
-        angular.forEach(oldPlaylist, function(song){
-
-            if (song != rmSong)
-            {
-                $scope.playlist.push(song);
-            }
-        });
+        myDataRef.child(id).remove();
     }
 
     $scope.safeApply = function(fn) {
@@ -57,9 +46,12 @@ function PlaylistCtrl($scope, $http, $templateCache) {
 //            console.log(item.name());
             var id = item.name();
             var songSrc = item.child('src').val();
-            $scope.playlist.push({ 'id' : id, 'src' : songSrc});
+            var songNoExtention = songSrc.replace(/\.[^/.]+$/, "");
+            var titleAndArtist = songNoExtention.split('-');
+            var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
+            var artist = titleAndArtist[1].trim();
+            $scope.playlist.push({ 'id' : id, 'src' : songSrc, 'title' : title, 'artist' : artist});
         });
-
 
         // Update angular
         $scope.safeApply(function() {
