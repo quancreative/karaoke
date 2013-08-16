@@ -100,8 +100,9 @@ function SongCtrl($scope, $http, $templateCache) {
 //    var playlistScope = {}, playlist = new PlaylistCtrl(playlistScope);
     var myDataRef = new Firebase('https://karaoke.firebaseio.com/playlist');
     $scope.songs = [ ];
-    $scope.songsByTitle= [];
-    $scope.songsByArtist = [];
+
+    $scope.predicate = 'title';
+    $scope.titleClass = 'glyphicon-arrow-down';
 
     var test = [
         {
@@ -115,15 +116,18 @@ function SongCtrl($scope, $http, $templateCache) {
         }
     ];
 
-    $scope.addSong = function (songSrc) {
-        myDataRef.push({'src' : songSrc});
+    $scope.addSong = function (index) {
+        console.log(index);
+        var songObj = $scope.songs[index];
+//        songObj.class = 'glyphicon-ok';
+        songObj.class = 'btn-success glyphicon-ok';
+
+//        myDataRef.push({'src' : songSrc});
     }
-
-
 
     $http({
         method: 'GET',
-        url: 'xml/test.xml',
+        url: 'xml/songs.xml',
         cache: $templateCache
     }).success(function (data, status) {
             $scope.status = status;
@@ -145,18 +149,24 @@ function SongCtrl($scope, $http, $templateCache) {
 //                console.log($song[i].innerHTML);
 //                console.log($song[i].textContent);
             var songSrc = $song[i].innerHTML;
-            var songNoExtention = songSrc.replace(/\.[^/.]+$/, "");
-            var titleAndArtist = songNoExtention.split('-');
+            var songNoExtension = songSrc.replace(/\.[^/.]+$/, "");
+            var titleAndArtist = songNoExtension.split('-');
             var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
-            var artist = titleAndArtist[1].trim();
+            var artist = titleAndArtist.length > 1 ? titleAndArtist[1].trim() : 'Unknown';
 
             var songSrcNoDiacritics = removeDiacritics(songSrc);
 
-            $scope.songs.push({ 'title' : titleAndArtist[0], 'artist' : artist, 'src' : songSrc, 'songSrcNoDiacritics' : songSrcNoDiacritics});
-            $scope.songsByTitle.push({ 'title' : titleAndArtist[0], 'src' : songSrc});
-            $scope.songsByArtist.push({ 'artist' : titleAndArtist[1], 'src' : songSrc});
+            $scope.songs.push({ 'title' : title, 'artist' : artist, 'src' : songSrc, 'songSrcNoDiacritics' : songSrcNoDiacritics, 'class' : 'glyphicon-plus' });
         }
 
     }
 }
 
+
+Array.prototype.remove = function(v) {
+    return $.grep(this, function(e) {
+        return e !== v;
+    });
+};
+//var test = [2, 3 ,4 ,5 ,7 ,9, 1];
+//console.log('test : ' + test.remove(3));

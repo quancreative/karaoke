@@ -8,6 +8,12 @@ var vlc = (function () {
     var currentSongSrc;
     var currentSongTrack = 2; // Make two the default.
 
+    /*
+     Doc:
+     http://www.monkeybreadsoftware.net/class-vlcmediatrackinfombs.shtml
+      */
+
+
     scope.play = function (songObj) {
 
         if (playlistCtrl == null) {
