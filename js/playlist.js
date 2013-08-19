@@ -46,7 +46,8 @@ function PlaylistCtrl($scope, $http, $templateCache) {
 //            console.log(item.name());
             var id = item.name();
             var songSrc = item.child('src').val();
-            var songNoExtention = songSrc.replace(/\.[^/.]+$/, "");
+            var regex = new RegExp("\\.[^/.]+$", 'gi');
+            var songNoExtention = songSrc.replace(regex, "");
             var titleAndArtist = songNoExtention.split('-');
             var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
             var artist = titleAndArtist[1].trim();

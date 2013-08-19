@@ -5,9 +5,12 @@
     <!-- Tells Internet Explorer to display content in the highest mode available. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Songs</title>
 
     <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="libraries/bootstrap/v2.3.2/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Doc: http://glyphicons.getbootstrap.com/ -->
     <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
 

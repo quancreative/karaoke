@@ -117,12 +117,11 @@ function SongCtrl($scope, $http, $templateCache) {
     ];
 
     $scope.addSong = function (index) {
-        console.log(index);
         var songObj = $scope.songs[index];
 //        songObj.class = 'glyphicon-ok';
         songObj.class = 'btn-success glyphicon-ok';
 
-//        myDataRef.push({'src' : songSrc});
+        myDataRef.push({'src' : songSrc});
     }
 
     $http({
@@ -146,17 +145,22 @@ function SongCtrl($scope, $http, $templateCache) {
         $scope.$xml = $(xmlDoc);
         var $song = $scope.$xml.find('file');
         for (var i = 0; i < $song.length; i++) {
-//                console.log($song[i].innerHTML);
-//                console.log($song[i].textContent);
-            var songSrc = $song[i].innerHTML;
-            var songNoExtension = songSrc.replace(/\.[^/.]+$/, "");
+//            var songSrc = $song[i].childNodes[0].nodeValue;
+            var songSrc = $($song[i]).text();
+//            console.log(songSrc);
+            var regex = new RegExp("\\.[^/.]+$", 'gi');
+            var songNoExtension = songSrc.replace(regex, "");
+
             var titleAndArtist = songNoExtension.split('-');
             var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
             var artist = titleAndArtist.length > 1 ? titleAndArtist[1].trim() : 'Unknown';
 
+            var artistAndSrc = artist.split('_');
+            var artistClean =  artistAndSrc.length > 1 ? artistAndSrc[0] : artist;
+
             var songSrcNoDiacritics = removeDiacritics(songSrc);
 
-            $scope.songs.push({ 'title' : title, 'artist' : artist, 'src' : songSrc, 'songSrcNoDiacritics' : songSrcNoDiacritics, 'class' : 'glyphicon-plus' });
+            $scope.songs.push({ 'title' : title, 'artist' : artistClean, 'src' : songSrc, 'songSrcNoDiacritics' : songSrcNoDiacritics, 'class' : 'glyphicon-plus' });
         }
 
     }
