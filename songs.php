@@ -29,6 +29,7 @@
     </ul>
 
     <input type="text" class="search-query span5" ng-model="search" width="600px" placeholder="Search">
+    <button type="button"  class="btn btn-small glyphicon glyphicon-remove"  ng-click="clearSearch()" ng-model-instant></button>
     <!--    <pre>Sorting predicate = {{predicate}}; reverse = {{reverse}}; class = {{class}}</pre> -->
 
     <table class="table table-hover table-condensed">
@@ -47,7 +48,7 @@
         <tbody>
         <tr ng-repeat="song in songs | filter:search | orderBy:predicate:reverse">
             <td>
-                <button type="button"   class="btn btn-small glyphicon {{song.class}}"  ng-click="addSong($index)" ng-model-instant>
+                <button type="button"   class="btn btn-small glyphicon {{song.class}}"  ng-click="addSong(song.src)" ng-model-instant>
                     <span class='hide'>{{song.songSrcNoDiacritics}}</span>
                 </button>
             </td>
@@ -60,6 +61,7 @@
 </div>
 <!-- end .container -->
 <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+<script src="js/songFileHelper.js"></script>
 <script src="js/songs.js"></script>
 </body>
 </html>

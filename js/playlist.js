@@ -30,7 +30,7 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         // Remove first one on the list.
 //        playlist.splice(0,1);
         var id = $scope.playlist[0].id;
-        console.log(id);
+//        console.log(id);
         myDataRef.child(id).remove();
     }
 
@@ -46,18 +46,16 @@ function PlaylistCtrl($scope, $http, $templateCache) {
 //            console.log(item.name());
             var id = item.name();
             var songSrc = item.child('src').val();
-            var regex = new RegExp("\\.[^/.]+$", 'gi');
-            var songNoExtention = songSrc.replace(regex, "");
-            var titleAndArtist = songNoExtention.split('-');
-            var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
-            var artist = titleAndArtist[1].trim();
-            $scope.playlist.push({ 'id' : id, 'src' : songSrc, 'title' : title, 'artist' : artist});
+            var songObj = songFileHelper.cleanup(songSrc);
+
+            $scope.playlist.push({ 'id' : id, 'src' : songObj.src, 'title' : songObj.title, 'artist' : songObj.artist});
         });
 
         // Update angular
         $scope.safeApply(function() {
         });
 
+        // Init
         vlc.play($scope.playlist[0]);
 
     });

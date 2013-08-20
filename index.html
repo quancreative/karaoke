@@ -17,22 +17,15 @@
             console.log('testing');
         }
     </script>
+    <style type="text/css">
+        object{height: 2px;} /* Fix Chrome */
+    </style>
 <body>
 
 <div class="container">
     <article class="content">
         <section id="vlc-content">
-            <!--
-            <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
-            id="vlc"
-            width="100%"
-            height="300px"
-            target="musics/Kalimba.mp3"
-            >
-            </embed>
-            <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
-            codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
-            -->
+
         </section>
         <!--
         <section id="vlc-content-test">
@@ -70,6 +63,7 @@
 <!-- end .container -->
 <script src="libraries/bootstrap/v2.3.2/js/bootstrap.min.js"></script>
 <script src="js/debugger.js"></script>
+<script src="js/songFileHelper.js"></script>
 <script src='https://cdn.firebase.com/v0/firebase.js'></script>
 <script src="js/vlc.js"></script>
 <script src="js/playlist.js"></script>

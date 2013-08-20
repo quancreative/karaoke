@@ -2,9 +2,7 @@ var vlc = (function () {
 
     var playlistScope = {};
     var playlistCtrl;
-
     var scope = {};
-
     var currentSongSrc;
     var currentSongTrack = 2; // Make two the default.
 
@@ -12,8 +10,9 @@ var vlc = (function () {
      Doc:
      http://www.monkeybreadsoftware.net/class-vlcmediatrackinfombs.shtml
       */
-
+    // Init. Call by playlist.js
     scope.play = function (songObj) {
+        currentSongTrack = 2;
 
         if (playlistCtrl == null) {
             //playlistCtrl = new PlaylistCtrl(playlistScope);
@@ -61,7 +60,6 @@ var vlc = (function () {
 
     // stop listening to event
     function unregisterVLCEvent(event, handler) {
-
         var vlc = getVLC("vlc");
 
         if (vlc) {
@@ -109,11 +107,11 @@ var vlc = (function () {
     }
 
     function onVLCOpen(event) {
-        console.log('onVLCOpen');
+//        console.log('onVLCOpen');
     }
 
     function onVLCError() {
-        console.log('VLC has encountered an error!');
+        console.log('VLC has encountered an error! Check if video exist.');
     }
 
     function onSongEnd() {
@@ -122,7 +120,7 @@ var vlc = (function () {
     }
 
     function createVLC(songSrc) {
-        console.log('createVLC, params : ' + songSrc);
+//        console.log('createVLC, params : ' + songSrc);
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
         html += 'id="vlc" width="100%" height="300px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
@@ -130,7 +128,7 @@ var vlc = (function () {
         $('#vlc-content').empty();
         $('#vlc-content').html(html).ready(function () {
 
-            console.log('VLC HTML is ready!');
+//            console.log('VLC HTML is ready!');
             registerVLCEvents();
         });
     }
@@ -156,7 +154,6 @@ var vlc = (function () {
         console.log('trackID : ' + vlc.mediaDescription.trackID);
         console.log('trackNumber : ' + vlc.mediaDescription.trackNumber);
         console.log('title : ' + vlc.mediaDescription.title);
-
         console.log('------------------------------------------------');
     }
 
