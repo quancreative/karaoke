@@ -13,7 +13,6 @@ var vlc = (function () {
      http://www.monkeybreadsoftware.net/class-vlcmediatrackinfombs.shtml
       */
 
-
     scope.play = function (songObj) {
 
         if (playlistCtrl == null) {
