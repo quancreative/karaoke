@@ -29,8 +29,8 @@
     </ul>
 
     <input type="text" class="search-query span5" ng-model="search" width="600px" placeholder="Search">
-    <button type="button"  class="btn btn-small glyphicon glyphicon-remove"  ng-click="clearSearch()" ng-model-instant></button>
-    <!--    <pre>Sorting predicate = {{predicate}}; reverse = {{reverse}}; class = {{class}}</pre> -->
+    <!-- <button type="button"  class="btn btn-small glyphicon glyphicon-remove"  ng-click="clearSearch()" ng-model-instant></button> -->
+    <!-- <pre>Sorting predicate = {{predicate}}; reverse = {{reverse}}; class = {{class}}</pre> -->
 
     <table class="table table-hover table-condensed">
         <thead>
