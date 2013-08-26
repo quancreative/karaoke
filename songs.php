@@ -19,10 +19,19 @@
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
 
-<body class="page-song-bank">
+<body class="page-song-bank" ng-controller="SongCtrl">
 
-<div class="container" ng-controller="SongCtrl">
-    <h3>Song Bank</h3>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button class="btn btn-inverse" type="button">Toggle Track</button>
+            <button class="btn btn-inverse pull-right" type="button" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
+        </div>
+    </div>
+</div>
+
+<div class="container" >
+
     <ul class="nav nav-tabs">
         <li class="active"><a href="#">Vietnamese</a></li>
         <li><a href="#">English</a></li>

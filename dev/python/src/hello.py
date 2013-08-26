@@ -22,7 +22,8 @@ def main():
 #     print(os.getenv('PATH')) # Get the environment path variable
 #     print(os.getcwd())
     relativePath = "C:/xampp/htdocs/workspace/quan/karaoke/musics"
-    rootPath = "C:/xampp/htdocs/workspace/quan/karaoke/musics"
+#     rootPath = "C:/xampp/htdocs/workspace/quan/karaoke/musics"
+    rootPath = "G:/xampp/htdocs/workspace/quan/karaoke/musics"
 #     files = [ file for file in listdir(path) if isfile(join(path, file))]
     songs = []
     
@@ -33,8 +34,9 @@ def main():
             (filepath, filename) = os.path.split(file)
             (shortname, extension) = os.path.splitext(filename)
             if str(extension).lower() in ('.mkv' , '.vob'):
-                songs.append(file);
-#                 print(shortname)
+                relativeFile = file.replace(rootPath + "\\", '')
+                songs.append(relativeFile);
+                print(relativeFile)
         
     import xml.etree.cElementTree as ET
     

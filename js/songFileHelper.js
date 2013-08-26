@@ -103,8 +103,13 @@ var songFileHelper = {
         var regex = new RegExp("\\.[^/.]+$", 'gi');
         var songNoExtension = songSrc.replace(regex, "");
 
+        // Remove the subdirectory
+        var fullFilePath = songNoExtension.split('\\');
+        var titleAndArtist = fullFilePath[fullFilePath.length - 1];
+
         // Separate tile and artist.
-        var titleAndArtist = songNoExtension.split('-');
+//        console.log(titleAndArtist);
+        titleAndArtist = titleAndArtist.split('-');
         var title = titleAndArtist[0].trim(); // Get the title and remove white spaces from front and end.
         var artist = titleAndArtist.length > 1 ? titleAndArtist[1].trim() : 'Unknown';
 

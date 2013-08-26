@@ -18,6 +18,14 @@ function SongCtrl($scope, $http, $templateCache) {
     });
      */
 
+    $scope.forward = function() {
+        // Remove first one on the list.
+//        playlist.splice(0,1);
+        var id = $scope.playlist[0].id;
+//        console.log(id);
+        myDataRef.child(id).remove();
+    }
+
     $scope.addSong = function (songSrc) {
         // Need to use songSrc to lookup in the $scope.songs.
         // Note: $id and $index will return different result if user uses search or filter
@@ -42,7 +50,7 @@ function SongCtrl($scope, $http, $templateCache) {
 
     $http({
         method: 'GET',
-        url: 'xml/songs.xml',
+        url: 'xml/test.xml',
         cache: $templateCache
     }).success(function (data, status) {
             $scope.status = status;
