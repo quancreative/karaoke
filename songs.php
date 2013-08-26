@@ -21,10 +21,10 @@
 
 <body class="page-song-bank" ng-controller="SongCtrl">
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
         <div class="container">
-            <button class="btn btn-inverse" type="button">Toggle Track</button>
+            <button class="btn btn-inverse" type="button" ng-click="toggleTrack()">Toggle Track</button>
             <button class="btn btn-inverse pull-right" type="button" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
         </div>
     </div>

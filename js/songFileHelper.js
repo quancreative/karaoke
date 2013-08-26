@@ -104,7 +104,7 @@ var songFileHelper = {
         var songNoExtension = songSrc.replace(regex, "");
 
         // Remove the subdirectory
-        var fullFilePath = songNoExtension.split('\\');
+        var fullFilePath = songNoExtension.split('/');
         var titleAndArtist = fullFilePath[fullFilePath.length - 1];
 
         // Separate tile and artist.

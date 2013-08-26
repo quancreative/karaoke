@@ -46,9 +46,16 @@ function PlaylistCtrl($scope, $http, $templateCache) {
 //            console.log(item.name());
             var id = item.name();
             var songSrc = item.child('src').val();
+            var track = item.child('track').val();
             var songObj = songFileHelper.cleanup(songSrc);
 
-            $scope.playlist.push({ 'id' : id, 'src' : songObj.src, 'title' : songObj.title, 'artist' : songObj.artist});
+            $scope.playlist.push({
+                'id' : id,
+                'src' : songObj.src,
+                'title' : songObj.title,
+                'artist' : songObj.artist,
+                'track' : track
+                });
         });
 
         // Update angular

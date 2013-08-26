@@ -44,8 +44,7 @@
             <button id="switch-track" type="button" class="btn">Toggle Track</button>
             <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
             <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
-            <button type="button" class="btn btn-ttc" ng-click="forward()"><span
-                    class="glyphicon glyphicon-forward"></span></button>
+            <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
 
             <h6>Playlist</h6>
             <ul class="media-list">
@@ -54,6 +53,7 @@
                     <div class="media-body">
                         <h5 class="media-heading">{{song.title}}</h5>
                         {{song.artist}}
+                        <a href="musics/{{song.src}}" target="_blank">Open</a>
                     </div>
                 </li>
             </ul>

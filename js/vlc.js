@@ -1,7 +1,5 @@
 var vlc = (function () {
 
-    var playlistScope = {};
-    var playlistCtrl;
     var scope = {};
     var currentSongSrc;
     var currentSongTrack = 2; // Make two the default.
@@ -12,24 +10,21 @@ var vlc = (function () {
       */
     // Init. Call by playlist.js
     scope.play = function (songObj) {
-        currentSongTrack = 2;
-
-        if (playlistCtrl == null) {
-            //playlistCtrl = new PlaylistCtrl(playlistScope);
-        }
 
         var originSongSrc = songObj.src;
 
-        // Don't play if it's same song.
+        // Don't play if it's same song, but update the audio track number.
         if (currentSongSrc == originSongSrc) {
+            currentSongTrack = songObj.track;
             return false;
         } else {
             currentSongSrc = originSongSrc;
+            currentSongTrack = songObj.track;
         }
 
-        var replaced = originSongSrc.replace(/ /g, '%20');
+        var urlEncoded = originSongSrc.replace(/ /g, '%20');
 //        replaced = replaced.replace('\\', '/');
-        createVLC('musics/' + replaced);
+        createVLC(urlEncoded);
     }
 
     $('#switch-track').click(function(e){
@@ -123,7 +118,7 @@ var vlc = (function () {
     function createVLC(songSrc) {
         console.log('createVLC, params : ' + songSrc);
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
-        html += 'id="vlc" width="100%" height="300px" target="' + songSrc + '"></embed>';
+        html += 'id="vlc" width="100%" height="500px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
 
         $('#vlc-content').empty();

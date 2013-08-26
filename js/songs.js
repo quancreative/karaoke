@@ -1,29 +1,25 @@
 function SongCtrl($scope, $http, $templateCache) {
 	// Big thanks to http://web.archive.org/web/20120701052005/http://lehelk.com/2011/05/06/script-to-remove-diacritics/
 
-
 //    var playlistScope = {}, playlist = new PlaylistCtrl(playlistScope);
     var fbPlaylist = new Firebase('https://karaoke.firebaseio.com/playlist');
     $scope.songs = [ ];
     $scope.predicate = 'title';
     $scope.titleClass = 'glyphicon-arrow-down';
 
-    /*
-     fbPlaylist.once('value', function(snapshot) {
-        console.log('fbPlaylist : ' + snapshot.val());
-        if (snapshot.val() === null)
-        {
-
-        }
-    });
-     */
-
     $scope.forward = function() {
-        // Remove first one on the list.
-//        playlist.splice(0,1);
-        var id = $scope.playlist[0].id;
-//        console.log(id);
-        myDataRef.child(id).remove();
+        fbPlaylist.once('value', function(dataSnapshot) {
+            var temp = [];
+
+            dataSnapshot.forEach(function(item){
+                var id = item.name();
+                temp.push(id);
+            });
+
+            // Remove first one on the list.
+            var firstChildId = temp[0];
+            fbPlaylist.child(firstChildId).remove();
+        });
     }
 
     $scope.addSong = function (songSrc) {
@@ -40,13 +36,34 @@ function SongCtrl($scope, $http, $templateCache) {
 
 //        var songObj = $scope.songs[index];
         songObj.class = 'btn-success glyphicon-ok';
-        fbPlaylist.push({'src' : songObj.src});
+        fbPlaylist.push({'src' : songObj.src, 'track' : 2});
+    }
+
+    $scope.toggleTrack = function(){
+        fbPlaylist.once('value', function(dataSnapshot) {
+
+            var index = 0;
+
+            dataSnapshot.forEach(function(item){
+                if (index === 0)
+                {
+                    var id = item.name();
+                    var track = item.child('track').val() == 2 ? 1 : 2;
+
+                    fbPlaylist.child(id).update({'track' : track});
+                } else {
+                    return false;
+                }
+
+                index ++;
+            });
+
+        });
     }
 
     $scope.clearSearch = function(){
         $scope.search = '';
     }
-
 
     $http({
         method: 'GET',

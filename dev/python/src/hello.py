@@ -21,22 +21,30 @@ def main():
     
 #     print(os.getenv('PATH')) # Get the environment path variable
 #     print(os.getcwd())
-    relativePath = "C:/xampp/htdocs/workspace/quan/karaoke/musics"
+
+    relativePath = "../../../musics"
 #     rootPath = "C:/xampp/htdocs/workspace/quan/karaoke/musics"
-    rootPath = "G:/xampp/htdocs/workspace/quan/karaoke/musics"
+#     rootPath = "G:/xampp/htdocs/workspace/quan/karaoke/musics"
+
 #     files = [ file for file in listdir(path) if isfile(join(path, file))]
     songs = []
     
     # Get all of the files in directory and subdirectory
-    for path, subdirs, files in os.walk(rootPath):
+    for path, subdirs, files in os.walk(relativePath):
         for name in files:
             file = os.path.join(path, name)
             (filepath, filename) = os.path.split(file)
             (shortname, extension) = os.path.splitext(filename)
             if str(extension).lower() in ('.mkv' , '.vob'):
-                relativeFile = file.replace(rootPath + "\\", '')
-                songs.append(relativeFile);
-                print(relativeFile)
+                # Remove full path and clean up
+                relativeFile = file.replace(relativePath + "\\", '')
+                
+                # Relace Microsoft back slash to Unix forward slash
+                relativeFile = relativeFile.replace('\\', '/')
+                
+                #Add to Array
+                songs.append('musics/' +relativeFile);
+#                 print(relativeFile)
         
     import xml.etree.cElementTree as ET
     
