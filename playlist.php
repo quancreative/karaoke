@@ -9,38 +9,55 @@
 
     <title>Playlist</title>
 
-    <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="libraries/bootstrap/v2.3.2/css/bootstrap-responsive.css" rel="stylesheet">
-    <!-- Doc: http://glyphicons.getbootstrap.com/ -->
-    <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
+    <link href="libraries/bootstrap/v3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Bootstrap theme -->
+    <link href="libraries/bootstrap/v3.0.0/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
+    <style>
+        body {
+            padding-top: 80px;
+        }
+    </style>
 <body>
 
-<div class="container">
-    <section id="playlist-content" ng-controller="PlaylistCtrl">
-
-        <button id="switch-track" type="button" class="btn">Toggle Track</button>
-        <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
-        <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
-        <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span>
-        </button>
-
-        <h6>Playlist</h6>
-        <ul class="media-list">
-            <li class="media" ng-repeat="song in playlist">
-                <button type="button" class="pull-left glyphicon-minus" ng-click="removeSong(song.id)"></button>
-                <div class="media-body">
-                    <h5 class="media-heading">{{song.title}}</h5>
-                    {{song.artist}}
-                    <a href="musics/{{song.src}}" target="_blank">Open</a>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-xs-6 navbar-form">
+                    <button id="switch-track" class="btn btn-inverse" type="button" ng-click="toggleTrack()">Toggle Track</button>
+                    <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
                 </div>
-            </li>
+
+                <div class="col-xs-6 navbar-form">
+                    <button type="button" class="btn btn-inverse"><span class="glyphicon glyphicon-backward"></span></button>
+                    <button type="button" class="btn btn-inverse" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Callout for the old docs link -->
+<div class="container" ng-controller="PlaylistCtrl">
+    <div class="panel panel-info">
+        <div class="panel-heading">Playlist</div>
+        <ul class="list-group">
+            <a href="#" class="list-group-item" ng-repeat="song in playlist">
+                <button type="button" class="pull-right btn glyphicon glyphicon-remove" ng-click="removeSong(song.id)"></button>
+                <h5 class="list-group-item-heading">{{song.title}}</h5>
+                <p class="list-group-item-text">{{song.artist}}</p>
+            </a>
         </ul>
-    </section>
+    </div>
 </div>
 <!-- end .container -->
+
+<script src="libraries/bootstrap/v3.0.0/js/bootstrap.min.js"></script>
+<script src="js/songFileHelper.js"></script>
 <script src='https://cdn.firebase.com/v0/firebase.js'></script>
 <script src="js/songFileHelper.js"></script>
 <script src="js/playlist.js"></script>

@@ -11,6 +11,8 @@ var vlc = (function () {
     // Init. Call by playlist.js
     scope.play = function (songObj) {
 
+        $('#alert-container').hide();
+
         var originSongSrc = songObj.src;
 
         // Don't play if it's same song, but update the audio track number.
@@ -107,6 +109,7 @@ var vlc = (function () {
     }
 
     function onVLCError() {
+        $('#alert-container').show();
         console.log('VLC has encountered an error! Check if video exist.');
     }
 

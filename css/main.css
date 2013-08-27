@@ -1,2 +1,7 @@
+/* Main page */
 .page-front { background: #000;}
-#vlc-container{padding: 10px; margin: 0 auto; text-align: center;}
+.page-front object{ height: 2px; background: #000; }  /* Fix Chrome */
+.page-front embed{ background: #000;}
+
+.page-front #alert-container{ display: none;}
+.page-front #vlc-container{padding: 10px; margin: 0 auto; text-align: center;}

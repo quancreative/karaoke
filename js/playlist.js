@@ -26,6 +26,29 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         }
     };
 
+    // TODO: Need to refactor.
+    $scope.toggleTrack = function(){
+        myDataRef.once('value', function(dataSnapshot) {
+
+            var index = 0;
+
+            dataSnapshot.forEach(function(item){
+                if (index === 0)
+                {
+                    var id = item.name();
+                    var track = item.child('track').val() == 2 ? 1 : 2;
+
+                    myDataRef.child(id).update({'track' : track});
+                } else {
+                    return false;
+                }
+
+                index ++;
+            });
+
+        });
+    }
+
     $scope.forward = function() {
         // Remove first one on the list.
 //        playlist.splice(0,1);
@@ -63,8 +86,7 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         });
 
         // Init
-        if (vlc) vlc.play($scope.playlist[0]);
-
+        if (window.vlc != undefined) vlc.play($scope.playlist[0]);
     });
 }
 
