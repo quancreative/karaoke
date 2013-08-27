@@ -118,7 +118,7 @@ var vlc = (function () {
     function createVLC(songSrc) {
         console.log('createVLC, params : ' + songSrc);
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
-        html += 'id="vlc" width="100%" height="500px" target="' + songSrc + '"></embed>';
+        html += 'id="vlc" width="100%" height="870px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
 
         $('#vlc-content').empty();

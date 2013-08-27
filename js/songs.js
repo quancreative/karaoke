@@ -67,7 +67,7 @@ function SongCtrl($scope, $http, $templateCache) {
 
     $http({
         method: 'GET',
-        url: 'xml/test.xml',
+        url: 'xml/songs.xml',
         cache: $templateCache
     }).success(function (data, status) {
             $scope.status = status;
@@ -94,7 +94,6 @@ function SongCtrl($scope, $http, $templateCache) {
 
             $scope.songs.push({ 'title' : songObj.title, 'artist' : songObj.artist, 'src' : songObj.src, 'songSrcNoDiacritics' : songObj.songSrcNoDiacritics, 'class' : 'glyphicon-plus' });
         }
-
     }
 }
 

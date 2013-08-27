@@ -63,7 +63,7 @@ function PlaylistCtrl($scope, $http, $templateCache) {
         });
 
         // Init
-        vlc.play($scope.playlist[0]);
+        if (vlc) vlc.play($scope.playlist[0]);
 
     });
 }

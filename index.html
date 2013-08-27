@@ -9,6 +9,7 @@
 
     <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="libraries/glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
@@ -18,47 +19,51 @@
         }
     </script>
     <style type="text/css">
-        object{height: 2px;} /* Fix Chrome */
+        object{ height: 2px; background: #000;  }
+        embed{ background: #000;}
+
+            /* Fix Chrome */
     </style>
-<body>
+<body class='page-front'>
 
+<div id="vlc-container">
+    <section id="vlc-content">
+
+    </section>
+</div>
+<!--
+<section id="vlc-content-test">
+    <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+    id="vlc"
+    width="100%"
+    height="300px"
+    target="musics/Sleep%20Away.mp3"></embed>
+    <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+    codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
+</section>
+
+-->
 <div class="container">
-    <article class="content">
-        <section id="vlc-content">
+    <section id="playlist-content" ng-controller="PlaylistCtrl">
 
-        </section>
-        <!--
-        <section id="vlc-content-test">
-            <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
-            id="vlc"
-            width="100%"
-            height="300px"
-            target="musics/Sleep%20Away.mp3"></embed>
-            <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
-            codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
-        </section>
+        <button id="switch-track" type="button" class="btn">Toggle Track</button>
+        <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
+        <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
+        <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span>
+        </button>
 
-        -->
-        <section id="playlist-content" ng-controller="PlaylistCtrl">
-
-            <button id="switch-track" type="button" class="btn">Toggle Track</button>
-            <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
-            <button type="button" class="btn btn-ttc"><span class="glyphicon glyphicon-backward"></span></button>
-            <button type="button" class="btn btn-ttc" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span></button>
-
-            <h6>Playlist</h6>
-            <ul class="media-list">
-                <li class="media" ng-repeat="song in playlist">
-                    <button type="button" class="pull-left glyphicon-minus" ng-click="removeSong(song.id)"></button>
-                    <div class="media-body">
-                        <h5 class="media-heading">{{song.title}}</h5>
-                        {{song.artist}}
-                        <a href="musics/{{song.src}}" target="_blank">Open</a>
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </article>
+        <h6>Playlist</h6>
+        <ul class="media-list">
+            <li class="media" ng-repeat="song in playlist">
+                <button type="button" class="pull-left glyphicon-minus" ng-click="removeSong(song.id)"></button>
+                <div class="media-body">
+                    <h5 class="media-heading">{{song.title}}</h5>
+                    {{song.artist}}
+                    <a href="musics/{{song.src}}" target="_blank">Open</a>
+                </div>
+            </li>
+        </ul>
+    </section>
 </div>
 <!-- end .container -->
 <script src="libraries/bootstrap/v2.3.2/js/bootstrap.min.js"></script>
