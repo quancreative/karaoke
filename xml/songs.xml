@@ -1,622 +1,661 @@
 <?xml version="1.0" ?>
 <songs folder="musics">
-    <file>musics/English/Britney Spears - My Prerogative DVD - Extras - Toxic ~Karaoke~.vob</file>
-    <file>musics/English/That's Why - Simon Wong.vob</file>
-    <file>musics/Vietnamese/60 Năm Cuộc Đời - Christiane Le.VOB</file>
-    <file>musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB</file>
-    <file>musics/Vietnamese/Ai Về Sông Tương - Tuấn Ngọc_ASIA23.VOB</file>
-    <file>musics/Vietnamese/Anh Cho Em Mùa Xuân - Tuấn Vũ.VOB</file>
-    <file>musics/Vietnamese/Bang Bang (Khi Xưa Ta Bé) - Lily Huệ_USAG3.VOB</file>
-    <file>musics/Vietnamese/Bang Bang (Khi Xưa Ta Bé) - Sheila.VOB</file>
-    <file>musics/Vietnamese/Bao Giờ Biết Tương Tư -USAL4.VOB</file>
-    <file>musics/Vietnamese/Belle - Trần Thái Hòa_Thế Sơn_Trịnh Lâm_PBN69.VOB</file>
-    <file>musics/Vietnamese/Biển Mặn - Nhật Trường _ASIA_S5.mkv</file>
-    <file>musics/Vietnamese/Biển Nhớ - Khánh Ly.mkv</file>
-    <file>musics/Vietnamese/Buồn Tàn Thu - Ngọc Hạ_PBN40.mkv</file>
-    <file>musics/Vietnamese/Bài Không Tên Cuối Cùng - Elvis Phương_LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 1 - Duy Quang_LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 2 - Khánh Hà_LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 3 - Lệ Thu_ LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 4 - Tuấn Ngọc_ASIA18.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 4 - Vũ Khanh_ LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 5 - Elvis Phương_LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 6 - Duy Quang_ LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 7 - Khánh Hà_ LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 8 - Như Mai_ LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Không Tên Số 9 - Châu Đình An_LV24.VOB</file>
-    <file>musics/Vietnamese/Bài Tango Cho Em - Elvis Phương-Ái Vân_PBNK 6.VOB</file>
-    <file>musics/Vietnamese/Bài Tango Cho Em _USAL2.VOB</file>
-    <file>musics/Vietnamese/Bài Thánh Ca Buồn - Elvis Phương_PBN1.VOB</file>
-    <file>musics/Vietnamese/Bài Tình Ca Cho Em - Lâm Thúy Vân.VOB</file>
-    <file>musics/Vietnamese/Bây Giờ Tháng Mấy - Tuấn Ngọc_NCL2.VOB</file>
-    <file>musics/Vietnamese/Bên Em Là Biển Rộng - Loan châu_ASIA-S4.VOB</file>
-    <file>musics/Vietnamese/Bên Em Đang Có Ta - Hợp Ca-ASIA2.vob</file>
-    <file>musics/Vietnamese/Bông Hồng Cài Áo -Nguyễn Hưng_PBN18.VOB</file>
-    <file>musics/Vietnamese/Bạn Tôi - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Bản Tình Cuối - Lệ Thu_ASIA16.VOB</file>
-    <file>musics/Vietnamese/Bến Thượng Hải - Tuấn Đạt_USA 17.VOB</file>
-    <file>musics/Vietnamese/Ca Dao Em Và Tôi - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Chim Sáo Ngày Xưa - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Chiếc Lá Mùa Đông - Anh Tú.mkv</file>
-    <file>musics/Vietnamese/Chiếc Áo Bà Ba - Ngọc Huyền_ASIA39.VOB</file>
-    <file>musics/Vietnamese/Chiều Một Mình Qua Phố - Ngọc Lan.VOB</file>
-    <file>musics/Vietnamese/Cho Tôi Được Một Lần - Lệ Thu_LV172.VOB</file>
-    <file>musics/Vietnamese/Chuyện Ba Người - Ngọc Đài_USAG6.VOB</file>
-    <file>musics/Vietnamese/Chuyện Giàn Thiên Lý - Mạnh Đình_ASIA-S4.VOB</file>
-    <file>musics/Vietnamese/Chuyện Tình Bên Ao Cá - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Chuyện Tình Lan và Điệp - QBình-TrgThLan_NĐBD22.VOB</file>
-    <file>musics/Vietnamese/Chân Quê - Quang Lê.mkv</file>
-    <file>musics/Vietnamese/Chân Tình - Huy Vũ_T10.VOB</file>
-    <file>musics/Vietnamese/Chị Tôi - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Con Sáo Sang Sông - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Con Đường Xưa Em  Đi - Trường Vũ.VOB</file>
-    <file>musics/Vietnamese/Con Đường Xưa Em Đi - Trang Thanh Lan and Phương Lam_LV35.VOB</file>
-    <file>musics/Vietnamese/Cuối Cùng Cho Một Tình Yêu - Như Mai_LV40.VOB</file>
-    <file>musics/Vietnamese/Cánh Buồm Xa Xưa _USAL5.VOB</file>
-    <file>musics/Vietnamese/Cát Bụi - Khánh Ly_LV40.VOB</file>
-    <file>musics/Vietnamese/Cát Bụi Tình Xa - Huy Vũ_NĐBD_ĐB5.mkv</file>
-    <file>musics/Vietnamese/Cây Đàn Bỏ Quên - Tuấn Vũ_NDBD_G5.mkv</file>
-    <file>musics/Vietnamese/Cây Đàn Sinh Viên - Thanh Trúc.VOB</file>
-    <file>musics/Vietnamese/Còn Ta Với Nồng Nàn - Quang Dũng.VOB</file>
-    <file>musics/Vietnamese/Còn Tuổi Nào Cho Em - Kiều Nga_LV40.VOB</file>
-    <file>musics/Vietnamese/Có Phải Em Mùa Thu Hà Nội - Lam Trường.VOB</file>
-    <file>musics/Vietnamese/Cô Hàng Nước - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Cô Hàng Xóm (Vùng Ngoại Ô) - Quang Lê.VOB</file>
-    <file>musics/Vietnamese/Cỏ Uá - Đàm Vĩnh Hưng.vob</file>
-    <file>musics/Vietnamese/Cỏ Úa - Đan Nguyên_Nguyễn Hồng Nhung.VOB</file>
-    <file>musics/Vietnamese/Diễm Xưa -Thanh Mai_LV40.VOB</file>
-    <file>musics/Vietnamese/Dư âm - Elvis Phương_PBN2.VOB</file>
-    <file>musics/Vietnamese/Dừng Bước Giang Hồ - Kiều Nga_ASIA30.VOB</file>
-    <file>musics/Vietnamese/Em Đến Thăm Anh Đêm 30 - Khánh Ly_LV24.VOB</file>
-    <file>musics/Vietnamese/Em Ơi Hà Nội Phố - Khánh Ly_ASIA-S4.VOB</file>
-    <file>musics/Vietnamese/Giọng Ca Dĩ Vãng - Hồng Trúc.VOB</file>
-    <file>musics/Vietnamese/Giọng Ca Dĩ Vãng - Phi Nhung_PH1.mkv</file>
-    <file>musics/Vietnamese/Giọt Lệ Đài Trang - Thanh Thanh_NDBD34.mkv</file>
-    <file>musics/Vietnamese/Giọt Lệ Đài Trang - Trường Vũ.VOB</file>
-    <file>musics/Vietnamese/Giọt Nắng Chiều Xưa - Lam Trường.VOB</file>
-    <file>musics/Vietnamese/Goodbye My Love.mkv</file>
-    <file>musics/Vietnamese/Gọi Tên Bốn Mùa - Thanh Mai_LV40.VOB</file>
-    <file>musics/Vietnamese/Hai Chuyến Tàu Đêm - Quang Lê.mkv</file>
-    <file>musics/Vietnamese/Hoa Mười Giờ - Tuấn Vũ.vob</file>
-    <file>musics/Vietnamese/Hoa Soan Bên Thềm Cũ - Thanh Lan_ASIA16.VOB</file>
-    <file>musics/Vietnamese/Hoa Sứ Nhà Nàng - Duy Linh_ASIA10.VOB</file>
-    <file>musics/Vietnamese/Hoa Trinh Nữ - USAL2.VOB</file>
-    <file>musics/Vietnamese/Hoài Cảm - Lệ Thu_ASIA10.VOB</file>
-    <file>musics/Vietnamese/Huyền Thoại Một Chiều Mưa - Tuấn Vũ_NC22.VOB</file>
-    <file>musics/Vietnamese/Huế Xưa - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Hàn Măc Tử - USAL6.VOB</file>
-    <file>musics/Vietnamese/Hát Cho Một Người Nằm Xuống - Khánh Ly_ASIA3.VOB</file>
-    <file>musics/Vietnamese/Hát Với Chú Ve Con - Minh Tuyết_PBN70.VOB</file>
-    <file>musics/Vietnamese/Hãy Yêu Như Chưa Yêu Lần Nào - Thiên Kim_ASIA52.VOB</file>
-    <file>musics/Vietnamese/Hòn Vọng Phu - Thế Sơn_PBNK58.VOB</file>
-    <file>musics/Vietnamese/Hòn Vọng Phu 1 - Trường Vũ.VOB</file>
-    <file>musics/Vietnamese/Hòn Vọng Phu 2 - Trường Vũ.VOB</file>
-    <file>musics/Vietnamese/Hòn Vọng Phu 3 - Trường Vũ.VOB</file>
-    <file>musics/Vietnamese/Hạ Trắng - Khánh Ly_ASIA8.VOB</file>
-    <file>musics/Vietnamese/Không Bao Giờ Ngăn Cách _Phi Việt_14.mkv</file>
-    <file>musics/Vietnamese/Không Bao Giờ Quên Anh - NDBD33.mkv</file>
-    <file>musics/Vietnamese/Kẻ Ở Miền Xa - Quang Lê.VOB</file>
-    <file>musics/Vietnamese/Let_s Twist Again - Ngọc Bích_USA 25.VOB</file>
-    <file>musics/Vietnamese/Linh Hồn Tượng Đá - Thái Châu_ASIA15.VOB</file>
-    <file>musics/Vietnamese/Linh Hồn Tượng Đá - USAL2.VOB</file>
-    <file>musics/Vietnamese/Linh Hồn Đã Mất- Bằng Kiều.VOB</file>
-    <file>musics/Vietnamese/LK Yêu Em-Tôi Muốn-Yêu Đời Yêu Người_ASIA50.VOB</file>
-    <file>musics/Vietnamese/Lâu Đài Tình Ái - Bruce Đoàn_USAL9 .VOB</file>
-    <file>musics/Vietnamese/Lâu Đài Tình Ái - Elvis Phương.VOB</file>
-    <file>musics/Vietnamese/Lệ Đá - Khánh Ly_PBN41.VOB</file>
-    <file>musics/Vietnamese/Lệ Đá - Ngọc Lan.mkv</file>
-    <file>musics/Vietnamese/Mùa Thu Không Trở Lại - Tuấn Ngọc_LV255.VOB</file>
-    <file>musics/Vietnamese/Mùa Đông Của Anh - Hải Lý_USALG2.mkv</file>
-    <file>musics/Vietnamese/Mùa Đông Của Anh - Nhật Trường.VOB</file>
-    <file>musics/Vietnamese/Mùa Đông Của Anh - Tuấn Vũ.VOB</file>
-    <file>musics/Vietnamese/Mùa Đông Của Anh - Đình Văn and Yến Khoa_LV104.VOB</file>
-    <file>musics/Vietnamese/Mơ Hoa -Tuấn Đạt_NC22.VOB</file>
-    <file>musics/Vietnamese/Mưa Chiều Kỷ Niệm - Cao Lâm.mkv</file>
-    <file>musics/Vietnamese/Mưa Chiều Kỷ Niệm - Đàm Vĩnh Hưng.VOB</file>
-    <file>musics/Vietnamese/Mưa Ngâu - Mỹ Linh.VOB</file>
-    <file>musics/Vietnamese/Mưa Rừng - Cẩm Ly.vob</file>
-    <file>musics/Vietnamese/Mưa Rừng - Phi Nhung.VOB</file>
-    <file>musics/Vietnamese/Mưa Trên Biển Vắng - Ngọc Lan.VOB</file>
-    <file>musics/Vietnamese/Mưa Đêm Tỉnh Nhỏ - Trường Vũ_ASIA12.VOB</file>
-    <file>musics/Vietnamese/Mưa Ướt Mi Buồn - Lưu Bích.VOB</file>
-    <file>musics/Vietnamese/Mười Năm Tình Cũ - Chế Linh.mkv</file>
-    <file>musics/Vietnamese/Mười Năm Tình Cũ - Lệ Thu -LV.VOB</file>
-    <file>musics/Vietnamese/Mắt Biếc - Tuấn Ngọc_PBN9.VOB</file>
-    <file>musics/Vietnamese/Mắt Nai Cha Cha Cha - Tú Quyên.VOB</file>
-    <file>musics/Vietnamese/Mộng Dưới Hoa - Nguyên Khang.mkv</file>
-    <file>musics/Vietnamese/Một Cõi Đi Về - Bruce Đoàn_USAG4.VOB</file>
-    <file>musics/Vietnamese/Một Cõi Đi Về - Ngọc Lan.vob</file>
-    <file>musics/Vietnamese/Một Lần Nữa Thôi - Lâm Nhật Tiến_ASIA-S4.VOB</file>
-    <file>musics/Vietnamese/Một Mình - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Một Thuở Yêu Người - Lê Tâm.mkv</file>
-    <file>musics/Vietnamese/Ngày Đó Chúng Mình - Ngọc Hà_Trần Thái Hòa_PBN69.VOB</file>
-    <file>musics/Vietnamese/Ngõ Vắng Xôn Xao - Quang Dũng.VOB</file>
-    <file>musics/Vietnamese/Người Tình Không Chân Dung - Khánh Hà_ASIA3.VOB</file>
-    <file>musics/Vietnamese/Người Tình Mùa Đông - Như Quỳnh_ASIA14.VOB</file>
-    <file>musics/Vietnamese/Người Đến Từ Triều Châu - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Người Ở Lại Charlie - Duy Quang and Thanh Lan_ASIA3.VOB</file>
-    <file>musics/Vietnamese/Ngẫu Hứng Lý Qua Cầu - Thùy Dương_Tường Nguyên_ASIA55.VOB</file>
-    <file>musics/Vietnamese/Ngậm Ngùi - Duy Quang_ASIA16.VOB</file>
-    <file>musics/Vietnamese/Nha Trang Ngày Về - Lê Toàn.VOB</file>
-    <file>musics/Vietnamese/Nhánh Lan Rừng - Quang Hưng_PV23.mkv</file>
-    <file>musics/Vietnamese/Những Chiều Không Có Em - Thanh Hà.mkv</file>
-    <file>musics/Vietnamese/Những Đồi Hoa Sim - Phương Dung_ ASIA10.VOB</file>
-    <file>musics/Vietnamese/Niềm Thương Nhớ - Don Hồ_ASIA47.vob</file>
-    <file>musics/Vietnamese/Niệm Khúc Cuối - Bruce Đoàn_USAG4.VOB</file>
-    <file>musics/Vietnamese/Nỗi Buồn Gác Trọ - Phương Dung_ASIA9.VOB</file>
-    <file>musics/Vietnamese/Nỗi Buồn Hoa Phượng - Thanh Tuyền_ASIA9.VOB</file>
-    <file>musics/Vietnamese/Nỗi Lòng - Thu Hà_LV_VTG7.VOB</file>
-    <file>musics/Vietnamese/Nữa Hồn Thương Ðau - Họa Mi_PBN11.VOB</file>
-    <file>musics/Vietnamese/Phiên Khúc Mùa Đông - Bruce Đoàn_USALG2.mkv</file>
-    <file>musics/Vietnamese/Phôi Pha - Thái Hiền_LV40.VOB</file>
-    <file>musics/Vietnamese/Phượng Buồn - Cẩm Ly.VOB</file>
-    <file>musics/Vietnamese/Phượng Hồng - Mạnh Quỳnh_T_MTV05.VOB</file>
-    <file>musics/Vietnamese/Phượng Yêu - Kiều Nga_LV24.VOB</file>
-    <file>musics/Vietnamese/Phải Chi Em Đừng Có Chồng - Ý Lan_Elvis Phương_PBN69.VOB</file>
-    <file>musics/Vietnamese/Phố Đêm - Trường Vũ.mkv</file>
-    <file>musics/Vietnamese/Phố Đêm - Y Phụng_ASIA-S13.mkv</file>
-    <file>musics/Vietnamese/Riêng Một Góc Trời - Tuấn Ngọc_PBN14.VOB</file>
-    <file>musics/Vietnamese/Rong Rêu - Nguyên Khang_ASIA41.VOB</file>
-    <file>musics/Vietnamese/Ru Em Từng Ngón Xuân Nồng - Sĩ Phú_LV40.VOB</file>
-    <file>musics/Vietnamese/Rồi Mai Tôi Đưa Em - Lê Trí_USAL_G4.VOB</file>
-    <file>musics/Vietnamese/Rồi Mai Tôi Đưa Em - Tuấn Ngọc_LV43.VOB</file>
-    <file>musics/Vietnamese/Rừng Lá Thay Chưa - Như Quỳnh.VOB</file>
-    <file>musics/Vietnamese/Rừng Lá Thấp - Trường Vũ_ASIA16.VOB</file>
-    <file>musics/Vietnamese/Rừng Xưa Đã Khép - Sĩ Phú_LV40.VOB</file>
-    <file>musics/Vietnamese/Sao Em Nỡ Vội Lấy Chồng - Hợp ca_PBN_65.mkv</file>
-    <file>musics/Vietnamese/Sao Em Nỡ Vội Lấy Chồng - PBNK_NQ3.mkv</file>
-    <file>musics/Vietnamese/Say - Hoàng Sơn.mkv</file>
-    <file>musics/Vietnamese/Sơn Nữ Ca - Trần Tú_LV_VTG7.VOB</file>
-    <file>musics/Vietnamese/Sương Trắng Miền Quê Ngoại - Quang Lê.VOB</file>
-    <file>musics/Vietnamese/Sầu Lẻ Bóng - Lệ Hằng_NDBD_G5.mkv</file>
-    <file>musics/Vietnamese/Sầu Ðông - Lê Toàn_USAG2.mkv</file>
-    <file>musics/Vietnamese/Tan Tác - Tú Mỹ.VOB</file>
-    <file>musics/Vietnamese/Thà Như Giọt Mưa - Lê Uyên_ASIA18.VOB</file>
-    <file>musics/Vietnamese/Thà Như Giọt Mưa - Ngọc Lan.mkv</file>
-    <file>musics/Vietnamese/Thành Phố Buồn- Tuấn Vũ_LV22.VOB</file>
-    <file>musics/Vietnamese/Thôi Anh Hãy Về - Lam Trường and Thu Phương.vob</file>
-    <file>musics/Vietnamese/Thôi Anh Hãy Về - Thụy Vũ_NDBD31.mkv</file>
-    <file>musics/Vietnamese/Thương Nhau Ngày Mưa - Tuấn Ngọc and Thái Thảo_PBN3.mkv</file>
-    <file>musics/Vietnamese/Thương Về Miền Trung - Quang Lê.mkv</file>
-    <file>musics/Vietnamese/Tiếng Hát Chim Đa Đa - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Tiếng Hát Dạ Lan - Khánh Ly_LV40.VOB</file>
-    <file>musics/Vietnamese/Trái Tim Không Ngủ Yên - Elvis Phương_PBN24.VOB</file>
-    <file>musics/Vietnamese/Trái Tim Không Ngủ Yên - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Trái Tim Mùa Thu - Don Hồ.VOB</file>
-    <file>musics/Vietnamese/Trái Tim Mùa Đông - Don Hồ_ASIA42.VOB</file>
-    <file>musics/Vietnamese/Trái Tim Ngục Tù - Ngọc Lan.VOB</file>
-    <file>musics/Vietnamese/Trên Đỉnh Mùa Đông - Hải Lý_USALG2.mkv</file>
-    <file>musics/Vietnamese/Trăm Nhớ Ngàn Thương and Tình Bơ Vơ - LK_PBN57.VOB</file>
-    <file>musics/Vietnamese/Trăm Nhớ NgànThương and 10 Năm Tình Cũ - Ý Lan_Elvis Phương_PBN69.VOB</file>
-    <file>musics/Vietnamese/Trăng Tàn Trên Hè Phố - Phương Diễm Hạnh.VOB</file>
-    <file>musics/Vietnamese/Trưng Vương Khung Cửa Mùa Thu - USAL2.VOB</file>
-    <file>musics/Vietnamese/Trường Cũ Tình Xưa - Duy Linh_ASIA4.VOB</file>
-    <file>musics/Vietnamese/Tuyết Rơi - Lê Trí_USAG2.mkv</file>
-    <file>musics/Vietnamese/Tuyết Trắng - Sỹ Phú_Philip Huy_ASIA39.VOB</file>
-    <file>musics/Vietnamese/Tuổi Biết Buồn - Tú Quyên_ASIA18.VOB</file>
-    <file>musics/Vietnamese/Tát Nước Đầu Đình - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Tình Cho Không Biếu Không - Tú Quyên_ASIA11.VOB</file>
-    <file>musics/Vietnamese/Tình Chết Theo Mùa Ðông - Elvis Phương_PBN6.mkv</file>
-    <file>musics/Vietnamese/Tình Em Ngọn Nến - Lâm Thúy Vân-ASIA-S1.mkv</file>
-    <file>musics/Vietnamese/Tình Khúc Chiều Mưa - Thanh Trúc_ASIA12.VOB</file>
-    <file>musics/Vietnamese/Tình Khúc Thứ Nhất - Lê Uyên_ASIA26.VOB</file>
-    <file>musics/Vietnamese/Tình Kỹ Nữ - Mạnh Quỳnh_NDBD_GH2.mkv</file>
-    <file>musics/Vietnamese/Tình Xa - Thanh Tuyền_LV40.VOB</file>
-    <file>musics/Vietnamese/Tình Xuân - Mạnh Đình_ASIA28.VOB</file>
-    <file>musics/Vietnamese/Tôi Muốn - USAL1.VOB</file>
-    <file>musics/Vietnamese/Tôi Đưa Em Sang Sông - Đan Nguyên.VOB</file>
-    <file>musics/Vietnamese/Tưởng Niệm - Tuấn Ngọc.VOB</file>
-    <file>musics/Vietnamese/Và Con Tim Ðã Vui Trở Lại - Hợp Ca_PBN9.VOB</file>
-    <file>musics/Vietnamese/Và Tôi Cũng Yêu  Em - Đức Huy-DHồ-H.Chúc_PBN9.VOB</file>
-    <file>musics/Vietnamese/Và Tôi Cũng Yêu Em - USAL1.VOB</file>
-    <file>musics/Vietnamese/Vì Tôi Là Linh Mục - AnhTú.VOB</file>
-    <file>musics/Vietnamese/Vì Đó Là Em - Quang Dũng.VOB</file>
-    <file>musics/Vietnamese/Vùng Ngoại Ô - USAL2.VOB</file>
-    <file>musics/Vietnamese/Về Đây Nghe Em -Tuấn Ngọc_PBN49.mkv</file>
-    <file>musics/Vietnamese/Xa Em Kỷ Niệm _USAL5.VOB</file>
-    <file>musics/Vietnamese/Xin Còn Gọi Tên Nhau - Ngọc Lan_NDBD3.mkv</file>
-    <file>musics/Vietnamese/Xin Gọi Nhau Là Cố Nhân - Quang Lê.VOB</file>
-    <file>musics/Vietnamese/Xin Làm Người Hát Rong - Ngọc Bích_USAL27.VOB</file>
-    <file>musics/Vietnamese/Xin Làm Người Hát Rong - Ngọc Huệ.VOB</file>
-    <file>musics/Vietnamese/Xin Làm Người Hát Rong - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Xin Lỗi Anh - Minh Tuyết_Bằng Kiều_PBN69.VOB</file>
-    <file>musics/Vietnamese/Xin Lỗi Tình Yêu - Đàm Vĩnh Hưng.VOB</file>
-    <file>musics/Vietnamese/Xin Mặt Trời Ngủ Yên - Ngọc Lan.mkv</file>
-    <file>musics/Vietnamese/Xin Mặt Trời Ngủ Yên - Ý Lan_LV40.VOB</file>
-    <file>musics/Vietnamese/Xin Đừng Trách Đa Đa 1 - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Xuân Này Con Không Về - Quang Lê .VOB</file>
-    <file>musics/Vietnamese/Xuân Đẹp Làm Sao - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Yêu Em - Trung Hành _ASIA_S5.mkv</file>
-    <file>musics/Vietnamese/Yêu Em Bằng Cả Trái Tim - Phillip Huy, Thùy Hương.VOB</file>
-    <file>musics/Vietnamese/Yêu Em Dài Lâu - Elvis Phương.VOB</file>
-    <file>musics/Vietnamese/Yêu Em Dài Lâu - Đức Huy_USAL8.VOB</file>
-    <file>musics/Vietnamese/Áo Lụa Hà Ðông - Duy Trác_PBN9.mkv</file>
-    <file>musics/Vietnamese/Ðường Xa Ướt Mưa - Công Thành_ASIA28.VOB</file>
-    <file>musics/Vietnamese/Ông Lái Đò - Quang Linh.VOB</file>
-    <file>musics/Vietnamese/Đám Cưới Đầu Xuân - Đặng Thế Luân_Băng Tâm.VOB</file>
-    <file>musics/Vietnamese/Đêm Buồn Tỉnh Lẻ - Trường Vũ_ASIA18.VOB</file>
-    <file>musics/Vietnamese/Đêm Đông - Hồng Nhung_LV_VTG7.VOB</file>
-    <file>musics/Vietnamese/Đường Xưa Lối Cũ - Họa Mi_LV43.VOB</file>
-    <file>musics/Vietnamese/Đường Xưa Lối Cũ - Như Quỳnh.VOB</file>
-    <file>musics/Vietnamese/Đập Vỡ Cây Đàn - Quang Lê.VOB</file>
-    <file>musics/Vietnamese/Để Quên Con Tim - USAL1.VOB</file>
-    <file>musics/Vietnamese/Đừng Xa Em Đêm Nay - Thảo My and Y Phụng_ASIA41.VOB</file>
-    <file>musics/Vietnamese/Đừng Xa Em Đêm Nay - Thảo My _PBN12.VOB</file>
-    <file>musics/Vietnamese/Ước Gì - Mỹ Tâm.vob</file>
-    <file>musics/Vietnamese/Ảo Ảnh - Y Vân_USAL4.VOB</file>
-    <file>musics/Vietnamese/Ban Toi/Anh Nho Em Nhieu - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Ban Toi - Quanh Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Beauty and The Beast - Hong Nhung.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Ben Em Mua Xuan - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Bo Ben La - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Cam on Mua Thu - Thu ha thanh Long.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Chieu Khong Co Em - My Hanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Cho Quen Mau - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Coi Tinh - Cam Van khac Trieu.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Dem Co Don - Dan Truong and Cam Ly.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Do Tinh - Thanh Lam.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Doi Tra - Hoang Dung.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Duyen Tinh - Quang Linh and Lan Phuong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Email tinh Yeu - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Hay Dan Len - Hoang Cuc Trand Kim Yen.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Ky Niem Ngay Do - Van Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Lien Khuc Ngay Tho - Thanh Hoa.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Loi Cua Gio - Thu Phuong and Huy Mc.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mai Khong Phai - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mat Buon - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mau Cho Em Mua Xuan - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mot Thoang Mua Hong - Y. Xan-m.biec.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mua Ha Mai Xa - Minh Thuan.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mua Hoang Hon - Thanh lam.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mua Thu - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Mua Xuan Huong Pho - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Ngay Mai Xa Nhau - Tu Ca Ngau Nhien.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Nghe Mua - Tran Thu Ha.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Nguoi Tinh Xa - Uyen Nhy.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Ta Chang Co Ai - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Thuyen Hoa - Quang Linh and Ha Phuong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tien Dua -Quang Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tieng Set Noi Vuon Hoang - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tim Lai Lan Nua - Thanh Thanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Ban - Phuong uyen and Khanh Du.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Ca Muon Doi - My Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Cuon May Ngan - Tam Ca The He Moi.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Don Phuong 2 - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Nhu Con Gio - Tran Thu ha.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Phai - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Suong Khoi - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tinh Tho - Minh Thuan and Uyen Nhy.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Trau Oi - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Tro Lai Pho Cu - Dan Truong and Cam Ly.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Trua Vang  My Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Van Vuong - Uyen Nhy.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Xin Dung Trach Dada - Qung Linh.vob</file>
-    <file>musics/Vietnamese/Ban Toi/Xuan Cho Em - Thu Phuong and Huy Mc.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Cafe Giot Dang - Nini.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Chan Anh Ghe - Ha Vy.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Chieu Song Va En - Tu Quyen.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Giac Mo Tan Roi - Tu Quyen.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Ha Noi Mua Vang Nhung Con Mua - Tu Quyen.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Hay - Jimmii J.C.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Lan Dau Noi Doi - Vina.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/May Bay Ngan Nho - Johnny Dung.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Phieu Luu Tinh Ai - Lay Minh.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Roi Trong Vong Tay Anh - Nini.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Shalala - Nini.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tai Em Khong Den - Nhat Quan.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tan Tinh - Jimmii J.C.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tieng Dan Duoi Trang - Vina.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tinh Buon Hay Vui - Tu Quyen.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/TinhTrong Con Mua - Luu Minh Thang.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Torn - Vina.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Turn The Beat Around - Vina.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Vong Tay Nguoi Ay - Vini.vob</file>
-    <file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Xa Nahu Tu Day - Nini.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Chieu Xuan - Ngoc Thuy.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cho Em Duoc Mai Yeu Anh - Ngoc Thuy.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Chuyen Tau Hoang Hon - Tam Doan.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cry - Luong Tung Quang.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cung Danh Lang Quen - Duc Phuong.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Dan Sao Hau Giang - Huong Lan.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Em Con Be Lam Anh Oi - Tam Doan.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Hat Nua Di Em - Khanh Hoang.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Hey Mickey - Cat Ly.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Lam Lo - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Mot Giac Mo Buon - Khanh Hoang.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Ngay Xuan Vui Cuoi - Hoai Linh.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Roi Mai Em Di - Ha Vy.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tam Su Doi Toi - Phi Nhung.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tam Su Nguoi Thuong Binh - Truong Vu.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tinh Bac - Ngoc Ho.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tinh Mai Ben Anh - Tu Quyen.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tuy Ca - Truong Vu.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Xin Em Mot Nu Cuoi - Van Son.vob</file>
-    <file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/You Got The Beat - Cat Ly.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Anh và Em - Lương Tùng Quang.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Bài Không Tên Cuối Cùng - Ngọc Anh.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Chén Đắng - Hồ Lệ Thu.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Còn Tuổi Nào Cho Em - Minh Tuyết.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Em Về Với Người - Hạ Vy.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Giáng Ngọc - Bằng Kiều.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Gọi Người Yêu Dấu - Thanh Hà.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Gục Ngã - Tóc Tiên.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hai Chuyến Tàu Đêm - Quang Lê.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hoang Mang - Quỳnh Vi.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Họp Mặt Lần Cuối - Hương Thủy.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hỏi Người Còn Nhớ Đến Ta - Thế Sơn.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Muộn - Lưu Bích.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Môi Xinh Nụ Cười - Mai Tiến Dũng.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Một Mình Trong Đêm - Kỳ Phương Uyên.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Một Đời Yêu Em - Thế Sơn.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nghìn Trùng Xa Cách - Thu Phương.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Người Đi Qua Đời Tôi - Trần Thái Hòa.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nét Son Buồn - Ngọc Liên.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nếu Đời Không Có Anh - Mai Thiên Vân.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Sầu Khúc Mùa Đông - Hương Giang.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Trái Tim Tội Lỗi - Lam Anh.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Trả Lại Thời Gian - Như Quỳnh.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tuổi Đá Buồn - Quang Dũng.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tình Yêu Không Có Lỗi - Nguyễn Hưng.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tội Tình - Duy Trường.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Xin Trả Nợ Người - Khánh Ly.vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Yêu - Như Loan and Diễm Sương .vob</file>
-    <file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Đời Không Còn Nhau - Don Hồ.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Chuyen Hop Tan - Phuong Lam.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Chuyen Tinh Khong Di Vang - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Con Me Tinh Ai - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Dieu Buon Phuong Nam - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Dung Trach Dieu Bong - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Giac Ngu Dau Noi - Phi Nhung.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Giong Song Ho Hen - Phuong Lam.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Hoa Vong Vang Trang - Che Linh, Huong Lan.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Lo Chuyen Do Tinh - Yen Khoa, Khanh Duy.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Mua - Thuy Trang.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Ngan Thu Vinh Biet - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Nho Nhau Hoai - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Sao Em Vo Tinh - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Sau Dong - Dinh Van.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Thuong Ve Mien Dat Lanh - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Thuyen Xa Ben Xua - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Tienh Hat Chim Da Da - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Tinh Nho Mau Quen - huong Lan, Thai Chau.vob</file>
-    <file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Yeu Lam - Phi Nhung.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/ao em chua mac not lan - che linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/bai ca cho anh - huong lan.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Canh Lua - Son Ca.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/giong ca di vang - che linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Giua Troi Thuong Nho - Che Linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Hai Dua Gian Nhau - Che Linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Han Tha La (Tan Co) - Chi Tam and Huong Lan.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/hoa no ve dem - thien trang.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Ly Chim Quyen - Thien Trang.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Mua Mua Di Qua - Che Linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/neu chung minh cach tro - che linh and thien trang.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Ngay Da Dom Bong - Son Ca.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Nguoi O Lai Charlie - Huong Lan.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/nhung doi hoa sim - phuong mai.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/noi buon sa mac - che linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/phut cuoi - giao linh and tuan vu.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Tam Su Nguoi Thuong Binh - Che Linh.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/tinh bo vo (tan co ciao duyen) - chi tam and huong lan.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/tinh doi - phuong lam.vob</file>
-    <file>musics/Vietnamese/Lang Van 39/Yeu mot minh - Che Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Anh La Le Song Doi Em - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Can - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Cho - Bang Kieu.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Buoc Chan Le Loi - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ca Dao Em Va Toi - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chan Que - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chi Toi 2 - Tran Thu Ha.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chia Tay Tinh Dau - Thanh Lam.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chut Ky Niem Buon - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Con Mua Lao Xao - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Dem Co Don - Dan Truong and Cam Ly.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Got Hong - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hoa Hong Tang Em - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hoi Tiec - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hon Moi Xa - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Khong The Va Co The - Thanh Lam.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Kiep Rong Buon - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mai Cho Tinh Lenh Denh - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mat Buon - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mua Tinh Yeu - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mua Xuan - My Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Neu Phoi Pha Ngay Mai - Dan Truong and Cam Ly.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nguoi Cung Canh Ngo - Lam Truong and Cam Ly.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nho Sai Gon - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nu Hong Ho Hung - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Phut Dau Tien - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Quen Di - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ta Chang Con Ai - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tien Rao - Phuong Thanh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tin Hieu Trai Tim - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Ca Muon Doi - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Phai - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Quay Got - Dan Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Trua Vang - My Linh.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuoi 15 - 3 Con Meo.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuyet Lanh - Lam Truong.vob</file>
-    <file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ve Day Nghe Em - Thu Phuong.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Can I Dance With You - Maline Nha Lan.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chiec Ao Tam Be Nho - Unknow.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chuyen Tinh Da Qua - Tuan Dat.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Hanh Phuc Trong Tay - Lucia Kim Chi and Tuan Dat.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/I Love To Hate You - Thuy Vi Giang Ngoc and Ngoc Anh.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Internal Flame - Maline Nha Lan.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Johnny Johnny - Maline Nha Lan.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Kimigasuki - Linda Trang Dai.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Mot Doi Yeu Anh - Nhat Ha.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Once in A life Time - Malin Nha Lan.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Rythm of The Rain - Danny Tuan.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Save the Best For Last - Linda Trang Dai.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Season In The Sun - Thai tai.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Than Dieu Dai Hiep - Kha Tu.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/That Tinh - Mai Vy.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Tinh Em Nhu Con Song (Lien Khuc) - Mai Vy and Kha Tu.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Tinh Yeu Khong Ben - Trizzie Phuong Trinh.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Vong Tay Ngay Ay - Mai Vy.vob</file>
-    <file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Xa Nhau Tu Day - Tuan Dat.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ban Toi - Quang Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Bong Dien Dien Dalena.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Cau Lac Bo Lam Quen - Dinh Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chan Que - Quang Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chi Toi 2 - Tran Thu Ha (3).vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chiec Ao Ba Ba - Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Cho Nguoi - yen Khoa.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chong Xa - Cam Ly.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Con Duong Mang Ten Em - Tai Linh and Ding Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Dam Cam Cau - Ding Van and Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Di Cay - Tai Linh and Kim Tu Long.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Doan Cuoi Tinh Yeu - Yen Khoa.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Duyen Tinh - Tai Linh and Ding Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Em Di Tren Co Non - Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giang Cau 1 - Dinh Van and Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giang Cau 2 - Dinh Van and Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Gio Danh Du Dua - Quang Linh and Ha Phuong.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giot Le Dai Tran - Che Thanh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Huong So Ri - Tran Sang.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Huong Toc Ma Non - Tai Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/L.K. Tinh Xa Roi - Ngoc Hai and Thanh Thao.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Lam Dau Xu La - Thach Thao and Nguyen Hai.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Len Chua Cau Duyen - H. Nghia and T. Loc.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ly 10 Thuong - Ha Phuong and Minh Tuyet Cam Ly.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mat Dang Tinh Yeu - Dinh Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mua Bui 1 - Tai Linh and Ngoc hai.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mua Tren Pho Hue - Ha Phuong.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ngau Hung Ru Con - Thuy Trang.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Nhan Co Cho Em - Che Thanh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Qua Cau Gio Bay - Elvis Phuong and Tiktiktak.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Say - Th. Loc and Hong Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Thuong Nho Nguoi Dung - Cam Ly.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Thuong Qua Que Huong Oi - Dinh Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tieng Hat Chim Da Da - Quang Linh.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Cha - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Dang Ly Kho Qua - Cam Ly.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Dep Mua Chom Chom - Dinh Van.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Trach Nguoi Trong Mong - T. Sang and T. Trang.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Vi Trong Nghich Canh - Thach Thao and Ngoc Hai.vob</file>
-    <file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Xin Dung Trach Da Da - Quan Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bac Tinh - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bai Ca Dao Dau Doi - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bong Buoi Hoa Cau - Trung Hau.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Buon Gia Nho - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chi Toi 1 - My Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chi Toi 2 - Tran Thu Ha.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chiec Ao Ba Ba - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chim Sao Ngay Xua - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Cho Vua Long Em - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chong Xa - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chuyen Lam Dau - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Dem Cuoi - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Dem Tam Su - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Di Vang Buon - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Do Xua - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Doi Nga Chia Ly - Ngoc Hai.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Em Ve Voi Nguoi - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Gio Ba - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Giot Le Dai Trang - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Goi Tinh Chim Quyen - Trong Phuc and Ngoc Huyen.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Hat Ru - Dinh Van.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Hoa Hoc Tro - Trong Phuc and Hanh Nguyen.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Long Me 2 - Trong Phuc.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Ly Mo Coi - Ha My.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Moi Nam Hoa Dao No - Tai Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Mot Thuo Dam Me - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Nguoi Troi Qua Ghenh - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Noi Buon Chim Sao - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Nuoc Mat Me Hien - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Que Me - Thuy Trang.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Ru Lai Cau Ho - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Nho Nguoi Dung - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Ve Mien Trung - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Ve Phuong Bac - Quang Linh.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Dai Kho - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Dang Ly Kho Qua - Cam Ly.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Me - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Nho Mau Quen - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Vang Trang Co Don - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Xinh Tra Toi Ve - Ngoc Son.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ba Thang Ta Tu - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chi toi 2 - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chiec Ao Ba Ba - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chuyen Mot Chiec Cau Da Gay - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Co Ban Hoc - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Cung Buon Thang Ha - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Doan Buon Dem Mua - Truc Quyen.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Gia Biet Truong Xua - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ha Buon - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Hay Quen Nhau - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Khong Dam Dau - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Long Me 2 - Tuean Vu, Randy.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Nhat ky Doi Toi - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Nhung Giong Luu Niem - Truc Quyen.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Noi Buon Hoa Phuong 2 - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Phuong Buon - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Tieng Xua - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Truong Cu Tinh Xua - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ve Goi Tieng He - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Xin Yeu Toi Bang Ca Tinh Nguoi - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Ai Ra Xứ Huế - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Bao Giờ Quên Em - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế Bây Giờ - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế Xưa - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế, Tình Yêu Của Tôi - Thanh Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Khách Lạ Đò Xưa - Thiên Trang.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Khúc Tình Ca Xứ Huế - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Lá Thư Miền Trung - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Mùa Đông Xứ Huế - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Mưa Trên Phố Huế - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Nén Hương Yêu - Phương Lam.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Nó Và Tôi - Giao Linh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Sầu Cố Đô - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Thương Về Cố Đô - Thiên Trang.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Thương Về Miền Trung - Phương Lam.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Tiếng Xưa - Phương Lam.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Trời Huế Vào Thu Chưa Em - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Vỹ Dạ Đò Trăng - Hương Lan.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Đêm Bơ Vơ - Duy Khánh.vob</file>
-    <file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Đêm Tàn Bến Ngự - Phương Lam.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/999 Doa Hong - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Chi Co Ta Trong Doi - Chung Tu Luu.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Con Lan Noi Co Don - Le Minh.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Con Yeu Em Mai - Le Minh.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Da Tinh - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Doi Khi Ta Muon Khoc - Trung Hanh.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Dong Song Que Toi - Ngoc Lan.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Goi Nguoi Yeu Dau - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Hai Au Phi Xu - Truc Quyen (song ca).vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Mong Sau - Thanh Hanh.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Ngan Nam Van Doi - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Ngau Nhien - Chung Tu Luu.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nhac Tinh Trong Dem - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nhung Loi Doi Gian - Le Minh.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nu Hong Mong Manh - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Sa Mac Tinh Yeu - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tan Tro - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tinh Khuc Nang He - Chung Tu Luu and Ngoc Hue.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tinh La Giac Mo - My Huyen.vob</file>
-    <file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Yen Den Muon Doi - Ngoc Lan.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/999 Doa Hong - Simon Wong.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/An Tinh Mong Manh - Marylinh Hong Nhung.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chiec Bong Don Coi - Ngoc Han.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chieu Xuan - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chim Sao Ngay Xua - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chut Ky Niem Buon - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Co Hang Nuoc - Thai Chau.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Con Gai Bay Gio - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/De Tra Loi Mot Cau Hoi - Truc Quyen.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Duoc Tin Em Lay Chong - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Ke Chuyen Trong Dem - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/La Van Khoc La Xanh - Truc Quyen.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Lanh Tron Dem Nua - Thai Chau.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Mua Bong Bong - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/My Heart Will Go On - Simon Wong.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Nha Anh Nha Em - Ngoc Han.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Sao Em Lo Hen - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Smoke Get in Your Eyes - Simon Wong.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/That's Why - Simon Wong.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Thi Tham Mua Xuan - Mong Thi.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Tinh Den Roi Di - Tuan Vu.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Tinh Nhu May Khoi - Thai Chau.vob</file>
-    <file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Trai Tim Khong Ngu Yen - Mong Thi.vob</file>
+	<file>musics/English/Britney Spears - My Prerogative DVD - Extras - Toxic ~Karaoke~.vob</file>
+	<file>musics/English/That's Why - Simon Wong.vob</file>
+	<file>musics/Vietnamese/60 Năm Cuộc Đời - Christiane Le.VOB</file>
+	<file>musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB</file>
+	<file>musics/Vietnamese/Ai Về Sông Tương - Tuấn Ngọc_ASIA23.VOB</file>
+	<file>musics/Vietnamese/Anh Cho Em Mùa Xuân - Tuấn Vũ.VOB</file>
+	<file>musics/Vietnamese/Bang Bang (Khi Xưa Ta Bé) - Lily Huệ_USAG3.VOB</file>
+	<file>musics/Vietnamese/Bang Bang (Khi Xưa Ta Bé) - Sheila.VOB</file>
+	<file>musics/Vietnamese/Bao Giờ Biết Tương Tư -USAL4.VOB</file>
+	<file>musics/Vietnamese/Belle - Trần Thái Hòa_Thế Sơn_Trịnh Lâm_PBN69.VOB</file>
+	<file>musics/Vietnamese/Biển Mặn - Nhật Trường _ASIA_S5.mkv</file>
+	<file>musics/Vietnamese/Biển Nhớ - Khánh Ly.mkv</file>
+	<file>musics/Vietnamese/Buồn Tàn Thu - Ngọc Hạ_PBN40.mkv</file>
+	<file>musics/Vietnamese/Bài Không Tên Cuối Cùng - Elvis Phương_LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 1 - Duy Quang_LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 2 - Khánh Hà_LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 3 - Lệ Thu_ LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 4 - Tuấn Ngọc_ASIA18.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 4 - Vũ Khanh_ LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 5 - Elvis Phương_LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 6 - Duy Quang_ LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 7 - Khánh Hà_ LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 8 - Như Mai_ LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Không Tên Số 9 - Châu Đình An_LV24.VOB</file>
+	<file>musics/Vietnamese/Bài Tango Cho Em - Elvis Phương-Ái Vân_PBNK 6.VOB</file>
+	<file>musics/Vietnamese/Bài Tango Cho Em _USAL2.VOB</file>
+	<file>musics/Vietnamese/Bài Thánh Ca Buồn - Elvis Phương_PBN1.VOB</file>
+	<file>musics/Vietnamese/Bài Tình Ca Cho Em - Lâm Thúy Vân.VOB</file>
+	<file>musics/Vietnamese/Bây Giờ Tháng Mấy - Tuấn Ngọc_NCL2.VOB</file>
+	<file>musics/Vietnamese/Bên Em Là Biển Rộng - Loan châu_ASIA-S4.VOB</file>
+	<file>musics/Vietnamese/Bên Em Đang Có Ta - Hợp Ca-ASIA2.vob</file>
+	<file>musics/Vietnamese/Bông Hồng Cài Áo -Nguyễn Hưng_PBN18.VOB</file>
+	<file>musics/Vietnamese/Bạn Tôi - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Bản Tình Cuối - Lệ Thu_ASIA16.VOB</file>
+	<file>musics/Vietnamese/Bến Thượng Hải - Tuấn Đạt_USA 17.VOB</file>
+	<file>musics/Vietnamese/Ca Dao Em Và Tôi - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Chim Sáo Ngày Xưa - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Chiếc Lá Mùa Đông - Anh Tú.mkv</file>
+	<file>musics/Vietnamese/Chiếc Áo Bà Ba - Ngọc Huyền_ASIA39.VOB</file>
+	<file>musics/Vietnamese/Chiều Một Mình Qua Phố - Ngọc Lan.VOB</file>
+	<file>musics/Vietnamese/Cho Tôi Được Một Lần - Lệ Thu_LV172.VOB</file>
+	<file>musics/Vietnamese/Chuyện Ba Người - Ngọc Đài_USAG6.VOB</file>
+	<file>musics/Vietnamese/Chuyện Giàn Thiên Lý - Mạnh Đình_ASIA-S4.VOB</file>
+	<file>musics/Vietnamese/Chuyện Tình Bên Ao Cá - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Chuyện Tình Lan và Điệp - QBình-TrgThLan_NĐBD22.VOB</file>
+	<file>musics/Vietnamese/Chân Quê - Quang Lê.mkv</file>
+	<file>musics/Vietnamese/Chân Tình - Huy Vũ_T10.VOB</file>
+	<file>musics/Vietnamese/Chị Tôi - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Con Sáo Sang Sông - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Con Đường Xưa Em  Đi - Trường Vũ.VOB</file>
+	<file>musics/Vietnamese/Con Đường Xưa Em Đi - Trang Thanh Lan and Phương Lam_LV35.VOB</file>
+	<file>musics/Vietnamese/Cuối Cùng Cho Một Tình Yêu - Như Mai_LV40.VOB</file>
+	<file>musics/Vietnamese/Cánh Buồm Xa Xưa _USAL5.VOB</file>
+	<file>musics/Vietnamese/Cát Bụi - Khánh Ly_LV40.VOB</file>
+	<file>musics/Vietnamese/Cát Bụi Tình Xa - Huy Vũ_NĐBD_ĐB5.mkv</file>
+	<file>musics/Vietnamese/Cây Đàn Bỏ Quên - Tuấn Vũ_NDBD_G5.mkv</file>
+	<file>musics/Vietnamese/Cây Đàn Sinh Viên - Thanh Trúc.VOB</file>
+	<file>musics/Vietnamese/Còn Ta Với Nồng Nàn - Quang Dũng.VOB</file>
+	<file>musics/Vietnamese/Còn Tuổi Nào Cho Em - Kiều Nga_LV40.VOB</file>
+	<file>musics/Vietnamese/Có Phải Em Mùa Thu Hà Nội - Lam Trường.VOB</file>
+	<file>musics/Vietnamese/Cô Hàng Nước - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Cô Hàng Xóm (Vùng Ngoại Ô) - Quang Lê.VOB</file>
+	<file>musics/Vietnamese/Cỏ Uá - Đàm Vĩnh Hưng.vob</file>
+	<file>musics/Vietnamese/Cỏ Úa - Đan Nguyên_Nguyễn Hồng Nhung.VOB</file>
+	<file>musics/Vietnamese/Diễm Xưa -Thanh Mai_LV40.VOB</file>
+	<file>musics/Vietnamese/Dư âm - Elvis Phương_PBN2.VOB</file>
+	<file>musics/Vietnamese/Dừng Bước Giang Hồ - Kiều Nga_ASIA30.VOB</file>
+	<file>musics/Vietnamese/Em Đến Thăm Anh Đêm 30 - Khánh Ly_LV24.VOB</file>
+	<file>musics/Vietnamese/Em Ơi Hà Nội Phố - Khánh Ly_ASIA-S4.VOB</file>
+	<file>musics/Vietnamese/Giọng Ca Dĩ Vãng - Hồng Trúc.VOB</file>
+	<file>musics/Vietnamese/Giọng Ca Dĩ Vãng - Phi Nhung_PH1.mkv</file>
+	<file>musics/Vietnamese/Giọt Lệ Đài Trang - Thanh Thanh_NDBD34.mkv</file>
+	<file>musics/Vietnamese/Giọt Lệ Đài Trang - Trường Vũ.VOB</file>
+	<file>musics/Vietnamese/Giọt Nắng Chiều Xưa - Lam Trường.VOB</file>
+	<file>musics/Vietnamese/Goodbye My Love.mkv</file>
+	<file>musics/Vietnamese/Gọi Tên Bốn Mùa - Thanh Mai_LV40.VOB</file>
+	<file>musics/Vietnamese/Hai Chuyến Tàu Đêm - Quang Lê.mkv</file>
+	<file>musics/Vietnamese/Hoa Mười Giờ - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Hoa Soan Bên Thềm Cũ - Thanh Lan_ASIA16.VOB</file>
+	<file>musics/Vietnamese/Hoa Sứ Nhà Nàng - Duy Linh_ASIA10.VOB</file>
+	<file>musics/Vietnamese/Hoa Trinh Nữ - USAL2.VOB</file>
+	<file>musics/Vietnamese/Hoài Cảm - Lệ Thu_ASIA10.VOB</file>
+	<file>musics/Vietnamese/Huyền Thoại Một Chiều Mưa - Tuấn Vũ_NC22.VOB</file>
+	<file>musics/Vietnamese/Huế Xưa - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Hàn Măc Tử - USAL6.VOB</file>
+	<file>musics/Vietnamese/Hát Cho Một Người Nằm Xuống - Khánh Ly_ASIA3.VOB</file>
+	<file>musics/Vietnamese/Hát Với Chú Ve Con - Minh Tuyết_PBN70.VOB</file>
+	<file>musics/Vietnamese/Hãy Yêu Như Chưa Yêu Lần Nào - Thiên Kim_ASIA52.VOB</file>
+	<file>musics/Vietnamese/Hòn Vọng Phu - Thế Sơn_PBNK58.VOB</file>
+	<file>musics/Vietnamese/Hòn Vọng Phu 1 - Trường Vũ.VOB</file>
+	<file>musics/Vietnamese/Hòn Vọng Phu 2 - Trường Vũ.VOB</file>
+	<file>musics/Vietnamese/Hòn Vọng Phu 3 - Trường Vũ.VOB</file>
+	<file>musics/Vietnamese/Hạ Trắng - Khánh Ly_ASIA8.VOB</file>
+	<file>musics/Vietnamese/Không Bao Giờ Ngăn Cách _Phi Việt_14.mkv</file>
+	<file>musics/Vietnamese/Không Bao Giờ Quên Anh - NDBD33.mkv</file>
+	<file>musics/Vietnamese/Kẻ Ở Miền Xa - Quang Lê.VOB</file>
+	<file>musics/Vietnamese/Let_s Twist Again - Ngọc Bích_USA 25.VOB</file>
+	<file>musics/Vietnamese/Linh Hồn Tượng Đá - Thái Châu_ASIA15.VOB</file>
+	<file>musics/Vietnamese/Linh Hồn Tượng Đá - USAL2.VOB</file>
+	<file>musics/Vietnamese/Linh Hồn Đã Mất- Bằng Kiều.VOB</file>
+	<file>musics/Vietnamese/LK Yêu Em-Tôi Muốn-Yêu Đời Yêu Người_ASIA50.VOB</file>
+	<file>musics/Vietnamese/Lâu Đài Tình Ái - Bruce Đoàn_USAL9 .VOB</file>
+	<file>musics/Vietnamese/Lâu Đài Tình Ái - Elvis Phương.VOB</file>
+	<file>musics/Vietnamese/Lệ Đá - Khánh Ly_PBN41.VOB</file>
+	<file>musics/Vietnamese/Lệ Đá - Ngọc Lan.mkv</file>
+	<file>musics/Vietnamese/Mùa Thu Không Trở Lại - Tuấn Ngọc_LV255.VOB</file>
+	<file>musics/Vietnamese/Mùa Đông Của Anh - Hải Lý_USALG2.mkv</file>
+	<file>musics/Vietnamese/Mùa Đông Của Anh - Nhật Trường.VOB</file>
+	<file>musics/Vietnamese/Mùa Đông Của Anh - Tuấn Vũ.VOB</file>
+	<file>musics/Vietnamese/Mùa Đông Của Anh - Đình Văn and Yến Khoa_LV104.VOB</file>
+	<file>musics/Vietnamese/Mơ Hoa -Tuấn Đạt_NC22.VOB</file>
+	<file>musics/Vietnamese/Mưa Chiều Kỷ Niệm - Cao Lâm.mkv</file>
+	<file>musics/Vietnamese/Mưa Chiều Kỷ Niệm - Đàm Vĩnh Hưng.VOB</file>
+	<file>musics/Vietnamese/Mưa Ngâu - Mỹ Linh.VOB</file>
+	<file>musics/Vietnamese/Mưa Rừng - Cẩm Ly.vob</file>
+	<file>musics/Vietnamese/Mưa Rừng - Phi Nhung.VOB</file>
+	<file>musics/Vietnamese/Mưa Trên Biển Vắng - Ngọc Lan.VOB</file>
+	<file>musics/Vietnamese/Mưa Đêm Tỉnh Nhỏ - Trường Vũ_ASIA12.VOB</file>
+	<file>musics/Vietnamese/Mưa Ướt Mi Buồn - Lưu Bích.VOB</file>
+	<file>musics/Vietnamese/Mười Năm Tình Cũ - Chế Linh.mkv</file>
+	<file>musics/Vietnamese/Mười Năm Tình Cũ - Lệ Thu -LV.VOB</file>
+	<file>musics/Vietnamese/Mắt Biếc - Tuấn Ngọc_PBN9.VOB</file>
+	<file>musics/Vietnamese/Mắt Nai Cha Cha Cha - Tú Quyên.VOB</file>
+	<file>musics/Vietnamese/Mộng Dưới Hoa - Nguyên Khang.mkv</file>
+	<file>musics/Vietnamese/Một Cõi Đi Về - Bruce Đoàn_USAG4.VOB</file>
+	<file>musics/Vietnamese/Một Cõi Đi Về - Ngọc Lan.vob</file>
+	<file>musics/Vietnamese/Một Lần Nữa Thôi - Lâm Nhật Tiến_ASIA-S4.VOB</file>
+	<file>musics/Vietnamese/Một Mình - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Một Thuở Yêu Người - Lê Tâm.mkv</file>
+	<file>musics/Vietnamese/Ngày Đó Chúng Mình - Ngọc Hà_Trần Thái Hòa_PBN69.VOB</file>
+	<file>musics/Vietnamese/Ngõ Vắng Xôn Xao - Quang Dũng.VOB</file>
+	<file>musics/Vietnamese/Người Tình Không Chân Dung - Khánh Hà_ASIA3.VOB</file>
+	<file>musics/Vietnamese/Người Tình Mùa Đông - Như Quỳnh_ASIA14.VOB</file>
+	<file>musics/Vietnamese/Người Đến Từ Triều Châu - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Người Ở Lại Charlie - Duy Quang and Thanh Lan_ASIA3.VOB</file>
+	<file>musics/Vietnamese/Ngẫu Hứng Lý Qua Cầu - Thùy Dương_Tường Nguyên_ASIA55.VOB</file>
+	<file>musics/Vietnamese/Ngậm Ngùi - Duy Quang_ASIA16.VOB</file>
+	<file>musics/Vietnamese/Nha Trang Ngày Về - Lê Toàn.VOB</file>
+	<file>musics/Vietnamese/Nhánh Lan Rừng - Quang Hưng_PV23.mkv</file>
+	<file>musics/Vietnamese/Những Chiều Không Có Em - Thanh Hà.mkv</file>
+	<file>musics/Vietnamese/Những Đồi Hoa Sim - Phương Dung_ ASIA10.VOB</file>
+	<file>musics/Vietnamese/Niềm Thương Nhớ - Don Hồ_ASIA47.vob</file>
+	<file>musics/Vietnamese/Niệm Khúc Cuối - Bruce Đoàn_USAG4.VOB</file>
+	<file>musics/Vietnamese/Nỗi Buồn Gác Trọ - Phương Dung_ASIA9.VOB</file>
+	<file>musics/Vietnamese/Nỗi Buồn Hoa Phượng - Thanh Tuyền_ASIA9.VOB</file>
+	<file>musics/Vietnamese/Nỗi Lòng - Thu Hà_LV_VTG7.VOB</file>
+	<file>musics/Vietnamese/Nữa Hồn Thương Ðau - Họa Mi_PBN11.VOB</file>
+	<file>musics/Vietnamese/Phiên Khúc Mùa Đông - Bruce Đoàn_USALG2.mkv</file>
+	<file>musics/Vietnamese/Phôi Pha - Thái Hiền_LV40.VOB</file>
+	<file>musics/Vietnamese/Phượng Buồn - Cẩm Ly.VOB</file>
+	<file>musics/Vietnamese/Phượng Hồng - Mạnh Quỳnh_T_MTV05.VOB</file>
+	<file>musics/Vietnamese/Phượng Yêu - Kiều Nga_LV24.VOB</file>
+	<file>musics/Vietnamese/Phải Chi Em Đừng Có Chồng - Ý Lan_Elvis Phương_PBN69.VOB</file>
+	<file>musics/Vietnamese/Phố Đêm - Trường Vũ.mkv</file>
+	<file>musics/Vietnamese/Phố Đêm - Y Phụng_ASIA-S13.mkv</file>
+	<file>musics/Vietnamese/Riêng Một Góc Trời - Tuấn Ngọc_PBN14.VOB</file>
+	<file>musics/Vietnamese/Rong Rêu - Nguyên Khang_ASIA41.VOB</file>
+	<file>musics/Vietnamese/Ru Em Từng Ngón Xuân Nồng - Sĩ Phú_LV40.VOB</file>
+	<file>musics/Vietnamese/Rồi Mai Tôi Đưa Em - Lê Trí_USAL_G4.VOB</file>
+	<file>musics/Vietnamese/Rồi Mai Tôi Đưa Em - Tuấn Ngọc_LV43.VOB</file>
+	<file>musics/Vietnamese/Rừng Lá Thay Chưa - Như Quỳnh.VOB</file>
+	<file>musics/Vietnamese/Rừng Lá Thấp - Trường Vũ_ASIA16.VOB</file>
+	<file>musics/Vietnamese/Rừng Xưa Đã Khép - Sĩ Phú_LV40.VOB</file>
+	<file>musics/Vietnamese/Sao Em Nỡ Vội Lấy Chồng - Hợp ca_PBN_65.mkv</file>
+	<file>musics/Vietnamese/Sao Em Nỡ Vội Lấy Chồng - PBNK_NQ3.mkv</file>
+	<file>musics/Vietnamese/Say - Hoàng Sơn.mkv</file>
+	<file>musics/Vietnamese/Sơn Nữ Ca - Trần Tú_LV_VTG7.VOB</file>
+	<file>musics/Vietnamese/Sương Trắng Miền Quê Ngoại - Quang Lê.VOB</file>
+	<file>musics/Vietnamese/Sầu Lẻ Bóng - Lệ Hằng_NDBD_G5.mkv</file>
+	<file>musics/Vietnamese/Sầu Ðông - Lê Toàn_USAG2.mkv</file>
+	<file>musics/Vietnamese/Tan Tác - Tú Mỹ.VOB</file>
+	<file>musics/Vietnamese/Thà Như Giọt Mưa - Lê Uyên_ASIA18.VOB</file>
+	<file>musics/Vietnamese/Thà Như Giọt Mưa - Ngọc Lan.mkv</file>
+	<file>musics/Vietnamese/Thành Phố Buồn- Tuấn Vũ_LV22.VOB</file>
+	<file>musics/Vietnamese/Thôi Anh Hãy Về - Lam Trường and Thu Phương.vob</file>
+	<file>musics/Vietnamese/Thôi Anh Hãy Về - Thụy Vũ_NDBD31.mkv</file>
+	<file>musics/Vietnamese/Thương Nhau Ngày Mưa - Tuấn Ngọc and Thái Thảo_PBN3.mkv</file>
+	<file>musics/Vietnamese/Thương Về Miền Trung - Quang Lê.mkv</file>
+	<file>musics/Vietnamese/Tiếng Hát Chim Đa Đa - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Tiếng Hát Dạ Lan - Khánh Ly_LV40.VOB</file>
+	<file>musics/Vietnamese/Trái Tim Không Ngủ Yên - Elvis Phương_PBN24.VOB</file>
+	<file>musics/Vietnamese/Trái Tim Không Ngủ Yên - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Trái Tim Mùa Thu - Don Hồ.VOB</file>
+	<file>musics/Vietnamese/Trái Tim Mùa Đông - Don Hồ_ASIA42.VOB</file>
+	<file>musics/Vietnamese/Trái Tim Ngục Tù - Ngọc Lan.VOB</file>
+	<file>musics/Vietnamese/Trên Đỉnh Mùa Đông - Hải Lý_USALG2.mkv</file>
+	<file>musics/Vietnamese/Trăm Nhớ Ngàn Thương and Tình Bơ Vơ - LK_PBN57.VOB</file>
+	<file>musics/Vietnamese/Trăm Nhớ NgànThương and 10 Năm Tình Cũ - Ý Lan_Elvis Phương_PBN69.VOB</file>
+	<file>musics/Vietnamese/Trăng Tàn Trên Hè Phố - Phương Diễm Hạnh.VOB</file>
+	<file>musics/Vietnamese/Trưng Vương Khung Cửa Mùa Thu - USAL2.VOB</file>
+	<file>musics/Vietnamese/Trường Cũ Tình Xưa - Duy Linh_ASIA4.VOB</file>
+	<file>musics/Vietnamese/Tuyết Rơi - Lê Trí_USAG2.mkv</file>
+	<file>musics/Vietnamese/Tuyết Trắng - Sỹ Phú_Philip Huy_ASIA39.VOB</file>
+	<file>musics/Vietnamese/Tuổi Biết Buồn - Tú Quyên_ASIA18.VOB</file>
+	<file>musics/Vietnamese/Tát Nước Đầu Đình - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Tình Cho Không Biếu Không - Tú Quyên_ASIA11.VOB</file>
+	<file>musics/Vietnamese/Tình Chết Theo Mùa Ðông - Elvis Phương_PBN6.mkv</file>
+	<file>musics/Vietnamese/Tình Em Ngọn Nến - Lâm Thúy Vân-ASIA-S1.mkv</file>
+	<file>musics/Vietnamese/Tình Khúc Chiều Mưa - Thanh Trúc_ASIA12.VOB</file>
+	<file>musics/Vietnamese/Tình Khúc Thứ Nhất - Lê Uyên_ASIA26.VOB</file>
+	<file>musics/Vietnamese/Tình Kỹ Nữ - Mạnh Quỳnh_NDBD_GH2.mkv</file>
+	<file>musics/Vietnamese/Tình Xa - Thanh Tuyền_LV40.VOB</file>
+	<file>musics/Vietnamese/Tình Xuân - Mạnh Đình_ASIA28.VOB</file>
+	<file>musics/Vietnamese/Tôi Muốn - USAL1.VOB</file>
+	<file>musics/Vietnamese/Tôi Đưa Em Sang Sông - Đan Nguyên.VOB</file>
+	<file>musics/Vietnamese/Tưởng Niệm - Tuấn Ngọc.VOB</file>
+	<file>musics/Vietnamese/Và Con Tim Ðã Vui Trở Lại - Hợp Ca_PBN9.VOB</file>
+	<file>musics/Vietnamese/Và Tôi Cũng Yêu  Em - Đức Huy-DHồ-H.Chúc_PBN9.VOB</file>
+	<file>musics/Vietnamese/Và Tôi Cũng Yêu Em - USAL1.VOB</file>
+	<file>musics/Vietnamese/Vì Tôi Là Linh Mục - AnhTú.VOB</file>
+	<file>musics/Vietnamese/Vì Đó Là Em - Quang Dũng.VOB</file>
+	<file>musics/Vietnamese/Vùng Ngoại Ô - USAL2.VOB</file>
+	<file>musics/Vietnamese/Về Đây Nghe Em -Tuấn Ngọc_PBN49.mkv</file>
+	<file>musics/Vietnamese/Xa Em Kỷ Niệm _USAL5.VOB</file>
+	<file>musics/Vietnamese/Xin Còn Gọi Tên Nhau - Ngọc Lan_NDBD3.mkv</file>
+	<file>musics/Vietnamese/Xin Gọi Nhau Là Cố Nhân - Quang Lê.VOB</file>
+	<file>musics/Vietnamese/Xin Làm Người Hát Rong - Ngọc Bích_USAL27.VOB</file>
+	<file>musics/Vietnamese/Xin Làm Người Hát Rong - Ngọc Huệ.VOB</file>
+	<file>musics/Vietnamese/Xin Làm Người Hát Rong - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Xin Lỗi Anh - Minh Tuyết_Bằng Kiều_PBN69.VOB</file>
+	<file>musics/Vietnamese/Xin Lỗi Tình Yêu - Đàm Vĩnh Hưng.VOB</file>
+	<file>musics/Vietnamese/Xin Mặt Trời Ngủ Yên - Ngọc Lan.mkv</file>
+	<file>musics/Vietnamese/Xin Mặt Trời Ngủ Yên - Ý Lan_LV40.VOB</file>
+	<file>musics/Vietnamese/Xin Đừng Trách Đa Đa 1 - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Xuân Này Con Không Về - Quang Lê .VOB</file>
+	<file>musics/Vietnamese/Xuân Đẹp Làm Sao - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Yêu Em - Trung Hành _ASIA_S5.mkv</file>
+	<file>musics/Vietnamese/Yêu Em Bằng Cả Trái Tim - Phillip Huy, Thùy Hương.VOB</file>
+	<file>musics/Vietnamese/Yêu Em Dài Lâu - Elvis Phương.VOB</file>
+	<file>musics/Vietnamese/Yêu Em Dài Lâu - Đức Huy_USAL8.VOB</file>
+	<file>musics/Vietnamese/Áo Lụa Hà Ðông - Duy Trác_PBN9.mkv</file>
+	<file>musics/Vietnamese/Ðường Xa Ướt Mưa - Công Thành_ASIA28.VOB</file>
+	<file>musics/Vietnamese/Ông Lái Đò - Quang Linh.VOB</file>
+	<file>musics/Vietnamese/Đám Cưới Đầu Xuân - Đặng Thế Luân_Băng Tâm.VOB</file>
+	<file>musics/Vietnamese/Đêm Buồn Tỉnh Lẻ - Trường Vũ_ASIA18.VOB</file>
+	<file>musics/Vietnamese/Đêm Đông - Hồng Nhung_LV_VTG7.VOB</file>
+	<file>musics/Vietnamese/Đường Xưa Lối Cũ - Họa Mi_LV43.VOB</file>
+	<file>musics/Vietnamese/Đường Xưa Lối Cũ - Như Quỳnh.VOB</file>
+	<file>musics/Vietnamese/Đập Vỡ Cây Đàn - Quang Lê.VOB</file>
+	<file>musics/Vietnamese/Để Quên Con Tim - USAL1.VOB</file>
+	<file>musics/Vietnamese/Đừng Xa Em Đêm Nay - Thảo My and Y Phụng_ASIA41.VOB</file>
+	<file>musics/Vietnamese/Đừng Xa Em Đêm Nay - Thảo My _PBN12.VOB</file>
+	<file>musics/Vietnamese/Ước Gì - Mỹ Tâm.vob</file>
+	<file>musics/Vietnamese/Ảo Ảnh - Y Vân_USAL4.VOB</file>
+	<file>musics/Vietnamese/Ban Toi/Anh Nho Em Nhieu - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Ban Toi - Quanh Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Beauty and The Beast - Hong Nhung.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Ben Em Mua Xuan - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Bo Ben La - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Cam on Mua Thu - Thu ha thanh Long.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Chieu Khong Co Em - My Hanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Cho Quen Mau - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Coi Tinh - Cam Van khac Trieu.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Dem Co Don - Dan Truong and Cam Ly.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Do Tinh - Thanh Lam.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Doi Tra - Hoang Dung.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Duyen Tinh - Quang Linh and Lan Phuong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Email tinh Yeu - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Hay Dan Len - Hoang Cuc Trand Kim Yen.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Ky Niem Ngay Do - Van Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Lien Khuc Ngay Tho - Thanh Hoa.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Loi Cua Gio - Thu Phuong and Huy Mc.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mai Khong Phai - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mat Buon - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mau Cho Em Mua Xuan - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mot Thoang Mua Hong - Y. Xan-m.biec.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mua Ha Mai Xa - Minh Thuan.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mua Hoang Hon - Thanh lam.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mua Thu - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Mua Xuan Huong Pho - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Ngay Mai Xa Nhau - Tu Ca Ngau Nhien.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Nghe Mua - Tran Thu Ha.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Nguoi Tinh Xa - Uyen Nhy.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Ta Chang Co Ai - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Thuyen Hoa - Quang Linh and Ha Phuong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tien Dua -Quang Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tieng Set Noi Vuon Hoang - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tim Lai Lan Nua - Thanh Thanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Ban - Phuong uyen and Khanh Du.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Ca Muon Doi - My Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Cuon May Ngan - Tam Ca The He Moi.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Don Phuong 2 - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Nhu Con Gio - Tran Thu ha.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Phai - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Suong Khoi - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tinh Tho - Minh Thuan and Uyen Nhy.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Trau Oi - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Tro Lai Pho Cu - Dan Truong and Cam Ly.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Trua Vang  My Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Van Vuong - Uyen Nhy.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Xin Dung Trach Dada - Qung Linh.vob</file>
+	<file>musics/Vietnamese/Ban Toi/Xuan Cho Em - Thu Phuong and Huy Mc.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Cafe Giot Dang - Nini.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Chan Anh Ghe - Ha Vy.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Chieu Song Va En - Tu Quyen.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Giac Mo Tan Roi - Tu Quyen.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Ha Noi Mua Vang Nhung Con Mua - Tu Quyen.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Hay - Jimmii J.C.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Lan Dau Noi Doi - Vina.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/May Bay Ngan Nho - Johnny Dung.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Phieu Luu Tinh Ai - Lay Minh.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Roi Trong Vong Tay Anh - Nini.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Shalala - Nini.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tai Em Khong Den - Nhat Quan.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tan Tinh - Jimmii J.C.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tieng Dan Duoi Trang - Vina.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Tinh Buon Hay Vui - Tu Quyen.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/TinhTrong Con Mua - Luu Minh Thang.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Torn - Vina.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Turn The Beat Around - Vina.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Vong Tay Nguoi Ay - Vini.vob</file>
+	<file>musics/Vietnamese/Da Vu Tinh Nong 1 - Eagle Production/Xa Nahu Tu Day - Nini.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Chieu Xuan - Ngoc Thuy.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cho Em Duoc Mai Yeu Anh - Ngoc Thuy.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Chuyen Tau Hoang Hon - Tam Doan.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cry - Luong Tung Quang.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Cung Danh Lang Quen - Duc Phuong.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Dan Sao Hau Giang - Huong Lan.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Em Con Be Lam Anh Oi - Tam Doan.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Hat Nua Di Em - Khanh Hoang.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Hey Mickey - Cat Ly.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Lam Lo - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Mot Giac Mo Buon - Khanh Hoang.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Ngay Xuan Vui Cuoi - Hoai Linh.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Roi Mai Em Di - Ha Vy.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tam Su Doi Toi - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tam Su Nguoi Thuong Binh - Truong Vu.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tinh Bac - Ngoc Ho.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tinh Mai Ben Anh - Tu Quyen.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Tuy Ca - Truong Vu.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/Xin Em Mot Nu Cuoi - Van Son.vob</file>
+	<file>musics/Vietnamese/Em Con be Lam Anh Oi - Van Son DVD 3/You Got The Beat - Cat Ly.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Anh và Em - Lương Tùng Quang.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Bài Không Tên Cuối Cùng - Ngọc Anh.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Chén Đắng - Hồ Lệ Thu.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Còn Tuổi Nào Cho Em - Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Em Về Với Người - Hạ Vy.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Giáng Ngọc - Bằng Kiều.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Gọi Người Yêu Dấu - Thanh Hà.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Gục Ngã - Tóc Tiên.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hai Chuyến Tàu Đêm - Quang Lê.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hoang Mang - Quỳnh Vi.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Họp Mặt Lần Cuối - Hương Thủy.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Hỏi Người Còn Nhớ Đến Ta - Thế Sơn.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Muộn - Lưu Bích.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Môi Xinh Nụ Cười - Mai Tiến Dũng.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Một Mình Trong Đêm - Kỳ Phương Uyên.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Một Đời Yêu Em - Thế Sơn.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nghìn Trùng Xa Cách - Thu Phương.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Người Đi Qua Đời Tôi - Trần Thái Hòa.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nét Son Buồn - Ngọc Liên.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Nếu Đời Không Có Anh - Mai Thiên Vân.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Sầu Khúc Mùa Đông - Hương Giang.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Trái Tim Tội Lỗi - Lam Anh.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Trả Lại Thời Gian - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tuổi Đá Buồn - Quang Dũng.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tình Yêu Không Có Lỗi - Nguyễn Hưng.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Tội Tình - Duy Trường.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Xin Trả Nợ Người - Khánh Ly.vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Yêu - Như Loan and Diễm Sương .vob</file>
+	<file>musics/Vietnamese/Karaoke 72 - Tình Sử Trong Âm Nhạc Việt Nam/Đời Không Còn Nhau - Don Hồ.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Chuyen Hop Tan - Phuong Lam.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Chuyen Tinh Khong Di Vang - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Con Me Tinh Ai - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Dieu Buon Phuong Nam - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Dung Trach Dieu Bong - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Giac Ngu Dau Noi - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Giong Song Ho Hen - Phuong Lam.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Hoa Vong Vang Trang - Che Linh, Huong Lan.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Lo Chuyen Do Tinh - Yen Khoa, Khanh Duy.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Mua - Thuy Trang.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Ngan Thu Vinh Biet - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Nho Nhau Hoai - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Sao Em Vo Tinh - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Sau Dong - Dinh Van.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Thuong Ve Mien Dat Lanh - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Thuyen Xa Ben Xua - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Tienh Hat Chim Da Da - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Tinh Nho Mau Quen - huong Lan, Thai Chau.vob</file>
+	<file>musics/Vietnamese/Lang Va - Tieng Hat Chim Da Da/Yeu Lam - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/ao em chua mac not lan - che linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/bai ca cho anh - huong lan.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Canh Lua - Son Ca.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/giong ca di vang - che linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Giua Troi Thuong Nho - Che Linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Hai Dua Gian Nhau - Che Linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Han Tha La (Tan Co) - Chi Tam and Huong Lan.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/hoa no ve dem - thien trang.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Ly Chim Quyen - Thien Trang.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Mua Mua Di Qua - Che Linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/neu chung minh cach tro - che linh and thien trang.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Ngay Da Dom Bong - Son Ca.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Nguoi O Lai Charlie - Huong Lan.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/nhung doi hoa sim - phuong mai.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/noi buon sa mac - che linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/phut cuoi - giao linh and tuan vu.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Tam Su Nguoi Thuong Binh - Che Linh.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/tinh bo vo (tan co ciao duyen) - chi tam and huong lan.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/tinh doi - phuong lam.vob</file>
+	<file>musics/Vietnamese/Lang Van 39/Yeu mot minh - Che Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Anh La Le Song Doi Em - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Can - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Cho - Bang Kieu.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Buoc Chan Le Loi - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ca Dao Em Va Toi - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chan Que - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chi Toi 2 - Tran Thu Ha.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chia Tay Tinh Dau - Thanh Lam.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Chut Ky Niem Buon - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Con Mua Lao Xao - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Dem Co Don - Dan Truong and Cam Ly.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Got Hong - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hoa Hong Tang Em - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hoi Tiec - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Hon Moi Xa - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Khong The Va Co The - Thanh Lam.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Kiep Rong Buon - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mai Cho Tinh Lenh Denh - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mat Buon - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mua Tinh Yeu - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Mua Xuan - My Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Neu Phoi Pha Ngay Mai - Dan Truong and Cam Ly.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nguoi Cung Canh Ngo - Lam Truong and Cam Ly.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nho Sai Gon - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Nu Hong Ho Hung - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Phut Dau Tien - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Quen Di - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ta Chang Con Ai - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tien Rao - Phuong Thanh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tin Hieu Trai Tim - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Ca Muon Doi - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Phai - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tinh Quay Got - Dan Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Trua Vang - My Linh.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuoi 15 - 3 Con Meo.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuyet Lanh - Lam Truong.vob</file>
+	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ve Day Nghe Em - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Can I Dance With You - Maline Nha Lan.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chiec Ao Tam Be Nho - Unknow.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chuyen Tinh Da Qua - Tuan Dat.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Hanh Phuc Trong Tay - Lucia Kim Chi and Tuan Dat.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/I Love To Hate You - Thuy Vi Giang Ngoc and Ngoc Anh.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Internal Flame - Maline Nha Lan.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Johnny Johnny - Maline Nha Lan.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Kimigasuki - Linda Trang Dai.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Mot Doi Yeu Anh - Nhat Ha.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Once in A life Time - Malin Nha Lan.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Rythm of The Rain - Danny Tuan.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Save the Best For Last - Linda Trang Dai.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Season In The Sun - Thai tai.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Than Dieu Dai Hiep - Kha Tu.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/That Tinh - Mai Vy.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Tinh Em Nhu Con Song (Lien Khuc) - Mai Vy and Kha Tu.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Tinh Yeu Khong Ben - Trizzie Phuong Trinh.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Vong Tay Ngay Ay - Mai Vy.vob</file>
+	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Xa Nhau Tu Day - Tuan Dat.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ban Toi - Quang Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Bong Dien Dien Dalena.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Cau Lac Bo Lam Quen - Dinh Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chan Que - Quang Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chi Toi 2 - Tran Thu Ha (3).vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chiec Ao Ba Ba - Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Cho Nguoi - yen Khoa.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Chong Xa - Cam Ly.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Con Duong Mang Ten Em - Tai Linh and Ding Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Dam Cam Cau - Ding Van and Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Di Cay - Tai Linh and Kim Tu Long.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Doan Cuoi Tinh Yeu - Yen Khoa.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Duyen Tinh - Tai Linh and Ding Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Em Di Tren Co Non - Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giang Cau 1 - Dinh Van and Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giang Cau 2 - Dinh Van and Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Gio Danh Du Dua - Quang Linh and Ha Phuong.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Giot Le Dai Tran - Che Thanh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Huong So Ri - Tran Sang.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Huong Toc Ma Non - Tai Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/L.K. Tinh Xa Roi - Ngoc Hai and Thanh Thao.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Lam Dau Xu La - Thach Thao and Nguyen Hai.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Len Chua Cau Duyen - H. Nghia and T. Loc.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ly 10 Thuong - Ha Phuong and Minh Tuyet Cam Ly.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mat Dang Tinh Yeu - Dinh Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mua Bui 1 - Tai Linh and Ngoc hai.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Mua Tren Pho Hue - Ha Phuong.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Ngau Hung Ru Con - Thuy Trang.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Nhan Co Cho Em - Che Thanh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Qua Cau Gio Bay - Elvis Phuong and Tiktiktak.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Say - Th. Loc and Hong Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Thuong Nho Nguoi Dung - Cam Ly.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Thuong Qua Que Huong Oi - Dinh Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tieng Hat Chim Da Da - Quang Linh.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Cha - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Dang Ly Kho Qua - Cam Ly.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Tinh Dep Mua Chom Chom - Dinh Van.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Trach Nguoi Trong Mong - T. Sang and T. Trang.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Vi Trong Nghich Canh - Thach Thao and Ngoc Hai.vob</file>
+	<file>musics/Vietnamese/mtv karaoke vuot thoi gian 02/Xin Dung Trach Da Da - Quan Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bac Tinh - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bai Ca Dao Dau Doi - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Bong Buoi Hoa Cau - Trung Hau.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Buon Gia Nho - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chi Toi 1 - My Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chi Toi 2 - Tran Thu Ha.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chiec Ao Ba Ba - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chim Sao Ngay Xua - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Cho Vua Long Em - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chong Xa - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Chuyen Lam Dau - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Dem Cuoi - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Dem Tam Su - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Di Vang Buon - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Do Xua - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Doi Nga Chia Ly - Ngoc Hai.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Em Ve Voi Nguoi - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Gio Ba - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Giot Le Dai Trang - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Goi Tinh Chim Quyen - Trong Phuc and Ngoc Huyen.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Hat Ru - Dinh Van.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Hoa Hoc Tro - Trong Phuc and Hanh Nguyen.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Long Me 2 - Trong Phuc.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Ly Mo Coi - Ha My.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Moi Nam Hoa Dao No - Tai Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Mot Thuo Dam Me - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Nguoi Troi Qua Ghenh - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Noi Buon Chim Sao - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Nuoc Mat Me Hien - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Que Me - Thuy Trang.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Ru Lai Cau Ho - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Nho Nguoi Dung - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Ve Mien Trung - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Thuong Ve Phuong Bac - Quang Linh.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Dai Kho - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Dang Ly Kho Qua - Cam Ly.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Me - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Tinh Nho Mau Quen - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Vang Trang Co Don - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Nhung Tinh Khuc Vuot Thoi Gian 6/Xinh Tra Toi Ve - Ngoc Son.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ba Thang Ta Tu - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chi toi 2 - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chiec Ao Ba Ba - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Chuyen Mot Chiec Cau Da Gay - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Co Ban Hoc - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Cung Buon Thang Ha - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Doan Buon Dem Mua - Truc Quyen.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Gia Biet Truong Xua - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ha Buon - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Hay Quen Nhau - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Khong Dam Dau - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Long Me 2 - Tuean Vu, Randy.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Nhat ky Doi Toi - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Nhung Giong Luu Niem - Truc Quyen.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Noi Buon Hoa Phuong 2 - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Phuong Buon - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Tieng Xua - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Truong Cu Tinh Xua - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Ve Goi Tieng He - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Noi Buon Hoa Phuong 2 - Gold Series 12/Xin Yeu Toi Bang Ca Tinh Nguoi - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/999 Doa Hong.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Ban Voi Toi.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/con Sau Di Vang.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Giac Mo Tinh Yeu.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Giac Mong Tinh Xuan.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Hoang Phi Hung.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Mau Nhuom Bai Thuong Hai.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Mong Uyen Uong Ho Diep.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Nguoi Tinh Mua Dong.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Shalala.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Sin Tinh.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Sukiyaki.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Tinh Don Phuong.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Tinh Thoang Xa Bay.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Tinh Van Say.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Trai Tim Lam Lo.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Vang Em.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/vts_01_1.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Yeu Mot Nguoi.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/You and Me.vob</file>
+	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/You Are The One.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Ai Ra Xứ Huế - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Bao Giờ Quên Em - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế Bây Giờ - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế Xưa - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế, Tình Yêu Của Tôi - Thanh Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Khách Lạ Đò Xưa - Thiên Trang.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Khúc Tình Ca Xứ Huế - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Lá Thư Miền Trung - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Mùa Đông Xứ Huế - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Mưa Trên Phố Huế - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Nén Hương Yêu - Phương Lam.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Nó Và Tôi - Giao Linh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Sầu Cố Đô - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Thương Về Cố Đô - Thiên Trang.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Thương Về Miền Trung - Phương Lam.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Tiếng Xưa - Phương Lam.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Trời Huế Vào Thu Chưa Em - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Vỹ Dạ Đò Trăng - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Đêm Bơ Vơ - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Đêm Tàn Bến Ngự - Phương Lam.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/999 Doa Hong - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Chi Co Ta Trong Doi - Chung Tu Luu.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Con Lan Noi Co Don - Le Minh.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Con Yeu Em Mai - Le Minh.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Da Tinh - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Doi Khi Ta Muon Khoc - Trung Hanh.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Dong Song Que Toi - Ngoc Lan.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Goi Nguoi Yeu Dau - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Hai Au Phi Xu - Truc Quyen (song ca).vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Mong Sau - Thanh Hanh.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Ngan Nam Van Doi - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Ngau Nhien - Chung Tu Luu.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nhac Tinh Trong Dem - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nhung Loi Doi Gian - Le Minh.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Nu Hong Mong Manh - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Sa Mac Tinh Yeu - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tan Tro - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tinh Khuc Nang He - Chung Tu Luu and Ngoc Hue.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Tinh La Giac Mo - My Huyen.vob</file>
+	<file>musics/Vietnamese/Tinh La Giac Mo - Hai Au Gold Series/Yen Den Muon Doi - Ngoc Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Chị Tôi - Ý Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Gái Nhà Nghèo - Mộng Thi.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Khoảnh Khắc - Huy Tâm.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Kiếp Phiêu Bồng 1 - Johnny Dũng.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Liên Khúc Còn Lại Nổi Cô Đơn - Henry Chúc.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Liên Khúc Sha La La and Vào Hạ - Tốp Ca.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Lẽ Loi - Mỹ Linh.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Mưa Phi Trường - Hạ Vy and Johnny Dũng.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Một Thời Đã Xa - Johnny Dũng and Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Nhớ Anh Chiều Mưa - Hạ Vy.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Ninh Kiều Em Gái Cần Thơ - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Phượng Hồng - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Quán Vắng Một Mình - Minh Tuyet.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Trái Tim Thổn Thức - Tú Quyên.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Trống Vắng - Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Tình Đơn Phương - Huy Vũ.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Xua Đi Huyền Thoại - Trường Vũ.vob</file>
+	<file>musics/Vietnamese/Tinh Productions DVD 5 - Mua Phi Truong/Đất Phương Nam - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/999 Doa Hong - Simon Wong.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/An Tinh Mong Manh - Marylinh Hong Nhung.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chiec Bong Don Coi - Ngoc Han.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chieu Xuan - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chim Sao Ngay Xua - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Chut Ky Niem Buon - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Co Hang Nuoc - Thai Chau.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Con Gai Bay Gio - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/De Tra Loi Mot Cau Hoi - Truc Quyen.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Duoc Tin Em Lay Chong - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Ke Chuyen Trong Dem - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/La Van Khoc La Xanh - Truc Quyen.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Lanh Tron Dem Nua - Thai Chau.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Mua Bong Bong - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/My Heart Will Go On - Simon Wong.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Nha Anh Nha Em - Ngoc Han.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Sao Em Lo Hen - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Smoke Get in Your Eyes - Simon Wong.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/That's Why - Simon Wong.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Thi Tham Mua Xuan - Mong Thi.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Tinh Den Roi Di - Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Tinh Nhu May Khoi - Thai Chau.vob</file>
+	<file>musics/Vietnamese/Tuyet Pham Hai Au Gold 1/Trai Tim Khong Ngu Yen - Mong Thi.vob</file>
 </songs>
