@@ -9,6 +9,7 @@
 
     <title>Songs</title>
 
+    <!-- TODO: Clean up. This page is using both ver 2 and 3 of Glyphicon. -->
     <link href="libraries/bootstrap/v2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="libraries/bootstrap/v2.3.2/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Doc: http://glyphicons.getbootstrap.com/ -->

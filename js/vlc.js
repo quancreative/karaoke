@@ -98,7 +98,6 @@ var vlc = (function () {
 
 // handle mouse grab event from video filter
     function handleMouseGrab(event, X, Y) {
-
         if (!event)
             event = window.event; // IE
 //    alert("new position (" + X + "," + Y + ")");
@@ -109,7 +108,14 @@ var vlc = (function () {
     }
 
     function onVLCError() {
-        $('#alert-container').show();
+        var html = '<div class="alert alert-error">';
+        html += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
+        html += '<i class="icon-warning-sign"></i> <strong>Oh snap!</strong> Make sure the video exists!<br />';
+        html += '<i class="icon-file"></i> <em>Video File: </em>' + currentSongSrc;
+        html += '</div>';
+
+        $('#vlc-content').empty();
+        $('#alert-container').empty().html(html).show();
         console.log('VLC has encountered an error! Check if video exist.');
     }
 
@@ -121,12 +127,10 @@ var vlc = (function () {
     function createVLC(songSrc) {
         console.log('createVLC, params : ' + songSrc);
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
-        html += 'id="vlc" width="100%" height="870px" target="' + songSrc + '"></embed>';
+        html += 'id="vlc" width="100%" height="860px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
 
-        $('#vlc-content').empty();
-        $('#vlc-content').html(html).ready(function () {
-
+        $('#vlc-content').empty().html(html).ready(function () {
 //            console.log('VLC HTML is ready!');
             registerVLCEvents();
         });

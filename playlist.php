@@ -12,6 +12,7 @@
     <link href="libraries/bootstrap/v3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- Bootstrap theme -->
     <link href="libraries/bootstrap/v3.0.0/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" media="screen">
 
     <script src="libraries/angularjs/angular.min.js"></script>
     <script src="libraries/jquery/jquery-2.0.3.min.js"></script>
@@ -20,36 +21,32 @@
             padding-top: 80px;
         }
     </style>
-<body>
+<body class='page-playlist' ng-controller="PlaylistCtrl">
 
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-    <div class="container">
-        <div class="navbar-header">
-            <div class="row">
-                <div class="col-xs-6 navbar-form">
-                    <button id="switch-track" class="btn btn-inverse" type="button" ng-click="toggleTrack()">Toggle Track</button>
-                    <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
-                </div>
-
-                <div class="col-xs-6 navbar-form">
-                    <button type="button" class="btn btn-inverse"><span class="glyphicon glyphicon-backward"></span></button>
-                    <button type="button" class="btn btn-inverse" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span>
-                    </button>
-                </div>
+<header class="navbar navbar-inverse navbar-fixed-top">
+    <div id='navbar-container' class="container">
+            <div class="pull-left">
+                <button id="switch-track" class="btn btn-default" type="button" ng-click="toggleTrack()">Toggle Track</button>
+                <!-- <button type="button" class="btn" ng-click="clearPlaylist()">Clear Playlist</button> -->
             </div>
-        </div>
+            <div class="pull-right">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-backward"></span></button>
+                <button type="button" class="btn btn-default" ng-click="forward()"><span class="glyphicon glyphicon-forward"></span>
+                </button>
+            </div>
     </div>
 </header>
 
 <!-- Callout for the old docs link -->
-<div class="container" ng-controller="PlaylistCtrl">
+<div class="container">
     <div class="panel panel-info">
         <div class="panel-heading">Playlist</div>
         <ul class="list-group">
             <a href="#" class="list-group-item" ng-repeat="song in playlist">
-                <button type="button" class="pull-right btn glyphicon glyphicon-remove" ng-click="removeSong(song.id)"></button>
+                <button type="button" class="pull-right close font-red" ng-click="removeSong(song.id)">&times;</button>
                 <h5 class="list-group-item-heading">{{song.title}}</h5>
                 <p class="list-group-item-text">{{song.artist}}</p>
+
             </a>
         </ul>
     </div>
