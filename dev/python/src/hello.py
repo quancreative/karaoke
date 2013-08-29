@@ -48,6 +48,8 @@ def main():
         
     import xml.etree.cElementTree as ET
     
+    songXML = '../../../xml/songs.xml'
+    
     root = ET.Element("songs")
     root.set("folder", "musics")
     
@@ -58,13 +60,13 @@ def main():
         fileElem.text = song
         
     tree = ET.ElementTree(root)
-    tree.write("songs.xml", encoding = "UTF-8", xml_declaration = True)
+    tree.write(songXML, encoding = "UTF-8", xml_declaration = True)
 
     # Beautify XML
-    songFile = xml.dom.minidom.parse('songs.xml')
+    songFile = xml.dom.minidom.parse(songXML)
     pretty_xml_as_string = songFile.toprettyxml()
     
-    outfile = open('songs.xml', encoding='utf-8', mode='w+');
+    outfile = open(songXML, encoding='utf-8', mode='w+');
     outfile.write(pretty_xml_as_string)
     
     print('! Done !')   
