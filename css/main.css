@@ -1,8 +1,11 @@
+
+
 .font-red {color: #B94A48;}
+
 /* Main page */
 .page-front { background: #000;}
-.page-front object{ height: 2px; background: #000; }  /* Fix Chrome */
-.page-front embed{ background: #000;}
+.page-front object{ height: 2px; }  /* Fix Chrome */
+.page-front #playlist-content{ display: none;}
 
 .page-front #alert-container{ display: none;}
 .page-front #vlc-container{margin: 0 auto; text-align: center;}

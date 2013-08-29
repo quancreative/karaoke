@@ -3,6 +3,7 @@ var vlc = (function () {
     var scope = {};
     var currentSongSrc;
     var currentSongTrack = 2; // Make two the default.
+    var vlcElem;
 
     /*
      Doc:
@@ -12,6 +13,7 @@ var vlc = (function () {
     scope.play = function (songObj) {
 
         $('#alert-container').hide();
+        $('#playlist-content').hide();
 
         var originSongSrc = songObj.src;
 
@@ -108,6 +110,7 @@ var vlc = (function () {
     }
 
     function onVLCError() {
+        // Display error message
         var html = '<div class="alert alert-error">';
         html += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
         html += '<i class="icon-warning-sign"></i> <strong>Oh snap!</strong> Make sure the video exists!<br />';
@@ -116,6 +119,9 @@ var vlc = (function () {
 
         $('#vlc-content').empty();
         $('#alert-container').empty().html(html).show();
+
+        // Show navigation bar
+        $('#playlist-content').show();
         console.log('VLC has encountered an error! Check if video exist.');
     }
 
@@ -127,11 +133,12 @@ var vlc = (function () {
     function createVLC(songSrc) {
         console.log('createVLC, params : ' + songSrc);
         var html = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
-        html += 'id="vlc" width="100%" height="860px" target="' + songSrc + '"></embed>';
+        html += 'id="vlc" width="100%" height="850px" target="' + songSrc + '"></embed>';
         html += '<object id="vlc-obj" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>';
 
         $('#vlc-content').empty().html(html).ready(function () {
 //            console.log('VLC HTML is ready!');
+            vlcElem = getVLC('vlc');
             registerVLCEvents();
         });
     }
@@ -167,10 +174,13 @@ var vlc = (function () {
     function onPositionChanged(event) {
         // Data has loaded such as audio tracks.
 //        console.log('onPositionChanged');
-        var vlc = getVLC('vlc');
-        if (vlc.audio.count > 1)
+        if (vlcElem.audio.count > 1)
         {
-            vlc.audio.track = currentSongTrack;
+            if (vlcElem.audio.track != currentSongTrack)
+            {
+                vlcElem.audio.track = currentSongTrack;
+            }
+
             // event spits out time coded format.
 //            console.log(event);
 
