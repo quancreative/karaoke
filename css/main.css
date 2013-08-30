@@ -10,3 +10,5 @@
 .page-front #alert-container{ display: none;}
 .page-front #vlc-container{margin: 0 auto; text-align: center;}
 .page-playlist #navbar-container{padding-top: 8px;}
+
+.page-song-bank #main-content-container{padding-top: 55px;}

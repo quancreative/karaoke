@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<div class="container" >
+<div id="main-content-container" class="container" >
 
     <ul class="nav nav-tabs">
         <li class="active"><a href="#">Vietnamese</a></li>
@@ -70,6 +70,7 @@
 
 </div>
 <!-- end .container -->
+<script src="libraries/bootstrap/v2.3.2/js/bootstrap.min.js"></script>
 <script src='https://cdn.firebase.com/v0/firebase.js'></script>
 <script src="js/songFileHelper.js"></script>
 <script src="js/songs.js"></script>
