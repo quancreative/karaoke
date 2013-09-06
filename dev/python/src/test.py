@@ -6,6 +6,7 @@
 import sys
 import os
 import xml.dom.minidom
+import vlc
 
 from tkinter import *
 from os import listdir
@@ -25,5 +26,7 @@ def main():
     mGui.geometry("450x450")
     mGui.title('My Karaoke')
     mGui.mainloop() # Only for Windows user for now
+    
+  
 
 if __name__ == "__main__" : main();
