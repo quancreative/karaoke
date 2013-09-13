@@ -5,7 +5,6 @@
 
 import sys
 import os
-import quan
 import vlc
 import ctypes
 from ctypes.util import find_library
@@ -16,19 +15,25 @@ import wx # 2.8
 # Doc: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 # from bs4 import BeautifulSoup  
 
+from firebase import firebase
+import requests
+import grequests
+from multiprocessing import Process, freeze_support
 
 class Karaoke:
     def __init__(self):
         print('Pyhon version {}.{}.{}' . format(*sys.version_info))
         
-        firebase = FirebaseApplication('https://karaoke.firebaseio.com', None)
-        result = firebase.get('playlist', None, {'print' : 'pretty'})
-        print result
+        r = grequests.get('https://karaoke.firebaseio.com/playlist.json')
         
-        app = wx.App()
+        firebase = FirebaseApplication('https://karaoke.firebaseio.com',  authentication=None)
+        result = firebase.get_async('playlist', None, callback=self.log_user)
+#         print result
+        
+#         app = wx.App()
 #     
-        frame = wx.Frame(None, -1, 'Title simple.py', pos=wx.DefaultPosition, size=(550, 500))
-        frame.Show()
+#         frame = wx.Frame(None, -1, 'Title simple.py', pos=wx.DefaultPosition, size=(550, 500))
+#         frame.Show()
 #         
 #         ctrlpanel = wx.Panel(frame, -1)
 #         pause  = wx.Button(ctrlpanel, label="Pause")
@@ -38,15 +43,17 @@ class Karaoke:
 
 #         p = vlc.MediaPlayer('../../../musics/test.VOB')
 #         p.play()
-        app.MainLoop()
+#         app.MainLoop()
         
-        
+    def log_user(self, response):
+        print 'Update: '
+        print response
+            
     def test(self):
         print('test function')
     
-def main():
-    k = Karaoke()
-    k.test()
     
 
-if __name__ == "__main__" : main()
+if __name__ == "__main__" :
+    freeze_support()
+    k = Karaoke()

@@ -17,23 +17,7 @@ import wx # 2.8
 # from bs4 import BeautifulSoup  
 
 def main():
-    print('hello world')
-    print('<h1>Hello World</h1>')
-    print('Pyhon version {}.{}.{}' . format(*sys.version_info))
-    app = wx.App()
-
-    frame = wx.Frame(None, -1, 'Title simple.py', pos=wx.DefaultPosition, size=(550, 500))
-    frame.Show()
-    
-    ctrlpanel = wx.Panel(frame, -1 )
-    pause  = wx.Button(ctrlpanel, label="Pause")
-
-    
-    quan.testOuter()
-    p = vlc.MediaPlayer('../../../musics/test.VOB')
-    p.play()
-    app.MainLoop()
-    
+        
 
 
 if __name__ == "__main__" : main();
