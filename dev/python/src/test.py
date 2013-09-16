@@ -34,7 +34,8 @@ class Karaoke():
     
     def __init__(self):
         # Placeholder
-        self.currentSong = {'src' : 'musics/Vietnamese/Tre Productions - Nguoi Ay Va Toi Em Phai Cho Ai/Anh Co Quen Em - Cam Ly and VQL.vob', 'track' : 2}
+#         self.currentSong = {'src' : 'musics/Vietnamese/Tre Productions - Nguoi Ay Va Toi Em Phai Cho Ai/Anh Co Quen Em - Cam Ly and VQL.vob', 'track' : 2}
+        self.currentSong = {'src' : 'musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB', 'track' : 2}
         
         # Init GUI
         self.gui = Tk()
@@ -73,7 +74,9 @@ class Karaoke():
             self.timer.start()
             return self.timer
             
-        self.timer = setInterval(self.get_playlist, 2)
+#         self.timer = setInterval(self.get_playlist, 2)
+        
+        self.iniVLC(self.currentSong)
         
         # Windows only thing    
         self.gui.mainloop() # Only for Windows user for now
@@ -124,8 +127,7 @@ class Karaoke():
 #         self.mediaListPlayer = vlc.MediaL
         
         # Init VLC
-        print('Init ' + self.currentSong['src'])
-        
+        print('type' , type(self.currentSong['src']))
         
         self.player.stop()
 #         self.player.set_media(self.instance.media_new('../../../' + self.currentSong['src']))

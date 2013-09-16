@@ -1,25 +1,17 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Find module: http://docs.python.org/py3k/library/index.html
 # Third party module: http://pypi.python.org/pypi
 
-import sys
 import os
-import xml.dom.minidom
 import vlc
-import json
 
-from os import listdir
-from os.path import isfile, join
 import requests
 
-import operator
-import wx # 2.8
 from Tkinter import *
 
 # from firebase import firebase
-# from firebase import firebase
-from collections import OrderedDict
+from firebase import firebase
 from threading import Timer
 
 # http://www.crummy.com/software/BeautifulSoup/
@@ -31,11 +23,19 @@ class Karaoke(Frame):
     
     def __init__(self, master=None):
         Frame.__init__(self, master)
-        self.pack()
+        self.pack(fill=BOTH, expand=1)
+#         self.pack()
         # Placeholder
         self.currentSong = {'src' : 'musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB', 'track' : 2}
-        
+#         self.currentSong = {'src' : 'musics/Vietnamese/60 Năm Cuộc Đời - Christiane Le.VOB', 'track' : 2}
+                                     
         # Init GUI
+#         self.nextBtn = Button(self)
+#         self.nextBtn['text'] = "Next"
+#         self.nextBtn['command'] = self.onNextClick
+#         self.nextBtn.pack({'side' : 'left'})\
+        
+#         import wx # 2.8
 #         app = wx.App()
 #         frame = wx.Frame(None, -1, 'Title simple.py', pos=wx.DefaultPosition, size=(550, 500))
 #         frame.Show()
@@ -44,9 +44,21 @@ class Karaoke(Frame):
         
         self.instance = vlc.Instance()
         self.player = self.instance.media_player_new()
+        
+        if sys.platform == "linux2": # for Linux using the X Server
+            self.player.set_xwindow(self.winfo_id())
+        elif sys.platform == "win32": # for Windows
+            print 'wind32'
+            self.player.set_hwnd(self.winfo_id())
+        elif sys.platform == "darwin": # for MacOS
+            self.player.set_agl(self.winfo_id())
+
+        # VLC Events
         self.vlcEvents = self.player.event_manager()
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerEndReached, self.onEndReached)
         
+        self.resizeWindow()
+#         
         def setInterval(func, sec):
             def funcWrapper():
                 setInterval(func, sec)
@@ -63,7 +75,6 @@ class Karaoke(Frame):
 #         p.play()
 #         app.MainLoop()
         
-        # Init GUI
     def get_playlist(self):
 #         print('Running')
         r = requests.get('https://karaoke.firebaseio.com/playlist.json')
@@ -71,9 +82,9 @@ class Karaoke(Frame):
         # Sort the list
         listSorted = sorted(songDict.keys())
         # Get the first song hash
-        firstSongOjbKey = listSorted[0]
+        self.firstSongOjbKey = listSorted[0]
         # Get the first song data
-        songObj = songDict[firstSongOjbKey]
+        songObj = songDict[self.firstSongOjbKey]
         
         if songObj['src'] != self.currentSong['src'] :
             # Play new song
@@ -88,28 +99,24 @@ class Karaoke(Frame):
     def iniVLC(self, sObj):
         self.currentSong = sObj
         
-#         self.mediaListPlayer = vlc.MediaL
-        
+        normalPath = os.path.normpath('../../../' + str(self.currentSong['src']))
+#         songName = os.path.basename(normalPath)
+#         self.master.title(str(songName))
+                
         # Init VLC
-        print('Init ' + self.currentSong['src'])
-        
-        normalPath = os.path.normpath('../../../' + self.currentSong['src'])
-        print normalPath
         self.player.stop()
         self.player.set_media(self.instance.media_new(normalPath))
+        self.player.audio_set_track(self.currentSong['track'])
         self.player.play()
         
-#         path = os.path.join('../../../', self.currentSong['src'])
-#         print('path : ' + path)
-#         self.player.set_media(self.instance.media_new(path))
+    def resizeWindow(self):
+        width = 1920
+        height = 1080
         
-#         if sys.platform == "linux2": # for Linux using the X Server
-#             self.player.set_xwindow(guiContainer.winfo_id())
-#         elif sys.platform == "win32": # for Windows
-#             self.player.set_hwnd(guiContainer.winfo_id())
-#         elif sys.platform == "darwin": # for MacOS
-#             self.player.set_agl(guiContainer.winfo_id())
-#         
+        screenWidth = self.master.winfo_screenwidth()
+        screenHeight = self.master.winfo_screenheight()
+        
+        self.master.geometry('%dx%d+%d+%d' % (width, height, 0, 0))
         
     def onToggleTrackBtnClick(self):
         audioTrack = self.player.audio_get_track()
@@ -117,26 +124,36 @@ class Karaoke(Frame):
         self.player.audio_set_track(trackNum)
         print('onToggleTrackBtn click')
             
-    def onNextClick(self, event):
-        self.gui.destroy()
+    def onNextClick(self):
+        self.deleteFistSong()
             
     def onEndReached(self, evt):
+        self.deleteFistSong()
         print(evt)
-            
+        
+    def deleteFistSong(self):
+        fb = firebase.FirebaseApplication('https://karaoke.firebaseio.com/', None)
+        fb.delete('/playlist', self.firstSongOjbKey)
+        
     def onPlay(self, evt):
         print('onPlay')
         
     def onDeleteWindow(self):
         print('exit')
-#         self.gui.destroy()
+
+        self.quit()
         self.timer.cancel()
+        self.player.stop()
+        self.destroy()
 #         os.abort()
         sys.exit()
         
                 
 def main():
     root = Tk()
+    root.geometry("250x150")
     k = Karaoke(master = root)
     k.mainloop()
+    root.destroy()
                     
 if __name__ == "__main__" : main();

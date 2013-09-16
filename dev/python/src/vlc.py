@@ -59,7 +59,6 @@ if sys.version_info[0] > 2:
     def str_to_bytes(s):
         """Translate string or bytes to bytes.
         """
-        print('str to bytes')
         if isinstance(s, str):
             return bytes(s, sys.getfilesystemencoding())
         else:
