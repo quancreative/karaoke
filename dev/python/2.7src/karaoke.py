@@ -8,26 +8,43 @@ import os
 import vlc
 import ctypes
 from ctypes.util import find_library
-from firebase.firebase import FirebaseApplication
+# from firebase.firebase import FirebaseApplication
 import wx # 2.8
 # http://www.crummy.com/software/BeautifulSoup/
 # After downloading the package and cmd to the director with the install script (setup.py), run: ..>\Python33\python setup.py install
 # Doc: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 # from bs4 import BeautifulSoup  
 
-from firebase import firebase
-import requests
+# from firebase import firebase
+# import requests
 import grequests
+
 from multiprocessing import Process, freeze_support
 
 class Karaoke:
+    
+    def do_something(self, response):
+        print response.status_code
+
     def __init__(self):
         print('Pyhon version {}.{}.{}' . format(*sys.version_info))
         
-        r = grequests.get('https://karaoke.firebaseio.com/playlist.json')
+#         r = grequests.get('https://karaoke.firebaseio.com/playlist.json')
+        result = {}
+        def print_res(r):
+            result[r.url] = True
+            print r
+            return r
         
-        firebase = FirebaseApplication('https://karaoke.firebaseio.com',  authentication=None)
-        result = firebase.get_async('playlist', None, callback=self.log_user)
+        urls = ['https://karaoke.firebaseio.com/playlist.json']
+        
+        rs = (grequests.get(u, hooks=dict(response=print_res)) for u in urls)
+        grequests.map(rs)
+        
+        
+        
+#         firebase = FirebaseApplication('https://karaoke.firebaseio.com',  authentication=None)
+#         result = firebase.get_async('playlist', None, callback=self.log_user)
 #         print result
         
 #         app = wx.App()
