@@ -1,0 +1,9 @@
+('C:\\xampp\\htdocs\\workspace\\quan\\karaoke\\dev\\python\\2.7src\\dist\\tkinter_karaoke.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1379710730L)

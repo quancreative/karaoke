@@ -1,10 +1,11 @@
 #!/usr/bin/python
 
-from cx_Freeze import setup, Executable
+from distutils.core import setup
 
 setup(
       name = "karaoke",
       version = "0.1",
-      description = "test",
-      executables = [Executable("test.py")],
+      description = "Karaoke player",
+      author = 'Quan Ngo',
+      packages = ['distutils', 'distutils.command']
       )
