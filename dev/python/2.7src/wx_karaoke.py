@@ -19,8 +19,7 @@ class Karaoke(wx.Frame):
     
     def __init__(self, master=None):
         wx.Frame.__init__(self, None, pos=wx.DefaultPosition, size=(300, 300))
-        
-        self.currentSong = {'src' : 'musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB', 'track' : 2}
+        self.currentSong = {'src' : 'musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB'.decode('utf-8'), 'track' : 2}
         
         self.Bind(wx.EVT_MENU, self.onExit, id=2)
         
@@ -82,9 +81,6 @@ class Karaoke(wx.Frame):
         # Get the first song data
         songObj = songDict[self.firstSongOjbKey]
         
-#         unicodeSongObjSrc = songObj['src']
-#         unicodeCurrentSongSrc = unicode(self.currentSong['src']) 
-        
         if songObj['src'] != self.currentSong['src'] :
             # Play new song
             self.iniVLC(songObj)
@@ -92,11 +88,14 @@ class Karaoke(wx.Frame):
             if songObj['track'] != self.currentSong['track'] :
                 self.currentSong['track'] = songObj['track'] 
                 self.player.audio_set_track(songObj['track'])
+        '''
+        '''
+        
                 
     def iniVLC(self, sObj):
         self.currentSong = sObj
         
-        normalPath = os.path.normpath('../../../' + str(self.currentSong['src']))
+        normalPath = os.path.normpath('../../../' + (self.currentSong['src']).encode('utf-8').strip())
 #         songName = os.path.basename(normalPath)
 #         self.master.title(str(songName))
 

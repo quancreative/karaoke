@@ -542,23 +542,87 @@ posix: None -> None
   DEL posix
 posix: None -> None
   DEL posix
-__main__: <PyScript '__main__' c:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' wx_karaoke.py imports=[('firebase', 0, 0, -1), ('wx', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('requests', 0, 0, -1), ('vlc', 0, 0, -1), ('firebase.firebase', 0, 0, -1)] binaries=[] datas=[]>
-firebase: None -> <PkgModule 'firebase' c:\Python27\lib\site-packages\firebase\__init__.pyc imports=[('firebase', 0, 0, -1), ('atexit', 0, 0, -1), ('firebase.*', 0, 0, -1), ('async', 0, 0, 1), ('async.process_pool', 0, 0, 1)] binaries=[] datas=[]>
+__main__: <PyScript '__main__' c:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' wx_karaoke.py imports=[('os', 0, 0, -1), ('vlc', 0, 0, -1), ('wx', 0, 0, -1), ('sys', 0, 0, -1), ('requests', 0, 0, -1)] binaries=[] datas=[]>
+vlc: None -> <PyModule 'vlc' C:\xampp\htdocs\workspace\quan\karaoke\dev\python\2.7src\vlc.pyc imports=[('ctypes', 0, 0, -1), ('sys', 0, 0, -1), ('tty', 0, 1, -1), ('_winreg', 1, 1, -1), ('os', 0, 0, -1), ('termios', 0, 1, -1), ('ctypes.util', 0, 0, -1), ('msvcrt.getch', 0, 1, -1), ('msvcrt', 0, 1, -1), ('ctypes.util.find_library', 0, 0, -1), ('inspect.getargspec', 0, 0, -1), ('inspect', 0, 0, -1)] binaries=[] datas=[]>
 wx: None -> <PkgModule 'wx' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\__init__.pyc imports=[('__version__', 0, 0, -1), ('wx._core', 0, 0, -1), ('wx._core.*', 0, 0, -1)] binaries=[] datas=[]>
 requests: None -> <PkgModule 'requests' c:\Python27\lib\site-packages\requests\__init__.pyc imports=[('models', 0, 0, 1), ('models.Request', 0, 0, 1), ('api.head', 0, 0, 1), ('sessions', 0, 0, 1), ('api.post', 0, 0, 1), ('exceptions.Timeout', 0, 0, 1), ('requests.packages.urllib3.contrib.pyopenssl', 0, 0, -1), ('sessions.session', 0, 0, 1), ('exceptions.URLRequired', 0, 0, 1), ('sessions.Session', 0, 0, 1), ('status_codes.codes', 0, 0, 1), ('logging', 0, 0, -1), ('requests.packages.urllib3.contrib', 0, 0, -1), ('api.request', 0, 0, 1), ('exceptions.RequestException', 0, 0, 1), ('api.patch', 0, 0, 1), ('models.PreparedRequest', 0, 0, 1), ('api.delete', 0, 0, 1), ('', 0, 0, 1), ('exceptions.TooManyRedirects', 0, 0, 1), ('exceptions', 0, 0, 1), ('api.options', 0, 0, 1), ('logging.NullHandler', 0, 0, -1), ('api.put', 0, 0, 1), ('models.Response', 0, 0, 1), ('utils', 0, 0, 1), ('exceptions.HTTPError', 0, 0, 1), ('exceptions.ConnectionError', 0, 0, 1), ('api.get', 0, 0, 1), ('status_codes', 0, 0, 1), ('api', 0, 0, 1)] binaries=[] datas=[]>
-vlc: None -> <PyModule 'vlc' C:\xampp\htdocs\workspace\quan\karaoke\dev\python\2.7src\vlc.pyc imports=[('ctypes', 0, 0, -1), ('sys', 0, 0, -1), ('tty', 0, 1, -1), ('_winreg', 1, 1, -1), ('os', 0, 0, -1), ('termios', 0, 1, -1), ('ctypes.util', 0, 0, -1), ('msvcrt.getch', 0, 1, -1), ('msvcrt', 0, 1, -1), ('ctypes.util.find_library', 0, 0, -1), ('inspect.getargspec', 0, 0, -1), ('inspect', 0, 0, -1)] binaries=[] datas=[]>
-firebase.firebase: None -> <PyModule 'firebase.firebase' c:\Python27\lib\site-packages\firebase\firebase.pyc imports=[('decorators.http_connection', 0, 0, 1), ('json', 0, 0, -1), ('jsonutil', 0, 0, 1), ('urlparse', 0, 0, -1), ('urllib', 0, 1, -1), ('async', 0, 0, 1), ('async.process_pool', 0, 0, 1), ('jsonutil.JSONEncoder', 0, 0, 1), ('firebase_token_generator', 0, 0, 1), ('firebase_token_generator.FirebaseTokenGenerator', 0, 0, 1), ('decorators', 0, 0, 1), ('urllib.parse', 0, 1, -1)] binaries=[] datas=[]>
-firebase.atexit: None -> None
-firebase.async: None -> <PyModule 'firebase.async' c:\Python27\lib\site-packages\firebase\async.pyc imports=[('lazy', 0, 0, 1), ('lazy.LazyLoadProxy', 0, 0, 1), ('multiprocessing', 0, 0, -1)] binaries=[] datas=[]>
-firebase.decorators: None -> <PyModule 'firebase.decorators' c:\Python27\lib\site-packages\firebase\decorators.pyc imports=[('functools', 0, 0, -1), ('functools.wraps', 0, 0, -1), ('requests', 0, 0, -1)] binaries=[] datas=[]>
-firebase.json: None -> None
-json: None -> <PkgModule 'json' c:\Python27\lib\json\__init__.pyc imports=[('encoder', 0, 0, 1), ('encoder.JSONEncoder', 0, 0, 1), ('decoder.JSONDecoder', 0, 0, 1), ('decoder', 0, 0, 1)] binaries=[] datas=[]>
-firebase.jsonutil: None -> <PyModule 'firebase.jsonutil' c:\Python27\lib\site-packages\firebase\jsonutil.pyc imports=[('decimal', 0, 0, -1), ('json', 0, 0, -1), ('datetime', 0, 0, -1)] binaries=[] datas=[]>
-firebase.urlparse: None -> None
-firebase.urllib: None -> None
-firebase.firebase_token_generator: None -> <PyModule 'firebase.firebase_token_generator' c:\Python27\lib\site-packages\firebase\firebase_token_generator.pyc imports=[('base64', 0, 0, -1), ('hashlib', 0, 0, -1), ('time', 0, 0, -1), ('hmac', 0, 0, -1), ('json', 0, 0, -1)] binaries=[] datas=[]>
-firebase.functools: None -> None
-firebase.requests: None -> None
+posix: None -> None
+  DEL posix
+posix: None -> None
+  DEL posix
+posix: None -> None
+  DEL posix
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+fcntl: None -> None
+  DEL fcntl
+readline: None -> None
+  DEL readline
+pwd: None -> None
+  DEL pwd
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+readline: None -> None
+  DEL readline
+fcntl: None -> None
+  DEL fcntl
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+ctypes: None -> <PkgModule 'ctypes' c:\Python27\lib\ctypes\__init__.pyc imports=[('_ctypes.set_errno', 0, 0, -1), ('_ctypes._cast_addr', 0, 0, -1), ('_ctypes.FUNCFLAG_USE_ERRNO', 0, 0, -1), ('_ctypes._memmove_addr', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('_ctypes.get_last_error', 0, 1, -1), ('ctypes._endian.BigEndianStructure', 0, 0, -1), ('_ctypes._memset_addr', 0, 0, -1), ('_ctypes._wstring_at_addr', 0, 0, -1), ('_ctypes.set_conversion_mode', 0, 0, -1), ('_ctypes.alignment', 0, 0, -1), ('sys', 0, 0, -1), ('_ctypes.Structure', 0, 0, -1), ('_ctypes._string_at_addr', 0, 0, -1), ('_ctypes._SimpleCData', 0, 1, -1), ('_ctypes.FUNCFLAG_USE_LASTERROR', 0, 0, -1), ('_ctypes.CFuncPtr', 0, 0, -1), ('_ctypes.Union', 0, 0, -1), ('struct.calcsize', 1, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.ArgumentError', 0, 0, -1), ('_ctypes.dlopen', 0, 1, -1), ('struct', 1, 0, -1), ('_ctypes.RTLD_GLOBAL', 0, 0, -1), ('_ctypes.LoadLibrary', 0, 1, -1), ('_ctypes.get_errno', 0, 0, -1), ('_ctypes.resize', 0, 0, -1), ('_ctypes.POINTER', 0, 0, -1), ('_ctypes.set_last_error', 0, 1, -1), ('_ctypes.FUNCFLAG_CDECL', 0, 0, -1), ('_ctypes.FormatError', 0, 1, -1), ('_ctypes.pointer', 0, 0, -1), ('_ctypes.RTLD_LOCAL', 0, 0, -1), ('_ctypes._pointer_type_cache', 0, 0, -1), ('_ctypes._check_HRESULT', 0, 1, -1), ('_ctypes._SimpleCData', 0, 0, -1), ('struct.calcsize', 0, 0, -1), ('ctypes._endian.LittleEndianStructure', 0, 0, -1), ('_ctypes.FUNCFLAG_PYTHONAPI', 0, 0, -1), ('_ctypes.FUNCFLAG_STDCALL', 0, 1, -1), ('_ctypes', 0, 1, -1), ('ctypes._endian', 0, 0, -1), ('_ctypes.sizeof', 0, 0, -1), ('_ctypes.addressof', 0, 0, -1), ('_ctypes.__version__', 0, 0, -1), ('_ctypes._Pointer', 0, 0, -1), ('_ctypes.byref', 0, 0, -1), ('_ctypes.Array', 0, 0, -1)] binaries=[] datas=[]>
+termios: None -> None
+  DEL termios
+ctypes.util: None -> <PyModule 'ctypes.util' c:\Python27\lib\ctypes\util.pyc imports=[('struct', 1, 0, -1), ('sys', 0, 0, -1), ('errno', 0, 1, -1), ('os', 0, 0, -1), ('ctypes.macholib.dyld', 0, 1, -1), ('re', 0, 1, -1), ('tempfile', 0, 1, -1), ('ctypes.macholib.dyld.dyld_find', 0, 1, -1), ('ctypes', 1, 0, -1), ('imp', 1, 0, -1), ('ctypes.cdll', 1, 0, -1)] binaries=[] datas=[]>
+ctypes._ctypes: None -> None
+_ctypes: None -> <ExtensionModule '_ctypes' c:\Python27\DLLs\_ctypes.pyd imports=[] binaries=[] datas=[]>
+ctypes.os: None -> None
+ctypes.struct: None -> None
+ctypes.ctypes: None -> None
+ctypes._endian: None -> <PyModule 'ctypes._endian' c:\Python27\lib\ctypes\_endian.pyc imports=[('ctypes', 0, 0, -1), ('ctypes.*', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.sys: None -> None
+termios: None -> None
+  DEL termios
+termios: None -> None
+  DEL termios
+ctypes.errno: None -> None
+ctypes.macholib: None -> <PkgModule 'ctypes.macholib' c:\Python27\lib\ctypes\macholib\__init__.pyc imports=[] binaries=[] datas=[]>
+ctypes.macholib.dyld: None -> <PyModule 'ctypes.macholib.dyld' c:\Python27\lib\ctypes\macholib\dyld.pyc imports=[('framework', 0, 0, -1), ('itertools', 0, 0, -1), ('dylib.dylib_info', 0, 0, -1), ('os', 0, 0, -1), ('itertools.*', 0, 0, -1), ('dylib', 0, 0, -1), ('framework.framework_info', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.re: None -> None
+ctypes.tempfile: None -> None
+ctypes.imp: None -> None
+ctypes.cdll: None -> None
+  DEL ctypes.cdll
+ctypes.macholib.framework: None -> <PyModule 'ctypes.macholib.framework' c:\Python27\lib\ctypes\macholib\framework.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.macholib.itertools: None -> None
+ctypes.macholib.dylib: None -> <PyModule 'ctypes.macholib.dylib' c:\Python27\lib\ctypes\macholib\dylib.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
+ctypes.macholib.os: None -> None
+ctypes.macholib.re: None -> None
+wx.__version__: None -> <PyModule 'wx.__version__' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\__version__.pyc imports=[] binaries=[] datas=[]>
+wx.wx: None -> None
+wx._core: None -> <PyModule 'wx._core' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core.pyc imports=[('_gdi', 0, 0, -1), ('_controls.*', 0, 0, -1), ('_core_', 0, 0, -1), ('sys', 0, 0, -1), ('__version__.*', 0, 0, -1), ('types', 0, 0, -1), ('__version__', 0, 0, -1), ('codecs', 0, 1, -1), ('new', 0, 0, -1), ('_windows', 0, 0, -1), ('locale', 0, 1, -1), ('_windows.*', 0, 0, -1), ('_misc', 0, 0, -1), ('_misc.*', 0, 0, -1), ('_gdi.*', 0, 0, -1), ('_controls', 0, 0, -1), ('warnings', 0, 1, -1), ('types', 1, 0, -1), ('signal', 1, 1, -1), ('warnings', 1, 0, -1)] binaries=[] datas=[]>
+wx._gdi: None -> <PyModule 'wx._gdi' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi.pyc imports=[('_gdi_', 0, 0, -1), ('types', 0, 0, -1), ('os', 0, 0, -1), ('new', 0, 0, -1), ('_core', 0, 0, -1), ('wx', 1, 0, -1)] binaries=[] datas=[]>
+wx._controls: None -> <PyModule 'wx._controls' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls.pyc imports=[('new', 0, 0, -1), ('_controls_', 0, 0, -1), ('_core', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
+wx._core_: None -> <ExtensionModule 'wx._core_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core_.pyd imports=[] binaries=[] datas=[]>
+wx.sys: None -> None
+wx.types: None -> None
+wx.codecs: None -> None
+wx.new: None -> None
+new: None -> <PyModule 'new' c:\Python27\lib\new.pyc imports=[('types.CodeType', 0, 0, -1), ('types.MethodType', 0, 0, -1), ('types', 0, 0, -1), ('types.InstanceType', 0, 0, -1), ('warnings', 0, 0, -1), ('types.FunctionType', 0, 0, -1), ('types.ModuleType', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('types.ClassType', 0, 0, -1)] binaries=[] datas=[]>
+wx._windows: None -> <PyModule 'wx._windows' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows.pyc imports=[('_windows_', 0, 0, -1), ('new', 0, 0, -1), ('_core', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
+wx.locale: None -> None
+wx._misc: None -> <PyModule 'wx._misc' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc.pyc imports=[('new', 0, 0, -1), ('_core', 0, 0, -1), ('_misc_', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
+wx.warnings: None -> None
+wx.signal: None -> None
+wx._gdi_: None -> <ExtensionModule 'wx._gdi_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi_.pyd imports=[] binaries=[] datas=[]>
+wx.os: None -> None
+wx._controls_: None -> <ExtensionModule 'wx._controls_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls_.pyd imports=[] binaries=[] datas=[]>
+wx._windows_: None -> <ExtensionModule 'wx._windows_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows_.pyd imports=[] binaries=[] datas=[]>
+wx._misc_: None -> <ExtensionModule 'wx._misc_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc_.pyd imports=[] binaries=[] datas=[]>
 requests.models: None -> <PyModule 'requests.models' c:\Python27\lib\site-packages\requests\models.pyc imports=[('compat.urlsplit', 0, 0, 1), ('compat.IncompleteRead', 0, 0, 1), ('utils.stream_decode_response_unicode', 0, 0, 1), ('compat.builtin_str', 0, 0, 1), ('compat.bytes', 0, 0, 1), ('auth.HTTPBasicAuth', 0, 0, 1), ('compat.basestring', 0, 0, 1), ('exceptions.MissingSchema', 0, 0, 1), ('utils.requote_uri', 0, 0, 1), ('exceptions.RequestException', 0, 0, 1), ('utils.parse_header_links', 0, 0, 1), ('compat.StringIO', 0, 0, 1), ('utils.guess_filename', 0, 0, 1), ('compat.urlunparse', 0, 0, 1), ('logging', 0, 0, -1), ('compat', 0, 0, 1), ('utils.to_key_val_list', 0, 0, 1), ('utils.super_len', 0, 0, 1), ('packages.urllib3.util', 0, 0, 1), ('compat.json', 0, 0, 1), ('structures.CaseInsensitiveDict', 0, 0, 1), ('io.BytesIO', 0, 0, -1), ('packages.urllib3.util.parse_url', 0, 0, 1), ('utils.iter_slices', 0, 0, 1), ('compat.is_py2', 0, 0, 1), ('collections', 0, 0, -1), ('cookies.cookiejar_from_dict', 0, 0, 1), ('exceptions.ChunkedEncodingError', 0, 0, 1), ('exceptions', 0, 0, 1), ('datetime', 0, 0, -1), ('structures', 0, 0, 1), ('compat.str', 0, 0, 1), ('packages.urllib3.filepost.encode_multipart_formdata', 0, 0, 1), ('utils', 0, 0, 1), ('hooks', 0, 0, 1), ('auth', 0, 0, 1), ('cookies.get_cookie_header', 0, 0, 1), ('compat.cookielib', 0, 0, 1), ('cookies', 0, 0, 1), ('compat.chardet', 0, 0, 1), ('hooks.default_hooks', 0, 0, 1), ('exceptions.HTTPError', 0, 0, 1), ('utils.get_auth_from_url', 0, 0, 1), ('exceptions.InvalidURL', 0, 0, 1), ('packages.urllib3.filepost', 0, 0, 1), ('utils.guess_json_utf', 0, 0, 1), ('compat.urlencode', 0, 0, 1), ('io', 0, 0, -1)] binaries=[] datas=[]>
 requests.api: None -> <PyModule 'requests.api' c:\Python27\lib\site-packages\requests\api.pyc imports=[('', 0, 0, 1), ('sessions', 0, 0, 1)] binaries=[] datas=[]>
 requests.sessions: None -> <PyModule 'requests.sessions' c:\Python27\lib\site-packages\requests\sessions.pyc imports=[('models', 0, 0, 1), ('utils.get_environ_proxies', 0, 0, 1), ('models.Request', 0, 0, 1), ('os', 0, 0, -1), ('collections.Mapping', 0, 0, -1), ('adapters', 0, 0, 1), ('utils.requote_uri', 0, 0, 1), ('compat.cookielib', 0, 0, 1), ('hooks.dispatch_hook', 0, 0, 1), ('compat', 0, 0, 1), ('compat.urljoin', 0, 0, 1), ('cookies.RequestsCookieJar', 0, 0, 1), ('structures.CaseInsensitiveDict', 0, 0, 1), ('collections', 0, 0, -1), ('cookies.cookiejar_from_dict', 0, 0, 1), ('models.PreparedRequest', 0, 0, 1), ('exceptions.TooManyRedirects', 0, 0, 1), ('exceptions.InvalidSchema', 0, 0, 1), ('exceptions', 0, 0, 1), ('datetime', 0, 0, -1), ('structures', 0, 0, 1), ('utils.get_netrc_auth', 0, 0, 1), ('utils.default_headers', 0, 0, 1), ('datetime.datetime', 0, 0, -1), ('compat.urlparse', 0, 0, 1), ('utils', 0, 0, 1), ('hooks', 0, 0, 1), ('utils.to_key_val_list', 0, 0, 1), ('status_codes.codes', 0, 0, 1), ('cookies', 0, 0, 1), ('hooks.default_hooks', 0, 0, 1), ('cookies.extract_cookies_to_jar', 0, 0, 1), ('status_codes', 0, 0, 1), ('adapters.HTTPAdapter', 0, 0, 1), ('compat.OrderedDict', 0, 0, 1)] binaries=[] datas=[]>
@@ -592,6 +656,7 @@ http: None -> None
 requests.StringIO: None -> None
 requests.packages.charade: None -> <PkgModule 'requests.packages.charade' c:\Python27\lib\site-packages\requests\packages\charade\__init__.pyc imports=[('sys.version_info', 0, 0, -1), ('universaldetector', 1, 0, 1), ('sys', 0, 0, -1), ('', 1, 0, 1)] binaries=[] datas=[]>
 requests.json: None -> None
+json: None -> <PkgModule 'json' c:\Python27\lib\json\__init__.pyc imports=[('encoder', 0, 0, 1), ('encoder.JSONEncoder', 0, 0, 1), ('decoder.JSONDecoder', 0, 0, 1), ('decoder', 0, 0, 1)] binaries=[] datas=[]>
 http: None -> None
   DEL http
 requests.sys: None -> None
@@ -626,34 +691,6 @@ rourl2path: None -> None
   DEL rourl2path
 rourl2path: None -> None
   DEL rourl2path
-posix: None -> None
-  DEL posix
-posix: None -> None
-  DEL posix
-posix: None -> None
-  DEL posix
-_emx_link: None -> None
-  DEL _emx_link
-_emx_link: None -> None
-  DEL _emx_link
-fcntl: None -> None
-  DEL fcntl
-readline: None -> None
-  DEL readline
-pwd: None -> None
-  DEL pwd
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
-readline: None -> None
-  DEL readline
-fcntl: None -> None
-  DEL fcntl
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
 cl: None -> None
   DEL cl
 cl: None -> None
@@ -743,30 +780,8 @@ requests.packages.urllib3.uuid: None -> None
 uuid: None -> <PyModule 'uuid' c:\Python27\lib\uuid.pyc imports=[('ctypes', 0, 0, -1), ('hashlib.sha1', 1, 0, -1), ('sys', 0, 0, -1), ('hashlib', 1, 0, -1), ('os', 0, 1, -1), ('ctypes.util', 0, 0, -1), ('re', 1, 0, -1), ('win32wnet', 1, 0, -1), ('netbios', 1, 0, -1), ('ctypes', 1, 0, -1), ('random', 1, 1, -1), ('time', 1, 0, -1), ('sys', 1, 0, -1), ('hashlib.md5', 1, 0, -1), ('socket', 1, 0, -1), ('os', 1, 0, -1), ('random', 1, 0, -1)] binaries=[] datas=[]>
 requests.packages.urllib3.mimetypes: None -> None
 requests.packages.urllib3.codecs: None -> None
-ctypes: None -> <PkgModule 'ctypes' c:\Python27\lib\ctypes\__init__.pyc imports=[('_ctypes.set_errno', 0, 0, -1), ('_ctypes._cast_addr', 0, 0, -1), ('_ctypes.FUNCFLAG_USE_ERRNO', 0, 0, -1), ('_ctypes._memmove_addr', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('_ctypes.get_last_error', 0, 1, -1), ('ctypes._endian.BigEndianStructure', 0, 0, -1), ('_ctypes._memset_addr', 0, 0, -1), ('_ctypes._wstring_at_addr', 0, 0, -1), ('_ctypes.set_conversion_mode', 0, 0, -1), ('_ctypes.alignment', 0, 0, -1), ('sys', 0, 0, -1), ('_ctypes.Structure', 0, 0, -1), ('_ctypes._string_at_addr', 0, 0, -1), ('_ctypes._SimpleCData', 0, 1, -1), ('_ctypes.FUNCFLAG_USE_LASTERROR', 0, 0, -1), ('_ctypes.CFuncPtr', 0, 0, -1), ('_ctypes.Union', 0, 0, -1), ('struct.calcsize', 1, 0, -1), ('_ctypes', 0, 0, -1), ('_ctypes.ArgumentError', 0, 0, -1), ('_ctypes.dlopen', 0, 1, -1), ('struct', 1, 0, -1), ('_ctypes.RTLD_GLOBAL', 0, 0, -1), ('_ctypes.LoadLibrary', 0, 1, -1), ('_ctypes.get_errno', 0, 0, -1), ('_ctypes.resize', 0, 0, -1), ('_ctypes.POINTER', 0, 0, -1), ('_ctypes.set_last_error', 0, 1, -1), ('_ctypes.FUNCFLAG_CDECL', 0, 0, -1), ('_ctypes.FormatError', 0, 1, -1), ('_ctypes.pointer', 0, 0, -1), ('_ctypes.RTLD_LOCAL', 0, 0, -1), ('_ctypes._pointer_type_cache', 0, 0, -1), ('_ctypes._check_HRESULT', 0, 1, -1), ('_ctypes._SimpleCData', 0, 0, -1), ('struct.calcsize', 0, 0, -1), ('ctypes._endian.LittleEndianStructure', 0, 0, -1), ('_ctypes.FUNCFLAG_PYTHONAPI', 0, 0, -1), ('_ctypes.FUNCFLAG_STDCALL', 0, 1, -1), ('_ctypes', 0, 1, -1), ('ctypes._endian', 0, 0, -1), ('_ctypes.sizeof', 0, 0, -1), ('_ctypes.addressof', 0, 0, -1), ('_ctypes.__version__', 0, 0, -1), ('_ctypes._Pointer', 0, 0, -1), ('_ctypes.byref', 0, 0, -1), ('_ctypes.Array', 0, 0, -1)] binaries=[] datas=[]>
-ctypes.util: None -> <PyModule 'ctypes.util' c:\Python27\lib\ctypes\util.pyc imports=[('struct', 1, 0, -1), ('sys', 0, 0, -1), ('errno', 0, 1, -1), ('os', 0, 0, -1), ('ctypes.macholib.dyld', 0, 1, -1), ('re', 0, 1, -1), ('tempfile', 0, 1, -1), ('ctypes.macholib.dyld.dyld_find', 0, 1, -1), ('ctypes', 1, 0, -1), ('imp', 1, 0, -1), ('ctypes.cdll', 1, 0, -1)] binaries=[] datas=[]>
 win32wnet: None -> <ExtensionModule 'win32wnet' c:\Python27\lib\site-packages\win32\win32wnet.pyd imports=[] binaries=[] datas=[]>
 netbios: None -> <PyModule 'netbios' c:\Python27\lib\site-packages\win32\lib\netbios.pyc imports=[('sys', 0, 0, -1), ('struct', 0, 0, -1), ('win32wnet', 0, 0, -1)] binaries=[] datas=[]>
-ctypes._ctypes: None -> None
-_ctypes: None -> <ExtensionModule '_ctypes' c:\Python27\DLLs\_ctypes.pyd imports=[] binaries=[] datas=[]>
-ctypes.os: None -> None
-ctypes.struct: None -> None
-ctypes.ctypes: None -> None
-ctypes._endian: None -> <PyModule 'ctypes._endian' c:\Python27\lib\ctypes\_endian.pyc imports=[('ctypes', 0, 0, -1), ('ctypes.*', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
-ctypes.sys: None -> None
-ctypes.errno: None -> None
-ctypes.macholib: None -> <PkgModule 'ctypes.macholib' c:\Python27\lib\ctypes\macholib\__init__.pyc imports=[] binaries=[] datas=[]>
-ctypes.macholib.dyld: None -> <PyModule 'ctypes.macholib.dyld' c:\Python27\lib\ctypes\macholib\dyld.pyc imports=[('framework', 0, 0, -1), ('itertools', 0, 0, -1), ('dylib.dylib_info', 0, 0, -1), ('os', 0, 0, -1), ('itertools.*', 0, 0, -1), ('dylib', 0, 0, -1), ('framework.framework_info', 0, 0, -1)] binaries=[] datas=[]>
-ctypes.re: None -> None
-ctypes.tempfile: None -> None
-ctypes.imp: None -> None
-ctypes.cdll: None -> None
-  DEL ctypes.cdll
-ctypes.macholib.framework: None -> <PyModule 'ctypes.macholib.framework' c:\Python27\lib\ctypes\macholib\framework.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
-ctypes.macholib.itertools: None -> None
-ctypes.macholib.dylib: None -> <PyModule 'ctypes.macholib.dylib' c:\Python27\lib\ctypes\macholib\dylib.pyc imports=[('re', 0, 0, -1)] binaries=[] datas=[]>
-ctypes.macholib.os: None -> None
-ctypes.macholib.re: None -> None
 requests.packages.urllib3.threading: None -> None
 requests.packages.urllib3.packages._abcoll: None -> None
 requests.packages.urllib3.packages.dummy_thread: None -> None
@@ -934,168 +949,3 @@ OpenSSL: None -> None
   DEL OpenSSL
 pyasn1: None -> None
   DEL pyasn1
-firebase.decimal: None -> None
-decimal: None -> <PyModule 'decimal' c:\Python27\lib\decimal.pyc imports=[('collections', 0, 0, -1), ('threading', 0, 0, -1), ('itertools.chain', 1, 0, -1), ('math', 0, 0, -1), ('copy', 0, 0, -1), ('itertools.repeat', 1, 0, -1), ('doctest', 0, 1, -1), ('re', 0, 0, -1), ('itertools', 1, 0, -1), ('sys', 0, 1, -1), ('collections.namedtuple', 0, 0, -1), ('locale', 0, 0, -1), ('numbers', 0, 0, -1)] binaries=[] datas=[]>
-firebase.datetime: None -> None
-numbers: None -> <PyModule 'numbers' c:\Python27\lib\numbers.pyc imports=[('__future__.division', 0, 0, -1), ('abc', 0, 0, -1), ('abc.abstractproperty', 0, 0, -1), ('__future__', 0, 0, -1), ('abc.abstractmethod', 0, 0, -1), ('abc.ABCMeta', 0, 0, -1)] binaries=[] datas=[]>
-firebase.lazy: None -> <PyModule 'firebase.lazy' c:\Python27\lib\site-packages\firebase\lazy.pyc imports=[] binaries=[] datas=[]>
-firebase.multiprocessing: None -> None
-multiprocessing: None -> <PkgModule 'multiprocessing' c:\Python27\lib\multiprocessing\__init__.pyc imports=[('multiprocessing.util.SUBDEBUG', 0, 0, -1), ('multiprocessing.util.SUBWARNING', 0, 0, -1), ('os', 0, 0, -1), ('multiprocessing.reduction', 1, 0, -1), ('multiprocessing', 1, 0, -1), ('multiprocessing.managers.SyncManager', 1, 0, -1), ('multiprocessing.sharedctypes.Array', 1, 0, -1), ('multiprocessing.synchronize.Event', 1, 0, -1), ('multiprocessing.managers', 1, 0, -1), ('multiprocessing.util', 1, 0, -1), ('sys', 0, 0, -1), ('multiprocessing.synchronize', 1, 0, -1), ('multiprocessing.forking', 1, 1, -1), ('multiprocessing.synchronize.Lock', 1, 0, -1), ('multiprocessing.synchronize.Semaphore', 1, 0, -1), ('multiprocessing.connection', 1, 0, -1), ('multiprocessing.pool', 1, 0, -1), ('multiprocessing.process.current_process', 0, 0, -1), ('multiprocessing.synchronize.Condition', 1, 0, -1), ('multiprocessing.queues', 1, 0, -1), ('multiprocessing.sharedctypes.RawArray', 1, 0, -1), ('_multiprocessing', 0, 0, -1), ('multiprocessing.connection.Pipe', 1, 0, -1), ('multiprocessing.synchronize.RLock', 1, 0, -1), ('multiprocessing.synchronize.BoundedSemaphore', 1, 0, -1), ('multiprocessing.sharedctypes.Value', 1, 0, -1), ('multiprocessing.util', 0, 0, -1), ('multiprocessing.sharedctypes.RawValue', 1, 0, -1), ('multiprocessing.queues.JoinableQueue', 1, 0, -1), ('multiprocessing.util.log_to_stderr', 1, 0, -1), ('multiprocessing.forking.freeze_support', 1, 1, -1), ('multiprocessing.process.Process', 0, 0, -1), ('multiprocessing.pool.Pool', 1, 0, -1), ('multiprocessing.forking.set_executable', 1, 0, -1), ('multiprocessing.process', 0, 0, -1), ('multiprocessing.util.get_logger', 1, 0, -1), ('multiprocessing.process.active_children', 0, 0, -1), ('multiprocessing.sharedctypes', 1, 0, -1), ('multiprocessing.forking', 1, 0, -1), ('multiprocessing.queues.Queue', 1, 0, -1)] binaries=[] datas=[]>
-multiprocessing.multiprocessing: None -> None
-multiprocessing.util: None -> <PyModule 'multiprocessing.util' c:\Python27\lib\multiprocessing\util.pyc imports=[('atexit', 1, 0, -1), ('atexit', 0, 0, -1), ('itertools', 0, 0, -1), ('logging', 1, 0, -1), ('weakref', 0, 0, -1), ('shutil', 1, 1, -1), ('threading', 0, 0, -1), ('subprocess._args_from_interpreter_flags', 0, 0, -1), ('subprocess', 0, 0, -1), ('traceback', 1, 1, -1), ('multiprocessing.process.current_process', 0, 0, -1), ('multiprocessing.process.active_children', 0, 0, -1), ('tempfile', 1, 1, -1), ('multiprocessing.process', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.os: None -> None
-multiprocessing.reduction: None -> <PyModule 'multiprocessing.reduction' c:\Python27\lib\multiprocessing\reduction.pyc imports=[('_multiprocessing', 0, 1, -1), ('os', 0, 0, -1), ('multiprocessing.forking.close', 0, 0, -1), ('util.is_exiting', 1, 0, 1), ('_multiprocessing.win32', 0, 1, -1), ('threading', 0, 0, -1), ('sys', 0, 0, -1), ('util', 1, 0, 1), ('multiprocessing.forking.Popen', 0, 0, -1), ('multiprocessing.connection.Listener', 0, 0, -1), ('_multiprocessing', 0, 0, -1), ('multiprocessing.current_process', 0, 0, -1), ('multiprocessing.forking.duplicate', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('multiprocessing.util', 0, 0, -1), ('socket', 0, 0, -1), ('_subprocess', 0, 1, -1), ('traceback', 1, 1, -1), ('multiprocessing.util.debug', 0, 0, -1), ('multiprocessing.connection', 0, 0, -1), ('util.sub_warning', 1, 0, 1), ('multiprocessing.util.sub_debug', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('multiprocessing.forking.ForkingPickler', 0, 0, -1), ('multiprocessing.util.register_after_fork', 0, 0, -1), ('multiprocessing.connection.Client', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.managers: None -> <PyModule 'multiprocessing.managers' c:\Python27\lib\multiprocessing\managers.pyc imports=[('multiprocessing.util.Finalize', 0, 0, -1), ('multiprocessing.Process', 0, 0, -1), ('os', 0, 0, -1), ('multiprocessing.forking.assert_spawning', 0, 0, -1), ('pickle.PicklingError', 0, 1, -1), ('threading', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing.forking.Popen', 0, 0, -1), ('cPickle.PicklingError', 0, 0, -1), ('pickle', 0, 1, -1), ('multiprocessing.current_process', 0, 0, -1), ('weakref', 0, 0, -1), ('multiprocessing.forking.exit', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('array', 0, 0, -1), ('multiprocessing.util', 0, 0, -1), ('multiprocessing.util.info', 0, 0, -1), ('traceback', 1, 0, -1), ('multiprocessing.connection', 0, 0, -1), ('Queue', 0, 0, -1), ('multiprocessing.active_children', 0, 0, -1), ('multiprocessing.process', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('traceback.format_exc', 0, 0, -1), ('multiprocessing.forking.ForkingPickler', 0, 0, -1), ('cPickle', 0, 0, -1), ('traceback', 0, 0, -1), ('multiprocessing.process.AuthenticationString', 0, 0, -1), ('multiprocessing.Pool', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.sharedctypes: None -> <PyModule 'multiprocessing.sharedctypes' c:\Python27\lib\multiprocessing\sharedctypes.pyc imports=[('ctypes', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('weakref', 0, 0, -1), ('multiprocessing.forking.ForkingPickler', 0, 0, -1), ('multiprocessing.forking.assert_spawning', 0, 0, -1), ('multiprocessing.heap', 0, 0, -1), ('multiprocessing.RLock', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.synchronize: None -> <PyModule 'multiprocessing.synchronize' c:\Python27\lib\multiprocessing\synchronize.pyc imports=[('threading', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('os', 0, 0, -1), ('multiprocessing.util', 0, 0, -1), ('time.time', 0, 0, -1), ('multiprocessing.forking.assert_spawning', 0, 0, -1), ('multiprocessing.forking.Popen', 0, 0, -1), ('multiprocessing.util.register_after_fork', 0, 0, -1), ('time.sleep', 0, 0, -1), ('multiprocessing.process.current_process', 0, 0, -1), ('_multiprocessing.SemLock', 0, 0, -1), ('_multiprocessing', 0, 0, -1), ('multiprocessing.util.debug', 0, 0, -1), ('time', 0, 0, -1), ('multiprocessing.util.Finalize', 0, 0, -1), ('multiprocessing.process', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.sys: None -> None
-multiprocessing.forking: None -> <PyModule 'multiprocessing.forking' c:\Python27\lib\multiprocessing\forking.pyc imports=[('thread', 0, 1, -1), ('functools.partial', 0, 0, -1), ('_multiprocessing', 0, 1, -1), ('os', 0, 0, -1), ('_multiprocessing.win32', 0, 1, -1), ('_multiprocessing.Connection', 0, 1, -1), ('pickle.HIGHEST_PROTOCOL', 0, 1, -1), ('signal', 0, 0, -1), ('pickle', 0, 0, -1), ('sys', 0, 0, -1), ('util', 1, 0, 1), ('util._logger', 1, 0, 1), ('time', 0, 1, -1), ('_multiprocessing.PipeConnection', 0, 1, -1), ('functools', 0, 0, -1), ('pickle', 0, 1, -1), ('imp', 1, 1, -1), ('util', 0, 1, 1), ('util._log_to_stderr', 1, 0, 1), ('multiprocessing.util', 0, 0, -1), ('util.Finalize', 0, 1, 1), ('_subprocess', 0, 1, -1), ('errno', 0, 0, -1), ('pickle.load', 0, 1, -1), ('pickle.Pickler', 0, 0, -1), ('multiprocessing.process', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('msvcrt', 0, 1, -1), ('random', 1, 1, -1)] binaries=[] datas=[]>
-multiprocessing.connection: None -> <PyModule 'multiprocessing.connection' c:\Python27\lib\multiprocessing\connection.pyc imports=[('multiprocessing.util.Finalize', 0, 0, -1), ('_multiprocessing', 0, 1, -1), ('os', 0, 0, -1), ('multiprocessing.forking.close', 0, 0, -1), ('hmac', 1, 0, -1), ('_multiprocessing.win32', 0, 1, -1), ('errno', 0, 0, -1), ('itertools', 0, 0, -1), ('sys', 0, 0, -1), ('_multiprocessing', 0, 0, -1), ('time', 0, 0, -1), ('multiprocessing.current_process', 0, 0, -1), ('multiprocessing.forking.duplicate', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('xmlrpclib', 1, 0, -1), ('multiprocessing.util', 0, 0, -1), ('socket', 0, 0, -1), ('multiprocessing.util.get_temp_dir', 0, 0, -1), ('multiprocessing.util.debug', 0, 0, -1), ('multiprocessing.util.sub_debug', 0, 0, -1), ('multiprocessing.AuthenticationError', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('tempfile', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.pool: None -> <PyModule 'multiprocessing.pool' c:\Python27\lib\multiprocessing\pool.pyc imports=[('dummy', 1, 0, 1), ('collections', 0, 0, -1), ('threading', 0, 0, -1), ('itertools', 0, 0, -1), ('Queue', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('queues.SimpleQueue', 1, 0, 1), ('dummy.Process', 1, 0, 1), ('multiprocessing.util', 0, 0, -1), ('multiprocessing.TimeoutError', 0, 0, -1), ('multiprocessing.cpu_count', 0, 0, -1), ('queues', 1, 0, 1), ('multiprocessing.util.debug', 0, 0, -1), ('time', 0, 0, -1), ('multiprocessing.util.Finalize', 0, 0, -1), ('multiprocessing.Process', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.process: None -> <PyModule 'multiprocessing.process' c:\Python27\lib\multiprocessing\process.pyc imports=[('forking', 1, 1, 1), ('itertools', 0, 0, -1), ('sys', 0, 0, -1), ('util', 1, 0, 1), ('os', 0, 0, -1), ('forking.Popen', 1, 0, 1), ('forking', 1, 0, 1), ('forking.Popen', 1, 1, 1), ('', 1, 0, 1), ('traceback', 1, 1, -1), ('signal', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.queues: None -> <PyModule 'multiprocessing.queues' c:\Python27\lib\multiprocessing\queues.pyc imports=[('multiprocessing.synchronize.Semaphore', 0, 0, -1), ('multiprocessing.util.Finalize', 0, 0, -1), ('os', 0, 0, -1), ('multiprocessing.synchronize.Condition', 0, 0, -1), ('multiprocessing.forking.assert_spawning', 0, 0, -1), ('util.is_exiting', 1, 0, 1), ('multiprocessing.synchronize.BoundedSemaphore', 0, 0, -1), ('threading', 0, 0, -1), ('Queue.Full', 0, 0, -1), ('util', 1, 0, 1), ('_multiprocessing', 0, 0, -1), ('time', 0, 0, -1), ('multiprocessing.Pipe', 0, 0, -1), ('collections', 0, 0, -1), ('atexit', 0, 0, -1), ('weakref', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('multiprocessing.util', 0, 0, -1), ('multiprocessing.util.info', 0, 0, -1), ('traceback', 1, 1, -1), ('multiprocessing.util.debug', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('Queue.Empty', 0, 0, -1), ('multiprocessing.util.register_after_fork', 0, 0, -1), ('Queue', 0, 0, -1), ('multiprocessing.synchronize', 0, 0, -1), ('multiprocessing.synchronize.Lock', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing._multiprocessing: None -> None
-_multiprocessing: None -> <ExtensionModule '_multiprocessing' c:\Python27\DLLs\_multiprocessing.pyd imports=[] binaries=[] datas=[]>
-multiprocessing.atexit: None -> None
-multiprocessing.itertools: None -> None
-multiprocessing.logging: None -> None
-multiprocessing.weakref: None -> None
-multiprocessing.shutil: None -> None
-shutil: None -> <PyModule 'shutil' c:\Python27\lib\shutil.pyc imports=[('collections', 0, 0, -1), ('distutils.spawn', 1, 0, -1), ('pwd', 0, 0, -1), ('sys', 0, 0, -1), ('os.path', 0, 0, -1), ('os', 0, 0, -1), ('distutils.errors', 1, 0, -1), ('tarfile', 1, 0, -1), ('fnmatch', 0, 0, -1), ('grp', 0, 0, -1), ('os.path.abspath', 0, 0, -1), ('stat', 0, 0, -1), ('grp.getgrnam', 0, 0, -1), ('pwd.getpwnam', 0, 0, -1), ('errno', 0, 0, -1), ('zipfile', 1, 0, -1), ('distutils.spawn.spawn', 1, 0, -1), ('distutils.errors.DistutilsExecError', 1, 0, -1)] binaries=[] datas=[]>
-multiprocessing.threading: None -> None
-multiprocessing.subprocess: None -> None
-multiprocessing.traceback: None -> None
-multiprocessing.tempfile: None -> None
-distutils: None -> <PkgModule 'distutils' c:\Python27\lib\distutils\__init__.pyc imports=[] binaries=[] datas=[('include\\pyconfig.h', 'c:\\Python27\\include\\pyconfig.h', 'DATA')]>
-distutils.spawn: None -> <PyModule 'distutils.spawn' c:\Python27\lib\distutils\spawn.pyc imports=[('distutils', 0, 1, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('distutils', 0, 0, -1), ('distutils.errors.DistutilsExecError', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.sysconfig', 0, 1, -1), ('distutils.errors', 0, 0, -1), ('errno', 1, 1, -1), ('distutils.log', 0, 0, -1)] binaries=[] datas=[]>
-pwd: None -> None
-  DEL pwd
-distutils.errors: None -> <PyModule 'distutils.errors' c:\Python27\lib\distutils\errors.pyc imports=[] binaries=[] datas=[]>
-tarfile: None -> <PyModule 'tarfile' c:\Python27\lib\tarfile.pyc imports=[('pwd', 0, 0, -1), ('cStringIO.StringIO', 1, 0, -1), ('os', 0, 0, -1), ('StringIO', 1, 1, -1), ('struct', 0, 0, -1), ('grp', 0, 0, -1), ('calendar', 1, 0, -1), ('gzip', 1, 0, -1), ('sys', 0, 0, -1), ('shutil', 0, 0, -1), ('warnings', 1, 0, -1), ('bz2', 1, 0, -1), ('time', 0, 0, -1), ('warnings.warnpy3k', 1, 0, -1), ('zlib', 1, 1, -1), ('errno', 0, 0, -1), ('cStringIO', 1, 0, -1), ('re', 0, 0, -1), ('copy', 0, 0, -1), ('StringIO.StringIO', 1, 1, -1), ('warnings', 1, 1, -1), ('operator', 0, 0, -1), ('bz2', 1, 1, -1), ('stat', 0, 0, -1)] binaries=[] datas=[]>
-grp: None -> None
-  DEL grp
-grp: None -> None
-  DEL grp
-pwd: None -> None
-  DEL pwd
-zipfile: None -> <PyModule 'zipfile' c:\Python27\lib\zipfile.pyc imports=[('re', 0, 0, -1), ('textwrap', 1, 0, -1), ('sys', 0, 0, -1), ('shutil', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('cStringIO', 0, 0, -1), ('stat', 0, 0, -1), ('string', 0, 0, -1), ('zlib', 0, 0, -1), ('binascii', 0, 0, -1), ('py_compile', 1, 1, -1), ('time', 0, 0, -1), ('io', 0, 0, -1)] binaries=[] datas=[]>
-distutils.distutils: None -> None
-distutils.sys: None -> None
-distutils.os: None -> None
-distutils.sysconfig: None -> <PyModule 'distutils.sysconfig' c:\Python27\lib\distutils\sysconfig.pyc imports=[('_osx_support', 1, 1, -1), ('distutils.text_file', 1, 0, -1), ('re', 0, 0, -1), ('_sysconfigdata.build_time_vars', 1, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('string', 0, 0, -1), ('distutils.errors.DistutilsPlatformError', 0, 0, -1), ('distutils.errors', 0, 0, -1), ('_sysconfigdata', 1, 0, -1), ('distutils.text_file.TextFile', 1, 0, -1)] binaries=[] datas=[]>
-distutils.errno: None -> None
-distutils.log: None -> <PyModule 'distutils.log' c:\Python27\lib\distutils\log.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
-distutils._osx_support: None -> None
-_osx_support: None -> <PyModule '_osx_support' c:\Python27\lib\_osx_support.pyc imports=[('re', 0, 0, -1), ('sys', 0, 0, -1), ('os', 0, 0, -1), ('distutils', 1, 1, -1), ('tempfile', 1, 0, -1), ('contextlib', 1, 0, -1), ('distutils.log', 1, 1, -1)] binaries=[] datas=[]>
-distutils.text_file: None -> <PyModule 'distutils.text_file' c:\Python27\lib\distutils\text_file.pyc imports=[('sys', 0, 0, -1)] binaries=[] datas=[]>
-distutils.re: None -> None
-distutils._sysconfigdata: None -> None
-_sysconfigdata: None -> None
-  DEL _sysconfigdata
-distutils.string: None -> None
-_sysconfigdata: None -> None
-  DEL _sysconfigdata
-contextlib: None -> <PyModule 'contextlib' c:\Python27\lib\contextlib.pyc imports=[('functools.wraps', 0, 0, -1), ('functools', 0, 0, -1), ('warnings', 0, 0, -1), ('sys', 0, 0, -1), ('warnings.warn', 0, 0, -1)] binaries=[] datas=[]>
-pwd: None -> None
-  DEL pwd
-grp: None -> None
-  DEL grp
-gzip: None -> <PyModule 'gzip' c:\Python27\lib\gzip.pyc imports=[('sys', 0, 0, -1), ('os', 0, 0, -1), ('struct', 0, 0, -1), ('__builtin__', 0, 0, -1), ('zlib', 0, 0, -1), ('warnings', 1, 0, -1), ('errno', 1, 1, -1), ('time', 0, 0, -1), ('io', 0, 0, -1)] binaries=[] datas=[]>
-py_compile: None -> <PyModule 'py_compile' c:\Python27\lib\py_compile.pyc imports=[('imp', 0, 0, -1), ('sys', 0, 0, -1), ('marshal', 0, 0, -1), ('os', 0, 0, -1), ('__builtin__', 0, 0, -1), ('traceback', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.signal: None -> None
-multiprocessing.thread: None -> None
-multiprocessing.functools: None -> None
-multiprocessing.pickle: None -> None
-multiprocessing.time: None -> None
-multiprocessing.imp: None -> None
-multiprocessing._subprocess: None -> None
-multiprocessing.errno: None -> None
-multiprocessing.msvcrt: None -> None
-multiprocessing.random: None -> None
-multiprocessing.current_process: None -> None
-  DEL multiprocessing.current_process
-multiprocessing.socket: None -> None
-multiprocessing.hmac: None -> None
-hmac: None -> <PyModule 'hmac' c:\Python27\lib\hmac.pyc imports=[('hashlib', 1, 1, -1), ('warnings', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.current_process: None -> None
-  DEL multiprocessing.current_process
-multiprocessing.xmlrpclib: None -> None
-xmlrpclib: None -> <PyModule 'xmlrpclib' c:\Python27\lib\xmlrpclib.pyc imports=[('xmllib', 1, 0, -1), ('httplib', 0, 0, -1), ('base64', 1, 1, -1), ('sys.modules', 0, 0, -1), ('sys', 0, 0, -1), ('string', 0, 0, -1), ('cStringIO', 0, 0, -1), ('base64', 0, 0, -1), ('time', 0, 0, -1), ('xml.parsers', 0, 0, -1), ('types', 0, 0, -1), ('gzip', 0, 0, -1), ('socket', 0, 0, -1), ('datetime', 0, 0, -1), ('errno', 0, 0, -1), ('types.*', 0, 0, -1), ('re', 0, 0, -1), ('xml.parsers.expat', 0, 0, -1), ('urllib', 1, 0, -1), ('operator', 0, 0, -1), ('_xmlrpclib', 0, 0, -1), ('StringIO', 0, 1, -1)] binaries=[] datas=[]>
-multiprocessing.AuthenticationError: None -> None
-  DEL multiprocessing.AuthenticationError
-xmllib: None -> <PyModule 'xmllib' c:\Python27\lib\xmllib.pyc imports=[('re', 0, 0, -1), ('time', 1, 0, -1), ('warnings', 0, 0, -1), ('string', 0, 0, -1), ('getopt', 1, 0, -1), ('sys', 1, 0, -1), ('time.time', 1, 0, -1)] binaries=[] datas=[]>
-_xmlrpclib: None -> None
-  DEL _xmlrpclib
-multiprocessing.Process: None -> None
-  DEL multiprocessing.Process
-multiprocessing.cPickle: None -> None
-multiprocessing.current_process: None -> None
-  DEL multiprocessing.current_process
-multiprocessing.array: None -> None
-multiprocessing.Queue: None -> None
-multiprocessing.active_children: None -> None
-  DEL multiprocessing.active_children
-multiprocessing.Pool: None -> None
-  DEL multiprocessing.Pool
-multiprocessing.ctypes: None -> None
-multiprocessing.heap: None -> <PyModule 'multiprocessing.heap' c:\Python27\lib\multiprocessing\heap.pyc imports=[('multiprocessing.forking.assert_spawning', 0, 0, -1), ('threading', 0, 0, -1), ('itertools', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing.forking', 0, 0, -1), ('os', 0, 0, -1), ('multiprocessing.util', 0, 0, -1), ('tempfile', 0, 0, -1), ('multiprocessing.util.info', 0, 0, -1), ('_multiprocessing.win32', 0, 1, -1), ('_multiprocessing', 0, 0, -1), ('mmap', 0, 0, -1), ('bisect', 0, 0, -1), ('multiprocessing.util.Finalize', 0, 0, -1), ('_multiprocessing', 0, 1, -1)] binaries=[] datas=[]>
-multiprocessing.RLock: None -> None
-  DEL multiprocessing.RLock
-multiprocessing.mmap: None -> None
-mmap: None -> <BuiltinModule 'mmap' None imports=[] binaries=[] datas=[]>
-multiprocessing.bisect: None -> None
-multiprocessing.dummy: None -> <PkgModule 'multiprocessing.dummy' c:\Python27\lib\multiprocessing\dummy\__init__.pyc imports=[('threading', 0, 0, -1), ('itertools', 0, 0, -1), ('sys', 0, 0, -1), ('multiprocessing', 0, 0, -1), ('multiprocessing.dummy.connection', 0, 0, -1), ('threading.BoundedSemaphore', 0, 0, -1), ('multiprocessing.pool.ThreadPool', 1, 0, -1), ('array', 0, 0, -1), ('threading.Semaphore', 0, 0, -1), ('threading.Lock', 0, 0, -1), ('multiprocessing.TimeoutError', 0, 0, -1), ('multiprocessing.cpu_count', 0, 0, -1), ('multiprocessing.pool', 1, 0, -1), ('threading.RLock', 0, 0, -1), ('multiprocessing.dummy.connection.Pipe', 0, 0, -1), ('Queue.Queue', 0, 0, -1), ('Queue', 0, 0, -1), ('threading.Event', 0, 0, -1), ('weakref', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.collections: None -> None
-multiprocessing.dummy.Process: None -> None
-  DEL multiprocessing.dummy.Process
-multiprocessing.TimeoutError: None -> None
-  DEL multiprocessing.TimeoutError
-multiprocessing.cpu_count: None -> None
-  DEL multiprocessing.cpu_count
-multiprocessing.Process: None -> None
-  DEL multiprocessing.Process
-multiprocessing.dummy.threading: None -> None
-multiprocessing.dummy.itertools: None -> None
-multiprocessing.dummy.sys: None -> None
-multiprocessing.dummy.multiprocessing: None -> None
-multiprocessing.dummy.connection: None -> <PyModule 'multiprocessing.dummy.connection' c:\Python27\lib\multiprocessing\dummy\connection.pyc imports=[('Queue', 0, 0, -1), ('Queue.Queue', 0, 0, -1)] binaries=[] datas=[]>
-multiprocessing.dummy.array: None -> None
-multiprocessing.TimeoutError: None -> None
-  DEL multiprocessing.TimeoutError
-multiprocessing.cpu_count: None -> None
-  DEL multiprocessing.cpu_count
-multiprocessing.dummy.Queue: None -> None
-multiprocessing.dummy.weakref: None -> None
-multiprocessing.Pipe: None -> None
-  DEL multiprocessing.Pipe
-firebase.base64: None -> None
-firebase.hashlib: None -> None
-firebase.time: None -> None
-firebase.hmac: None -> None
-wx.__version__: None -> <PyModule 'wx.__version__' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\__version__.pyc imports=[] binaries=[] datas=[]>
-wx.wx: None -> None
-wx._core: None -> <PyModule 'wx._core' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core.pyc imports=[('_gdi', 0, 0, -1), ('_controls.*', 0, 0, -1), ('_core_', 0, 0, -1), ('sys', 0, 0, -1), ('__version__.*', 0, 0, -1), ('types', 0, 0, -1), ('__version__', 0, 0, -1), ('codecs', 0, 1, -1), ('new', 0, 0, -1), ('_windows', 0, 0, -1), ('locale', 0, 1, -1), ('_windows.*', 0, 0, -1), ('_misc', 0, 0, -1), ('_misc.*', 0, 0, -1), ('_gdi.*', 0, 0, -1), ('_controls', 0, 0, -1), ('warnings', 0, 1, -1), ('types', 1, 0, -1), ('signal', 1, 1, -1), ('warnings', 1, 0, -1)] binaries=[] datas=[]>
-wx._gdi: None -> <PyModule 'wx._gdi' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi.pyc imports=[('_gdi_', 0, 0, -1), ('types', 0, 0, -1), ('os', 0, 0, -1), ('new', 0, 0, -1), ('_core', 0, 0, -1), ('wx', 1, 0, -1)] binaries=[] datas=[]>
-wx._controls: None -> <PyModule 'wx._controls' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls.pyc imports=[('new', 0, 0, -1), ('_controls_', 0, 0, -1), ('_core', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
-wx._core_: None -> <ExtensionModule 'wx._core_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_core_.pyd imports=[] binaries=[] datas=[]>
-wx.sys: None -> None
-wx.types: None -> None
-wx.codecs: None -> None
-wx.new: None -> None
-new: None -> <PyModule 'new' c:\Python27\lib\new.pyc imports=[('types.CodeType', 0, 0, -1), ('types.MethodType', 0, 0, -1), ('types', 0, 0, -1), ('types.InstanceType', 0, 0, -1), ('warnings', 0, 0, -1), ('types.FunctionType', 0, 0, -1), ('types.ModuleType', 0, 0, -1), ('warnings.warnpy3k', 0, 0, -1), ('types.ClassType', 0, 0, -1)] binaries=[] datas=[]>
-wx._windows: None -> <PyModule 'wx._windows' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows.pyc imports=[('_windows_', 0, 0, -1), ('new', 0, 0, -1), ('_core', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
-wx.locale: None -> None
-wx._misc: None -> <PyModule 'wx._misc' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc.pyc imports=[('new', 0, 0, -1), ('_core', 0, 0, -1), ('_misc_', 0, 0, -1), ('types', 0, 0, -1)] binaries=[] datas=[]>
-wx.warnings: None -> None
-wx.signal: None -> None
-wx._gdi_: None -> <ExtensionModule 'wx._gdi_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_gdi_.pyd imports=[] binaries=[] datas=[]>
-wx.os: None -> None
-wx._controls_: None -> <ExtensionModule 'wx._controls_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_controls_.pyd imports=[] binaries=[] datas=[]>
-wx._windows_: None -> <ExtensionModule 'wx._windows_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_windows_.pyd imports=[] binaries=[] datas=[]>
-wx._misc_: None -> <ExtensionModule 'wx._misc_' c:\Python27\lib\site-packages\wx-2.8-msw-unicode\wx\_misc_.pyd imports=[] binaries=[] datas=[]>
-termios: None -> None
-  DEL termios
-termios: None -> None
-  DEL termios
-termios: None -> None
-  DEL termios
