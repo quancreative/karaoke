@@ -1,0 +1,9 @@
+('C:\\xampp\\htdocs\\workspace\\quan\\karaoke\\dev\\python\\2.7src\\dist\\one_window.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1380238785L)

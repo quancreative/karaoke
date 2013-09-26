@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 
 # Find module: http://docs.python.org/py3k/library/index.html
 # Third party module: http://pypi.python.org/pypi
@@ -21,7 +20,6 @@ import operator
 
 # from firebase import firebase
 # from firebase import firebase
-import quanfirebase
 from collections import OrderedDict
 from threading import Timer
 
@@ -33,6 +31,12 @@ from threading import Timer
 class Karaoke():
     
     def __init__(self):
+        
+        print('Pyhon version {}.{}.{}' . format(*sys.version_info))
+    
+        #     print(os.getenv('PATH')) # Get the environment path variable
+        #     print(os.getcwd())
+
         # Placeholder
 #         self.currentSong = {'src' : 'musics/Vietnamese/Tre Productions - Nguoi Ay Va Toi Em Phai Cho Ai/Anh Co Quen Em - Cam Ly and VQL.vob', 'track' : 2}
         self.currentSong = {'src' : 'musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB', 'track' : 2}
@@ -64,7 +68,6 @@ class Karaoke():
         toggleTrackBtn = Button(self.guiContainer, text="Toggle Track", command=self.onToggleTrackBtnClick)
         toggleTrackBtn.pack()
         
-        self.setencoding()
     #     print('Pyhon version {}.{}.{}' . format(*sys.version_info))
         def setInterval(func, sec):
             def funcWrapper():
@@ -78,27 +81,9 @@ class Karaoke():
         
         self.iniVLC(self.currentSong)
         
+        
         # Windows only thing    
         self.gui.mainloop() # Only for Windows user for now
-        
-    #     for key, value in songDict.items():
-    #         print('')
-    #         print(value['track'])
-    #         print(value['src'])
-        
-    #     python_dict = json.loads(r.text)
-        
-#         qFb = quanfirebase.Firebase('https://karaoke.firebaseio.com')
-    #     p = qFb.get()
-    
-    #     fb = firebase.FirebaseApplication('https://karaoke.firebaseio.com', None)
-    #     fb.get_async('/playlist', None, 'print=pretty', logPlaylist)
-        
-#         mikeFb = fb.Firebase('https://karaoke.firebaseio.com')
-#         playlist = mikeFb.child('/playlist')
-        
-    #     json.dump(result)
-    #     print(json.dump('\\'))
         
     def get_playlist(self):
 #         print('Running')
@@ -127,13 +112,28 @@ class Karaoke():
 #         self.mediaListPlayer = vlc.MediaL
         
         # Init VLC
-        print('type' , type(self.currentSong['src']))
-        
         self.player.stop()
 #         self.player.set_media(self.instance.media_new('../../../' + self.currentSong['src']))
         path = os.path.join('../../../', self.currentSong['src'])
-        print('path : ' + path)
-        self.player.set_media(self.instance.media_new(path))
+        
+        o = '../../../musics/Vietnamese/Ai Lên Xứ Hoa Đào - Sơn Ca.VOB'
+        u = o.encode('utf-8', 'strict')
+        d = str(u) # Convert to String
+        n = d.replace("b'", "'")  
+        n = n.replace("'", '') 
+        
+        w = '../../../musics/Vietnamese/Ai L\xc3\xaan X\xe1\xbb\xa9 Hoa \xc4\x90\xc3\xa0o - S\xc6\xa1n Ca.VOB' # utf-8 bytes as a string
+        print('w', type(w), w)
+        
+        l = '../../../musics/Vietnamese/Ai LÃªn Xá»© Hoa ÄÃ o - SÆ¡n Ca.VOB'
+        print('l', type(l), l)
+        
+        print (w == n)
+        
+#         ../../../musics/Vietnamese/Ai L\xc3\xaan X\xe1\xbb\xa9 Hoa \xc4\x90\xc3\xa0o - S\xc6\xa1n Ca.VOB
+#         self.player.set_media(self.instance.media_new('../../../musics/Vietnamese/Ai L\\\\xc3\\\\xaan X\\\\xe1\\\\xbb\\\\xa9 Hoa \\\\xc4\\\\x90\\\\xc3\\\\xa0o - S\\\\xc6\\\\xa1n Ca.VOB'))
+        self.player.set_media(self.instance.media_new())
+#         self.player.set_media(self.instance.media_new(ub))
         self.player.play()
         
 #         if sys.platform == "linux2": # for Linux using the X Server
@@ -143,7 +143,6 @@ class Karaoke():
 #         elif sys.platform == "darwin": # for MacOS
 #             self.player.set_agl(guiContainer.winfo_id())
 #         
-        
     def onToggleTrackBtnClick(self):
         audioTrack = self.player.audio_get_track()
         trackNum = 1 if int(audioTrack) == 2 else 2
@@ -166,26 +165,6 @@ class Karaoke():
 #         os.abort()
         sys.exit()
         
-    def setencoding(self):
-        """Set the string encoding used by the Unicode implementation.  The
-        default is 'ascii', but if you're willing to experiment, you can
-        change this."""
-        encoding = "ascii" # Default value set by _PyUnicode_Init()
-        if 0:
-            # Enable to support locale aware default string encodings.
-            import locale
-            loc = locale.getdefaultlocale ()
-            if loc[1]:
-                encoding = loc[1]
-            
-        if 0:
-            # Enable to switch off string to Unicode coercion and implicit
-            # Unicode to string conversion.
-            encoding = "undefined"
-        if encoding != "ascii":
-            # On Non-Unicode builds this will raise an AttributeError...
-            sys.setdefaultencoding (encoding) # Needs Python Unicode
-
 #     def logPlaylist(self, response):
 #         print('called logPlaylist')
 #         print(response)
