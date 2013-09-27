@@ -48,7 +48,7 @@ class Karaoke(wx.Frame):
         
         # The second panel holds controls
         ctrlpanel = wx.Panel(self, -1 )
-        next  = wx.Button(ctrlpanel, label="Next")
+        nextBtn = wx.Button(ctrlpanel, label="Next")
         
         self.instance = vlc.Instance()
         self.player = self.instance.media_player_new()
@@ -58,15 +58,17 @@ class Karaoke(wx.Frame):
         
         # Set Events
         self.Bind(wx.EVT_MENU, self.onExit, id=2)
-        self.Bind(wx.EVT_BUTTON, self.onNext, next)
+        self.Bind(wx.EVT_BUTTON, self.onNext, nextBtn)
         self.Bind(wx.EVT_MENU, self.onAbout, menuAbout)
         self.Bind(wx.EVT_MENU, self.onExit, menuExit)
         self.Bind(wx.EVT_TIMER, self.onTimer, self.timer)
+        self.Bind(wx.EVT_CLOSE, self.onExit)
         
         # VLC Events
         self.vlcEvents = self.player.event_manager()
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerEndReached, self.onEndReached)
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerVout, self.onMediaVout)
+        self.vlcEvents.event_attach(vlc.EventType.MediaPlayerEncounteredError, self.onVLCError)
         
         #Layout sizers
         sizer = wx.BoxSizer(wx.VERTICAL)
@@ -75,13 +77,12 @@ class Karaoke(wx.Frame):
         self.SetSizer(sizer) # Tells the frame which sizer to use
 #         self.SetAutoLayout(1) # Tells the frame to use the sizer to position and size the components.
 #         sizer.Fit(self) # Tells the sizer to calculate the initial size and position for all its elements.
-        self.SetMinSize((850, 600))
-        
-        self.Show(True) # Show the frame
+        self.SetMinSize((300, 300))
         
 #         self.ToggleWindowStyle(wx.STAY_ON_TOP)
         
-        self.timer.Start()
+        self.requestData()
+        self.timer.Start(3000)
         
 #         normalPath = os.path.normpath('../../../' + str(self.currentSong['src']))
 #         self.player.set_media(self.instance.media_new(normalPath))
@@ -89,7 +90,9 @@ class Karaoke(wx.Frame):
 #         self.player.play()
         
     def onTimer(self, evt):
-        
+        self.requestData()
+                
+    def requestData(self):
         r = requests.get('https://karaoke.firebaseio.com/playlist.json', verify=False)
         songDict = r.json()
 
@@ -109,8 +112,6 @@ class Karaoke(wx.Frame):
             if songObj['track'] != self.currentSong['track'] :
                 self.currentSong['track'] = songObj['track'] 
                 self.player.audio_set_track(songObj['track'])
-        '''
-        '''
                 
     def iniVLC(self, sObj):
         self.currentSong = sObj
@@ -124,21 +125,11 @@ class Karaoke(wx.Frame):
         
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerTimeChanged, self.onMediaTimeChanged)
         self.player.set_media(self.instance.media_new(normalPath))
-        self.player.play()
+        if self.player.play() == -1:
+            self.errorDialog("Unable to play " + self.currentSong['src'])
     
     def onMediaVout(self, evt):
-#         self.master.SetTopWindow(self)
-#         self.Show(True) # Show the frame
-        print 'onMediaVout'
-        # This will error out : main vout display error: Failed to set on top
-#         if sys.platform == "linux2": # for Linux using the X Server
-#             self.player.set_xwindow(self.videopanel.GetHandle())
-#         elif sys.platform == "win32": # for Windows
-#             self.player.set_hwnd(self.videopanel.GetHandle())
-#         elif sys.platform == "darwin": # for MacOS
-#             self.player.set_agl(self.videopanel.GetHandle())
-            
-#         self.Show(True) # Show the frame
+        self.player.set_fullscreen(True)
             
     def onMediaTimeChanged(self, evt):
         if self.player.audio_get_track() != int(self.currentSong['track']) :
@@ -167,7 +158,9 @@ class Karaoke(wx.Frame):
         """Closes the window.
         """
         self.timer.Stop()
-        self.Close(True) # Close the frame.
+#         self.player.stop()
+#         self.Close(True) # Close the frame. This cause infinite recursion
+        self.Destroy()
         
     def onOpen(self, evt):
         """ Open a file """
@@ -179,6 +172,15 @@ class Karaoke(wx.Frame):
             f = open(os.path.join(self.dirname, self.filename), 'r')
             self.control.SetValue(f.read())
             f.close()
+            
+    def errorDialog(self, errorMessage):
+        """Display a simple error dialog.
+        """
+        eDialog = wx.MessageDialog(self, errorMessage, 'Error', wx.OK | wx.ICON_ERROR)
+        eDialog.ShowModal()
+        
+    def onVLCError(self, evt):
+        self.errorDialog("Unable to play " + self.currentSong['src'])
                 
 def main():
 #     app = wx.PySimpleApp()

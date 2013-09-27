@@ -5,10 +5,9 @@
 
 import os
 import vlc
-import sys
-
 import requests
 import wx # 2.8
+import sys
 
 # http://www.crummy.com/software/BeautifulSoup/
 # After downloading the package and cmd to the director with the install script (setup.py), run: ..>\Python33\python setup.py install
@@ -25,7 +24,13 @@ class Karaoke(wx.Frame):
         
         self.instance = vlc.Instance()
         self.player = self.instance.media_player_new()
-        self.player.set_hwnd(self.GetHandle())
+        
+        if sys.platform == "linux2": # for Linux using the X Server
+            self.player.set_xwindow(self.GetHandle())
+        elif sys.platform == "win32": # for Windows
+            self.player.set_hwnd(self.GetHandle())
+        elif sys.platform == "darwin": # for MacOS
+            self.player.set_agl(self.GetHandle())
         
 #         print self.player
         
@@ -40,14 +45,21 @@ class Karaoke(wx.Frame):
         self.vlcEvents = self.player.event_manager()
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerEndReached, self.onEndReached)
         self.vlcEvents.event_attach(vlc.EventType.MediaPlayerVout, self.onMediaVout)
+        self.vlcEvents.event_attach(vlc.EventType.MediaPlayerEncounteredError, self.onVLCError)
+        self.Bind(wx.EVT_CLOSE, self.onExit)
         
-        self.timer.Start()
+        self.requestData()
+        self.timer.Start(3000)
         
     def onTimer(self, evt):
+        self.requestData()
         
+    def requestData(self):
         r = requests.get('https://karaoke.firebaseio.com/playlist.json', verify=False)
         songDict = r.json()
-        
+
+#         print songDict
+
         # Sort the list
         listSorted = sorted(songDict.keys())
         # Get the first song hash
@@ -62,7 +74,7 @@ class Karaoke(wx.Frame):
             if songObj['track'] != self.currentSong['track'] :
                 self.currentSong['track'] = songObj['track'] 
                 self.player.audio_set_track(songObj['track'])
-                
+                            
     def iniVLC(self, sObj):
         self.currentSong = sObj
         
@@ -80,12 +92,10 @@ class Karaoke(wx.Frame):
     def onMediaVout(self, evt):
         topFrame = self.GetTopLevelParent()
         
-#         if sys.platform == "linux2": # for Linux using the X Server
-#             self.player.set_xwindow(self.videopanel.GetHandle())
-#         elif sys.platform == "win32": # for Windows
-#             self.player.set_hwnd(topFrame.GetHandle())
-#         elif sys.platform == "darwin": # for MacOS
-#             self.player.set_agl(self.videopanel.GetHandle())
+        style = self.GetWindowStyle()
+        self.SetWindowStyle( style | wx.STAY_ON_TOP )
+        
+#         
             
     def onMediaTimeChanged(self, evt):
         if self.player.audio_get_track() != int(self.currentSong['track']) :
@@ -112,7 +122,8 @@ class Karaoke(wx.Frame):
         """Closes the window.
         """
         self.timer.Stop()
-        self.Close(True) # Close the frame.
+#         self.Close(True) # Close the frame. Cause infinite recursion
+        self.Destroy()
         
     def onOpen(self, evt):
         """ Open a file """
@@ -124,6 +135,16 @@ class Karaoke(wx.Frame):
             f = open(os.path.join(self.dirname, self.filename), 'r')
             self.control.SetValue(f.read())
             f.close()
+            
+    def errorDialog(self, errorMessage):
+        """Display a simple error dialog.
+        """
+        edialog = wx.MessageDialog(self, errorMessage, 'Error', wx.OK | wx.ICON_ERROR)
+        edialog.ShowModal()
+        self.deleteFistSong()
+        
+    def onVLCError(self, evt):
+        self.errorDialog("Unable to play " + self.currentSong['src'])
                 
 def main():
 #     app = wx.PySimpleApp()

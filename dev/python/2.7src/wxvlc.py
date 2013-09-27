@@ -161,6 +161,7 @@ class Player(wx.Frame):
             if self.player.play() == -1:
                 self.errorDialog("Unable to play.")
             else:
+                print 'timer start'
                 self.timer.Start()
 
     def OnPause(self, evt):
