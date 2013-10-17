@@ -244,6 +244,327 @@
 	<file>musics/Vietnamese/Đừng Xa Em Đêm Nay - Thảo My _PBN12.VOB</file>
 	<file>musics/Vietnamese/Ước Gì - Mỹ Tâm.vob</file>
 	<file>musics/Vietnamese/Ảo Ảnh - Y Vân_USAL4.VOB</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/24 GIỜ PHÉP - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/ANH CÒN YÊU EM &amp; KHÚC THỤY DU - Thiên Kim, Y Phương, Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Cafe Một Mình - Phương Thảo, Ngọc Lễ.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Chiều Tây Đô - Tuấn Vũ, Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Chúc Xuân - Phương Hoài Tâm, Phương Hồng Quế, Phương Hồng Ngọc.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/CÁNH CHIM BẠT GIÓ - Ngọc Huyền, Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/GIỌT BUỒN KHÔNG TÊN - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/ICE QUEEN - Trish Thùy Trang.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/KHÓC MẸ - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Kiếp Cầm Ca - Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/LIÊN KHÚC TRỊNH CÔNG SƠN and VŨ THÀNH AN - All Singers.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/MEDLEY BAB BOY BLUE - Asia 4.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/MONEY MONEY - Thùy Hương.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Niềm Thương Nhớ - Don Hồ.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/PARIS CÓ GÌ LẠ KHÔNG EM - Ngọc Hạ.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/RẤT HUẾ - Bảo Yến.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/SAY TÌNH - Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Sayonara - Ánh Minh, Lê Nguyên.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Thôi Thế thì chia tay - Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/TIỄN EM RA PHI TRƯỜNG - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Tình - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/Tình Ca - Vũ Khanh, All Singers.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/TÌNH YÊU, TÌNH YÊU - Băng Tâm.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/VUI CHƠI TÌNH TA - Nhã Phương.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/ĐÊM MƯA - Nguyễn Hồng Nhung.vob</file>
+	<file>musics/Vietnamese/Anh Con Yeu Em DVD 9 _ISO/ĐỪNG NÓI LỜI CHIA TAY - Doanh Doanh, Chosen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/24 Giờ Phép - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Anh Về Với Em - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Cho Kỷ Niệm Mùa Đông - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Chuyện Hoa Sim - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Dấu Chân Kỷ Niệm - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Giọt Buồn Không Tên - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Hãy Quên Anh - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Một Ngày Không Có Anh, Ngày Vui Qua Mau - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Ngày Cưới Em - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Phố Đêm - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Thiên Đường Ái Ân - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Tôi Chưa Có Mùa Xuân - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Viết Từ Kbc, Kẻ Ở Miền Xa - Y Phụng, Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Yêu Một Mình - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke - The Best Of Đan Nguyên - Y Phụng DVD 9 _Iso/Đan Áo Mùa Xuân - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Biển Nhớ - Khánh Ly.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Chuyện Tình Hoa Trắng - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Huế Xưa - Thanh Lan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Hãy Ngồi Xuống Đây - Lê Uyên Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Không Có Anh Trong Đời - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Mơ Ướt Người Yêu Bên Tôi - Vina.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Mưa Hong- Công Thành, Lynn.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Mừng Xuân - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Nha Trang Ngày Về - Ý Lan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Như Vạt Nắng - Gia Huy, Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Niệm Khúc Cuối - Sỹ Phú.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Nữa Đêm Ngoài Phố - Thanh Thúy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Qua Ngõ Nhà Em - Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Quên Câu Giã Từ - Hoàng Trọng Thụy, Quỳnh Hương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Quên Cả Lối Về - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Tiễn Đưa - Vũ Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Về Dưới Mái Nhà - Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Xuân Này Con Không Về - Duy Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Đêm Thưong Nhờ - Gia Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 06 - Chuyện Tình Hoa Trắng DVD 9 _ Iso/Đón Xuân - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Chiều Hôm Nay - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Cô Bé Hờn Dỗi - Thúy Vi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Khi Mùa Xuân Trở Lại - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Khi Đã Yêu Em - Công Thành and Lyn.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Làm Quen - Hùng Cường, Mai Lệ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Mandoley - Trung Hành.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Mưa Lệ - Kim Anh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Mưa Qua Phố Vắng - Chung Tử Lưu, Thanh Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Mộng Du - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Nhìn Những Mùa Thu Đi - Khánh Ly, Lệ Thu.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Nhịp Điệu Của Tình Yêu - Gia Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Nó - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Ra Giêng Anh Cưới Em - Mạnh Đình, Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Trúc Đào - Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Tình Em Trao Anh - Nini, Uyển My, Thùy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Tình Lầm Lỡ - Ngọc Lan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Under The Boardwalk - Gia Huy, Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/VOULEZ VOUS - Vina Uyển My.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Vũng Lầy Của Chúng Ta Tình Khúc Cho Em - Lê Uyên Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 08 - Nhịp Điệu Tình Yêu DVD9 _ISO/Xa Anh Kỷ Niệm - Nini.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/All Was Lost - Thụy Trâm, Evan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Anh Hùng Tư Khí Hùng Bất Tử - Nhật Trường, Mỹ Lan, Hạ Lan, Như Mai.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Baby I Would - Purity.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Hái Hoa Rưng Cho Em - Thiên Trang, Chế Linh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Lang Thang Dưới Mưa - Dạ Nhật Yến, Philip Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/LIên Khúc Tình Ca Người Đi Biển, Gặp Nhau Trên Phố, Lính Mà Em - Diệp Thanh Thanh, Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Liên Khúc Tình Yêu - Thiên Kim, Hồ Ngọc Như, Johnny Dũng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Liên Khúc Đồng Xanh - Trung Hành, Tuấn Dũng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Mai Tôi Đi - Diễm Liên, Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Mong Một Niềm Vui - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Mùa Hè Vô Tận - Hoàng Nam, Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Một Cuộc Tình Lỡ - Phương Nghi, Quốc Hùng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Mủa Hè Rực Rỡ - Thanh Trúc, Gia Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Người Về Từ Lòng Đất - Sỹ Đan, Lê Tuấn Đức.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Những Ngày Tháng Không Tên - Thiên Kim, Kenny Thái.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/The Chase - Cardin Nguyễn, Trish.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Trái Tim Phục Sinh - Thanh Hà, Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Đêm Nhớ Trăng Sài Gòn - Lê Uyên, Đinh Ngọc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 34 - Mai Tôi Đi DVD 9 _Iso/Đò Dọc - Thanh Tuyền, Sơn Tuyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Chuyến Tàu Hoàng Hôn - Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Cup Of Life - Philip Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Dancing Queen - Ánh Minh, Thùy Dương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Hãy Đến Bên Em - Thụy Trâm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Khi Xưa Ta Bé - Nguyên Khang, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/La Bamba - Hoàng Nam.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Liên Khúc Chuyện Giàn Thiên Lý - Chuyện Hoa Sim - Trường Vũ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Lời Nói Vu Vơ - Thanh Hà.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Medley Modern Talking - Cardin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Người Yêu Nếu Ra Đi - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Qua Cầu Gió Bay - Hà Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Sukiyaki - Trish.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Tango Mộng Mơ - Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Thú Đau Thương - Kenny Thái.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Triệu Đóa Hoa Hồng - Gia Huy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Trong Cuộc Tình Ân Hận - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Tình Ca Alisan - Thái Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Tình Đến Rồi Đi - Thanh Trúc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Tượng Đá Và Chút Suy Tư - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Tạ Từ Trong Đêm - Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 35 - Trong Cuoc Tinh Han DVD9 Iso/Ôi Tình Yêu - Hồ Ngọc Như.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Biển Vắng Em Chiều Nay - Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Chợt Như Năm 18 - Gia Huy, Thanh Trúc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Con Đường Hẻm - Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Hoang Vắng - Hồ Ngọc Như, Ban Tam Ca KTV.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Hờn Anh Giận Em - Philip Huy, Thái Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/LIên Khúc Chuyện Tình Thời Chinh Chiến - Ai Nói Với Em - Chiều Trên Phố Tam Giang - Chân Trời Tím - Áo Anh Sứt Chỉ Đường Tà - Lâm Nhật Tiến, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Liên Khúc Trái Tim Bên Lề - Khải Tuấn, Anh Thông, Châu Tuấn.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/LIên Khúc Trái Tim Ngục Tù - Trái Tim MÙa Đông - Trái Tim Lầm Lỡ - Quang Minh, Thanh Trúc, Thanh Hà, Thiên Kim, Diểm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Lý Quạ Kêu - Hà Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Nhạc Cổ Mẹ Chồng Của Tôi - Thanh Tuyền, Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/No Turning Back - Trish Thùy Trang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Tiếng Hát Trái Tim - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Trái Tim Dại Khờ - Cardin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Trăng Úa Sao Mờ - Thanh Hà.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Tình Thiên Lý - Tuấn Dũng, Trung Hành.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Without You - Puriti.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Đêm Buồn Như Thánh Ca - Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Đường Xưa - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 37 - TIẾNG HÁT TRÁI TIM DVD9.1/Đồi Thông Hai Mộ - Trường Vũ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/10 NĂM YÊU EM - Vũ Khanh, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/7000 ĐÊM GÓP LẠI - Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/CHUYỆN CHIẾC CẦU ĐÃ GÃY - Thanh Thúy, Băng Tâm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Con Rồng Cháu Tiên - Ngọc Hạ, Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Cơn Mưa Hạ and Đã Qua Thơi Mong Chờ - Y Phương, Ngọc Hương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/DAYS and NIGHTS OF MISSING YOU - Thùy Hương, Evan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/DÒNG SÔNG KỶ NIỆM &amp; MỘT NỮA ĐỜI EM - Thiên Kim, Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/HÒA BÌNH ƠI, VIỆT NAM ƠI - Trung Chỉnh, Phương Dung, Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/KINH KHỔ and VIỆT NAM NIỀM NHỚ - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Liên Khúc Trúc Hồ - Minh Thông, Khải Tuấn, Bảo Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Làm Thơ Tình Em Đọc - Dalena, Phương Thảo, Ngọc Lễ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Mẹ Yêu - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/MỘNG SẦU and HỐI TIẾC - Anh Khoa, Thanh Lan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/MỘT NGÀY VIỆT NAM &amp; BƯỚC CHÂN VIỆT NAM - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Trái Tim Mùa Đông - Don Hồ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Trôm Nhìn Nhau and Ai Biểu Em Làm Thinh - Mỹ Huyền, Tuấn Vũ, Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Tình Đầu Một Thời Áo Trắng - Diễm Liên, Y Phương, Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Tưởng Niệm - Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/TỘI NGHIỆP THÂN ANH - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/ĐIỀU GÌ ĐÓ &amp; MÃI YÊU NGƯỜI THÔI - Trish, Cardin, Chosen One.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/Đò Dọc - Y Phụng, Kim Tử Long.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/ĐƯA EM VÀO HẠ and BÀI HƯƠNG CA VÔ TẬN - Bảo Yến, Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 42 - Đưa Em Vào Hạ/ĐỈNH GIÓ HÚ - Lê Nguyên, Đòan Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Above and Beyond - Trish Thùy Trang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Bên Em Là Biển Rộng - Don Hồ, Ánh Minh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Bến Xuân - Thùy Dương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Chiếc Lá Cuối Cùng - Bảo Yến, Y Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Chuyện Tình Không Suy Tư and Phố Ðêm - Thiên Kim, Y Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Hoang Vắng - Dalena, Henry Chúc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Khi Ta Xa Rời Nhau - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Bốn Mùa Tuổi Ðá Buồn, Như Cánh Vạc Bay, Gọi Tên Bốn Mùa, Rừng Xưa Ðã Khép, Còn Tuổi Nào Cho Em - Don Hồ, Y Phương Y Phụng, Thiên Kim, Minh Thông, Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Chuyện Tình Người Ðan Áo and Bài Thánh Ca Buồn - Băng Tâm, Ðặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Câu Chuyện Ðầu Xuân, Tâm sự Ngày Xuân - Thanh Phong, Phương Hồng Quế, Ngọc Huyền, Phương Vũ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Mùa Thu Gởi Gió Cho Mây Ngàn Bay - Nguyên Khang, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Mưa Nữa Ðêm and Mưa Ðêm Ngoại Ô - Tuấn Vũ, Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/LK Tình Chết Theo Mùa Ðông and Nhớ Một Chiều Xưa - Chế Linh, Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Medley Winter Wonderland, Santa Clause Coming to Town - Asia 4.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Mùa Thu Lá Bay - Kim Anh, Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Phiên Khúc Mùa Ðông - Khải Tuấn, Minh Thông, Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Thầm Yêu - Cardin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Tiếng Sông Hương - Ngọc Hạ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Vào Hạ - Vina Uyển Mi, Thùy Hương, Chosen, Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Xuân Và Tuổi Trẻ - Ngọc Lể, Phương Thảo, All Singers.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 43 - Tu Khi Ta Xa Roi Nhau DVD9/Xóm Ðêm - Anh Khoa, Tường Nguyên, Tường Khuê.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Anh Còn Nợ Em - Thiên Kim, Bảo Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Ba NGỌN NẾN LUNG LINH - Phương Thảo, Ngọc Lễ, Bé Na, Bé Nấm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/CHIỀU LÀNG EM - Phương Hồng Quế, Phương Hồng Ngọc, Phương Hoài Tâm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/chuyện 3 mùa mưa  thương về miền trung - Băng Tâm, Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Cô Gái Bán Sầu Riêng - Y Phụng, Minh Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/DƯ ÂM - Anh Khoa, Dalena.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/GIỌT LỆ ĐÀI TRANG - Tuấn Vũ, Kim Tiểu Long.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/medly i don't need your love - Cardin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Ngày Vui Năm Ấy - Don Ho, Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Niệm Khúc Cuối - Sỹ Phú, Quốc Khánh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/quen nhau trên đường về - Thanh Tuyền, Minh Hiếu.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/SUỐI MƠ - Ngọc Hạ.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Sầu Đông - Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/THIS IS THE TIME (ALL ALONE) - Trish, Evan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/THÓI ĐỜI - Chế Linh, Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/TIẾNG TRỐNG MÊ LINH - Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Tình Phụ - Y Phương, Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/TÌNH YÊU and TÌNH NGƯỜI - Lâm Nhật Tiến, Nguyễn Hồng Nhung, All Singers.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/TÌNH YÊU ÔI TÌNH YÊU and BÚP BÊ KHÔNG TÌNH YÊU - Thanh Lan, Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/XIN CÒN GỌI TÊN NHAU &amp; MỘT MAI EM ĐI - Lệ Thu, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Đi với tôi  ghé bến sàigòn - Don Ho, Dạ Nhật Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 44 - Tình Yêu Và Tình Người [DVD 9]/Đừng Hỏi Vì Sao - Thùy Hương, Lê Nguyên, Chosen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - 24 Gio Phep - Dan Nguyen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Cafe Mot Minh - Phuong Tha &amp; Ngoc Le.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Canh Chim Bat Gio - Ngoc Huyen &amp; Dang The Luan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Chieu Tay Do - Tuan Vu, My Huyen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Chuc Xuan - Phuong Hong Que, Phuong Hoai Tam, Phuong Hong Ngoc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Dem Mua - Nguyen Hong Nhung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Dung Noi Loi Chia Tay - Doanh Doanh &amp; Chosen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Giot Buon Khong Ten - Y Phung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Ice Queen - Trish Thuy Trang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Khoc Me - Nhu Quynh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Kiep Cam Ca - Da Nhat Yen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - LK Anh Con Yeu Em, Khuc Thuy Du - Thien Kim, Y Phuong, Nguyen Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - LK Bad Boy Blue - Asia 4.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - LK Trinh Cong Son &amp; Vu Thanh An - Hop Ca Asia.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Money, Money - Thuy Huong.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Niem Thuong Nho - Don Ho.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Paris Co Gi la Khong Em - Ngoc Ha.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Rat Hue - Bao Yen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Say Tinh (Papio) - Doan Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Sayonara - Anh Minh, Le Nguyen.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Thoi The Thi Chia Tay - Quoc Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Tien Em Ra Phi Truong - Lam Nhat Tien.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Tinh - Lam Thuy Van.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Tinh Ca - Vu Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Tinh Yeu, Tinh Yeu - Bang Tam.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 47 - Anh Con Yeu Em/AsiaDVDK047 - Vui Choi Tinh Ta - Nha Phuong.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Bé Yêu - Thùy Hương, Spencer.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Chỉ Là Phù Du Thôi - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Hoa Nở Về Đêm - Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Bây Giờ Tháng Mấy, Tuổi Xa Người - Nguyên Khang, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Cơn Mưa Phùn, Tiếng Mưa Đêm, Mùa Thu Trong Mưa - Thiên Kim, Lâm Thúy Vân, Lâm Nhật Tiến, Quốc Khanh, Như Quỳnh, Nguyễn Hồng Nhung, Philip Huy, Ánh Minh, Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Delilah, Je Sais, Mùa Tình Yêu - Thanh Lan, Paolo.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Duyên Kiếp, Trăm Nhớ Ngàn Thương, Thu Sầu - Băng Tâm, Đan Nguyên, Y Phụng, Tường Nguyên, Tường Khuê, Ngọc Huyền, Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Elsa and Quelque Chose Dans Mon Coeur - Trish.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Khi Em Nhìn Anh, Nếu Em Về Bên Anh - Ngọc Minh, Thanh Phong.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Lambada, Điện Thoại Tới Anh, Lời Yêu Thương - Ánh Minh, Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Mùa Xuân Đầu Tiên, Chiều Tím - Bích Vân, Hồ Hoàng Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Một Ngày Không Có Anh, Ngày Vui Qua Mau - Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Nếu Một Ngày, Tiếng Mưa Rơi, Trăng Thề - Don Hồ, Y Phương, Lê Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Vũng Lầy Của Chúng Ta, Tình Khúc Cho Em, Cho Lần Cuối - Lê Uyên, Phương Thảo, Ngọc Lễ, Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lk Without You, Và Hôm Nay - Doanh Doanh, Cardin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Lklối Về Xóm Nhỏ, Tôi Yêu - Phương Hoài Tâm, Phương Hồng Quế.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Mùa Hè 42 - Nguyễn Hồng Nhung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Người Ngoài Phố, Dấu Chân Kỷ Niệm - Đặng Thế Luân, Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Phiến Đá Sầu - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Phượng Hồng - Vũ Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Sương Lạnh Chiều Đông - Băng Tâm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Thăm Mộ Mẹ - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Vầng Trăng Tình Yêu - Thiên Kim, Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 48 - Vang Trang Tinh Yeu DVD 9 _Iso/Định Mệnh - Philip Huy, Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/16 Trăng Tròn - Tường Nguyên, Tường Khuê.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Anh Về Với Em, Màu Mủ Anh Màu Áo Em - Y Phụng, Trish, Spencer.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Bà Mẹ Trị Thiên - Thanh Lan, Vũ Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Bắc Đẩu - Lâm Nhật Tiến, Nguyễn Hồng Nhung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Chuyện Hẹn Hò, Ai Nói Yêu Em Đêm Nay - Nhật Trường, Phương Hồng Quế, Hồ Hoàng Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Chuyện Tình Mộng Thường - Băng Tâm, Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Chủ Nhật Này Trẩm Nhớ Ái Khanh Không - Ánh Minh, Justin.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Dấu Đạn Thù Trên Tường Vôi Trắng - Anh Khoa, Y Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Gặp Nhau Làm Ngơ - Đặng Thế Luân, Thùy Dương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Hãy Trả Lời Em - Thanh Thúy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Không Bao Giờ Ngăn Cách - Châu Tuấn, Bích Vân, Y Phương, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Lời Cho Người Yêu Nhỏ - Tiến Dũng, Thanh Trúc.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Mùa Xuân Lá Khô - Tuấn Vũ, Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Một Đời Yêu Em - Philip Huy, Thiên Kim.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Phút Giao Mùa - Trung Chỉnh, Ngọc Minh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Trên Đỉnh Mùa Đông - Quốc Khanh, Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Trời Chưa Muốn Sáng - Nguyên Khang, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Tạ Từ Trong Đêm(tân Cổ Giao Duyên) - Chí Tâm, Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Xin Em Đừng Hỏi - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Yêu - Thùy Hương, Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 49 - Chuyện Tình Mộng Thường DVD 9_Iso/Đôi Ngả Đôi Ta - Chế Linh, Phương Dung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/AI NÓI VỚI EM - Ngọc Minh, Tâm Đoan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/CHUYẾN ĐÒ VĨ TUYẾN - Hoàng Oanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/GIỌT BUỒN KHÔNG TÊN - Phương Hồng Quế, Giang Tử.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/KIM - Thùy Hương, Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/LÁ XANH MÙA HÈ - Mai Thanh Sơn, Lê Anh Quân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY HAI MÙA MƯA Y - Phụng, Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY LỜI KINH ĐÊM, MỘT CHÚT QUÀ CHO QUÊ HƯƠNG - Lâm Thúy Vân, Việt Dzũng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY NAM LỘC NGƯỜI DI TẢN BUỒN, SÀIGÒN ƠI,VĨNH BIỆT - Anh Khoa,  Y Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY PHƯỢNG HOÀNG YÊU EM, TÔI MUỐN, HÃY NGƯỚC MẶT NHÌN ĐỜI, YÊU ĐỜI YÊU NGƯỜI, HUYỀN THOẠI NGƯỜI CON GÁI - Nguyên Khang, Quốc Khanh, Đoàn Phi, Mai Thanh Sơn.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY TELL ME, I WILL DREAM OF YOU THE CHASE - Cardin and Trish.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY TRÚC PHƯƠNG MƯA NỬA ĐÊM, TÀU ĐÊM NĂM CŨ, NỬA ĐÊM NGOÀI PHỐ - Thanh Thúy.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY TRẢ LẠI EM YÊU - Thanh Lan, Vũ Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY TRỊNH CÔNG SƠN DIỄM XƯA, HẠ TRẮNG - Lệ Thu, Thiên Kim.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY VŨ THÀNH AN BÀI KHÔNG TÊN SỐ 3, BÀI KHÔNG TÊN CUỐI CÙNG - Quốc Khanh, Hồ Hoàng Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY ĐOÀN CHUẨN - Lâm Nhật Tiến, Nguyễn Hồng Nhung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/MEDLEY ĐÊM BUỒN TỈNH LẺ - Đan Nguyên, Băng Tâm.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/RƯỚC TÌNH VỀ VỚI QUÊ HƯƠNG - Sơn Ca,  Ngọc Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/TRĂNG SƠN CƯỚC - Hạ Vy, Nini, Vina.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/TÌNH ANH LÍNH CHIẾN - Mỹ Huyền, Tường Nguyên, Tường Khuê.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/TÌNH YÊU, TÌNH NGƯỜI - Hợp ca.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/VŨNG LẦY CUẢ CHÚNG TA - Nguyên Khang, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 50 - Lien Khuc Phuong Hoang_DVD9 _ISO/ĐÊM ĐÔ THỊ - Ánh Minh, Mai Lệ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Bài Tango Riêng Cho Em - Hồ Hoàng Yến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Hai Trái Tim Vàng - Ánh Minh, Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Hãy Yêu Như Chưa Yêu Lần Nào - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Medeley I Love Her, Happy Together - Trish, Mai Thanh Sơn.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Mình Ơi Em Chẳng Cho Về - Nguyễn Hồng Nhung.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Mộng Dưới Hoa - Nguyên Khang.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Ngày Hạnh Phúc - Anh Khoa, Phương Hồng Quế.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Ngày Tân Hôn - Diễm Liên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Người Tình Ơi - Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Nhà Anh Nhà Em - Tường Khuê, Tâm Đoan.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Nhẫn Cỏ Cho Em - Tường Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Nếu Không Có Em - Lê Anh Quân, Đan Nguyên.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Thiên Đường Ái Ân - Y Phụng.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Trọn Đời Anh Sống Vì Em - Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Tà Áo Cưới - Đặng Thế Luân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Tình Ca Hồng - Lâm Thúy Vân.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Tình Yêu Ngọt Ngào - Doanh Doanh.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Tơ Duyên - Băng Tâm, Mạnh Đình, Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Tạ Tình - Y Phương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Yêu Em Bằng Cả Trái Tim - Phillip Huy, Thùy Hương.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Điều Gì Đó - Đoàn Phi.vob</file>
+	<file>musics/Vietnamese/Asia Karaoke 52 - Trọn Đời Anh Sống Vì Em - DVD9 _ISO/Ước Hẹn - Như Quỳnh.vob</file>
 	<file>musics/Vietnamese/Ban Toi/Anh Nho Em Nhieu - Lam Truong.vob</file>
 	<file>musics/Vietnamese/Ban Toi/Ban Toi - Quanh Linh.vob</file>
 	<file>musics/Vietnamese/Ban Toi/Beauty and The Beast - Hong Nhung.vob</file>
@@ -400,6 +721,38 @@
 	<file>musics/Vietnamese/Lang Van 39/tinh bo vo (tan co ciao duyen) - chi tam and huong lan.vob</file>
 	<file>musics/Vietnamese/Lang Van 39/tinh doi - phuong lam.vob</file>
 	<file>musics/Vietnamese/Lang Van 39/Yeu mot minh - Che Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Chúng Mình Ba Đứa - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/GIÃ TỪ VŨ KHÍ - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Giọt Lệ Đài Trang.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Hoa Sứ Nhà Nàng - Che Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Hoa vẫn nở trên đường quê hương - Phương Lam.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Khu phố ngày xưa - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Người Tình Và Quê Hương - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Người Ở Lại Charlie - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/No - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Nếu Một Mai Anh Biệt Kinh Kỳ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Phiên Gác Đêm Xuân - Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Thi tran ve dem - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Thư về em gái thành đô - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Vong Nhau Cuoi - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Vườn Tao Ngộ - Giao Linh, Tuan Vu.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Vọng gác đêm sương - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Xuân Này Con Không Về - Duy Khánh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Đêm Trên Đỉnh Đình Sầu - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Đẹp Lòng Người Yêu - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 257 - Chế Linh - Lính &amp; Đời Lính 2 - Người Nhập Cuộc - DVD9 Karaoke ISO/Đồn Vắng Chiều Xuân - Chế Linh.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Chuyến Tàu Hoàng Hôn - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Chín Tháng Quân Trường - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Hương Ca Vô Tận - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Liên Khúc 1 - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Liên Khúc 2 - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Lạnh Lùng - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Lối Về Đất Mẹ - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Thói Đời - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Tâm Sự Người Lính Trẻ - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Tình Bơ Vơ - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Xin Đừng Yêu Tôi - Tuấn Vũ.vob</file>
+	<file>musics/Vietnamese/Làng Văn 457 KARA -Tuấn Vũ-Lối Về Đất Mẹ [D9]ISo/Đường Xưa Lối Cũ - Tuấn Vũ.vob</file>
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Anh La Le Song Doi Em - Phuong Thanh.vob</file>
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Can - Thu Phuong.vob</file>
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Bien Cho - Bang Kieu.vob</file>
@@ -437,6 +790,30 @@
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuoi 15 - 3 Con Meo.vob</file>
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Tuyet Lanh - Lam Truong.vob</file>
 	<file>musics/Vietnamese/Mai Cho Tinh Lenh Denh DVD 01 - ing Entertainment/Ve Day Nghe Em - Thu Phuong.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Cho Nhau Lời Nguyện Cầu - Quang Thành.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Chuyến Tàu Hoàng Hôn - Phương Dung.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Cò Lả - Ái Vân.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Duyên Kiếp - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Dêm Bơ Vơ - Phi Nhung .vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Dấu Chân Kỳ Niệm - Mạnh Đình.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Giã Biệt Tình Em - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Gục Ngã Vì Yêu - Quang Thành.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Hoa Mười Giờ - Quỳnh Dung.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Hãy Trả Lời Anh - Quang Thành.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/LK Chờ Đông, Mùa Đông Cũa Anh - Quang Thành, Trina.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/LK Hoa Nào Anh Yêu - Hạ Vy.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/LK Tinh Bơ Vơ - Hòang Trang, Quang Thành, Lưu Mỹ Linh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Một Lần Dang Dở - Kim Anh, Quang Thành.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Nhất Ký Đời Tôi - Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Nhẫn Cỏ Cho Em -Trường Vũ.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Nỗi Buồn Gác Trọ - Phương Dung.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Sương Lạnh Chiều Đông - Quang Thành.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Thần Kinh Thương Nhớ - Tâm Phương Anh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Trả Lại Em - Khánh Hoàng.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Tôi Vần Yêu Em - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Vì Tôi Nghèo - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Xuân Trên Đất Khách - Long Nhật.vob</file>
+	<file>musics/Vietnamese/MFC Trữ Tình Quê Hương/Ở Hai Đầu Nỗi Nhớ - Long Nhật.vob</file>
 	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Can I Dance With You - Maline Nha Lan.vob</file>
 	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chiec Ao Tam Be Nho - Unknow.vob</file>
 	<file>musics/Vietnamese/Mot Doi Cho Anh - Thanh Hang Productions/Chuyen Tinh Da Qua - Tuan Dat.vob</file>
@@ -577,6 +954,74 @@
 	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/Yeu Mot Nguoi.vob</file>
 	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/You and Me.vob</file>
 	<file>musics/Vietnamese/NT Production Vol 1 - The Best Of Chinese Melody/You Are The One.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Cafe Đắng Trở Lại - Don Hồ .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Chiều Xuân - Lynda Trang Đài.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Chuyến Đi Về Sáng - Như Quỳnh .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Chuyện Lứa Đôi - Don Hồ &amp; Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Chuyện Tình Hồn Bướm Mơ Tiên - Hoàng Lan .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Hoa Tím Ngày Xưa - Bảo Ngọc.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Mùa Đông Biệt Ly - Ái Vân.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Một Ngày Không Có Anh - Trúc Lam &amp; Trúc Linh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Người Tình Ichiban - Thế Sơn .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Niềm Vui Hồn Nhiên - Bảo Hân .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Phôi Pha - Ý Lan .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Sống Trong Phút Giây - Lưu Bích .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Thương Hoài Ngàn Năm - Bảo Ngọc .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Tim Vỡ - Don Hồ &amp; Như Quỳnh .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Trái Tim Không Ngủ Yên - Elvis Phương .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Tàn Thu - Mỹ Huyền.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Tình Yêu Muôn Thuở - Thiên Kim .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Yêu Lầm - Hoàng Lan.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Đời Tôi Là Của Tôi - Nguyễn Hưng .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 24 - Tình Yêu Muôn Thuở/Ở Nơi Nào Em Còn Nhớ - Tuấn Ngọc .vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Cứ Ngũ Say - Mai Tiến Dũng, Hương Giang.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Dư Âm Tình Ta - Minh Tuyết, Trịnh Lam.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Giết Người Trong Mộng - Ngọc Anh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Khi Người Xa Tôi - Nguyệt Anh &amp; Chuyện Tình Thường Thế Thôi Thùy Vân.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Chiều Mưa Biên Giới - Mai Thiên Vân &amp; Mấy Dặm Sơn Khê - Thanh Tuyền.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Hỡi Người Tình - Tú Quyên, Như Loan.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Lại Nhớ Người Yêu and Ước Mộng Ðôi Ta - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Một Cõi Ði Về, Thành Phố Buồn, Như Cánh Vạt Bay - Khánh Ly, Chế Linh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Ngúời Lính Già Xa Quê Hương, Những Đóm Mắt Hỏa Châu, Xin Anh Giữ Trọn Tình Quê - Duy Trường, Khánh Hoàng, Quỳnh Dung.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Ngậm Ngùi and Mộ Khúc - Ý Lan, Quang Tuấn.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Paris By Night Top Hits - Hợp Ca.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Qua Cầu Gió Bay &amp; Buôn Bấc Buôn Dầu - Trần Thái Hòa, Ngọc Hạ.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Thói Ðời, Trong Tầm Mắt Đời - Duy Trường, Lý Duy Vũ.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Tình Em Ngọn Nến, Tàn Tro, Dù Tình Yêu Đã Mất - Don Hồ, Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/LK Ðời Ðá Vàng and Tưởng Niệm - Khánh Hà, Trần Thái Hòa.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Lặng Thầm - Thế Sơn &amp; Phượng Hồng - Thái Châu.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Medley New Wave 80's - Thủy Tiên, Lưu Bích, Lương Tùng Quang.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Mirror, Mirror! Gương Thần, Gương Thần - Thanh Bùi.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Mùa Thu Cho Em and Mộng Dưới Hoa - Bằng Kiều, Trần Thu Hà.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Một Mai Nếu Em Đi (Ne Me Quittes Pas) - Nguyễn Hưng, Hồ Lệ Thu.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Nhạc Kịch Ði Tìm Nửa Vầng Trăng, Tiễn Anh Về Với Người, Tình Là Gì - Dương Triệu Vũ, Bảo Hân.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Những Ðồi Hoa Sim - Mai Thiên Vân, Hoàng Oanh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Thôi Về Ði - Quỳnh Vi, Lam Anh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Thương Chị - Hà Phương, Hương Thủy.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 66 - TOC MAY DVD 9- ISO/Tóc Mây - Tóc Tiên.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Ai Lên Xứ Hoa Đào, Bài Thơ Hoa Đào - Hoàng Oanh, Trung Chỉnh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Chúc Xuân - Dương Triệu Vũ, Vân Quỳnh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Câu Chuyện Đầu Năm - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Du Xuân - Loan Châu.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Gác Nhỏ Đêm Xuân - Hương Lan.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Khúc Hát Thanh Xuân - Trần Thu Hà.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Khúc Nhạc Ngày Xuân - Thủy Tiên.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Ly Rượu Mừng - Hợp Ca Asia.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Lạc Mất Mùa Xuân - Bằng Kiều.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Nhớ Về Một Mùa Xuân - Lưu Bích.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Nắng Có Còn Xuân - Khánh Hà.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Phiên Gác Đêm Xuân - Thế Sơn.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Tôi Chưa Có Mùa Xuân - Nguyễn Hưng.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Hợp Mặt - Như Quỳnh, Loan Châu, Thủy Tiên, Bảo Hân.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Nào Con Sẽ Về - Tường Nguyên.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Này Con Về Mẹ Ở Đâu - Quang Lê.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Tha Hương - Trần Thái Hòa.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Thì - Khánh Ly.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Và Tuổi Trẻ - Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Xuân Về - Tâm Đoan.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Đêm Giao Thừa Nghe Một Khúc Dân Ca - Hương Thủy.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Đón Xuân - Lương Tùng Quang, Như Loan.vob</file>
+	<file>musics/Vietnamese/Paris By Night Karaoke 76 - Xuân Tha Hương  Da Vu Quoc Te - Nguyen Hung/Đón Xuân Này Nhớ Xuân Xưa - Mạnh Quỳnh, Phi Nhung.vob</file>
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Ben Em Mua Xuan - Lam Truong.vob</file>
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Cam Xuc Tinh Yeu - Phuong Thanh.vob</file>
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Cay Ban Sinh Vien - My Tam.vob</file>
@@ -617,6 +1062,147 @@
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Xin Dung Quay Buoc - Khanh Du.vob</file>
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Xin Moi Lan Thoi - Cam Ly and Dan Truong.vob</file>
 	<file>musics/Vietnamese/Saigon Night Music - Nhung Tinh Khuc Vuot Thoi Gian 8/Yeu Dai Kho - My Tam.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Bạc Trắng Lửa Hồng - Huong Thuy hát với MẠNH QUỲNH.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Ca Dao - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Em Về Miệt Thứ - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Em Đi Trên Cỏ Non - Huong Thuy hát với HÀ PHƯƠNG .vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Hành Trình Trên Đất Phù Sa - Huong Thuy với TÂM ĐOAN.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Hình Bóng Quê Nhà - Huong Thuy hát với MẠNH QUỲNH.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Hương Đồng Gió Nội - Huong Thuy hát với NHƯ LOAN &amp; BẢO HÂN.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Khát Vọng Xưa - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Mẹ Vẫn Đợi Con Về - Huong Thuy hát với NGỌC ĐAN THANH.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Ngợi Ca Quê Hương Em - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Nào Biết Nào Hay - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Nắng Đẹp Miền Nam and Khúc Ca Ngày Mùa - Huong Thuy hát với HÀ PHƯƠNG.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Rừng Lá Thay Chưa - Huong Thuy hát với MẠNH QUỲNH .vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Thị Trấn Mù Sương - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Vọng Cổ Tình Xuân - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Đoạn Cuối Cho Cuộc Tình - Huong Thuy hát với THẾ SƠN.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Đoản Xuân Ca - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Huong Thuy DVD 9 _Iso/Đêm Giao Thừa Nghe Một Khúc Dân Ca - Huong Thuy.vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Chút Tình Mong Manh - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Còn Lại Nhớ Thương - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Dấu Tình - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Hát Cho Người Ở Lại - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Hãy Hứa Nghe Anh - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Khúc Ca Cuối Cùng - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Làm Sao anh Biết - Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Muốn Được Gần Anh Hơn - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Mơ Những Ngày Nắng Lên - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Ngàn Năm Khó Phai - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Ngày Mai Mưa Thôi Rơi - Minh Tuyết, Lương Tùng Quang .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Ngày Xưa Anh Hỡi - Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Những Lời Mê Hoặc - Minh Tuyết, Trần Thái Hòa .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Trái Tim Buồn - Minh Tuyết.vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Tình Lỡ Cách Xa - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Vùng Trời Bình Yên - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Minh Tuyết - Mơ Những Ngày Nắng Lên/Đêm Lao Xao - Minh Tuyết .vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Chị Đi Tìm Em - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Chồng Xa - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Chờ Anh Bên Đồi - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Câu Chuyện Đầu Năm - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Câu Lạc Bộ Làm Quen - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Hoa Tím Người Xưa - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Huế Buồn - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/LK Cám Ơn and Xuân Này Con Không Về - Như Quỳnh, Thế Sơn, Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Làng Tôi - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Mười Ngón Tay Tình Yêu - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Ngại Ngùng - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Niềm Vui Không Trọn Vẹn - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Sao Em Nỡ Vội Lấy Chồng - Như Quỳnh, Minh Tuyết, Ngọc Liên, Hương Thủy, Loan Châu, Thanh Trúc, Tú Quyên, Hà Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Tiếng Dân Chài - Như Quỳnh, Phi Nhung, Hoàng Lan, Nguyễn Hưng, Thế Sơn.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Tiếng Hát Chim Đa Đa - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Trương Chi Mỵ Nương and Chuyện Tình Bên Nhánh Sông Gầy - Như Quỳnh, Lâm Nhật Tiến.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Tơ Tằm  - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Xin Đừng Trách Đa Đa - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Xuân Quê Ta - Như Quỳnh, Thế Sơn, Tâm Đoan, Lương Tùng Quang.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Yêu Cái Đèn Cù - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Như Quỳnh 3- Hoa Tím Người Xưa - DVD9_Iso/Đố Ai - Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Chiều Qua Phà Hậu Giang - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Chuyện Làm Dâu - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Con Đê Chung Tình - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Duyên Nghèo - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Dù Anh Nghèo - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Hai Đứa Giận Nhau - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Hờn Anh Giận Em - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Lính Xa Nhà - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Lý Con Sáo Bạc Liêu - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Một Căn Nhà Mướn - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Phận Gái Thuyền Quyên - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Số Nghèo - Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Thành Phố Buồn - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Trở Lại Bạc Liêu - Phi Nhung.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Đoạn Cuối Tình Yêu - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Đêm Cuối - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Phi Nhung and Mạnh Quỳnh - Dù Anh Nghèo - DVD9/Đón Xuân Này Nhớ Xuân Xưa - Phi Nhung, Mạnh Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/7000 Đêm Góp Lại - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Ai Nhớ Chăng Ai - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Duyên Kiếp - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Gặp Nhau - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Hãy Về Đây Bên Anh - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Hận Tha La - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Người Mang Tâm Sự - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Những Ngày Xưa Thân Ái - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Sao Em Nở Vô Tình - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Thành Phố Sau Lưng - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Thư Cho Vợ Hiền - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Thương Về Miền Trung - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Tà Áo Cưới - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Tình Em Biển Rộng Sông Dài - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Tình Nhỏ Mau Quên - Quang Lê, Hương Thủy.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Vùng Quê Tương Lai - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Xin Em Đừng Khóc Vu Quy - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Xin Đừng Trách Đa Đa - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Đa Tạ - Quang Lê.vob</file>
+	<file>musics/Vietnamese/The Best Of Quang Lê 7000 Đêm Góp Lại/Đêm Bơ Vơ - Quang Lê, Như Quỳnh.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Anh Đã Thấy Mùa Xuân Chưa - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Chiều Trên Phá Tam Giang - Lê Uyên, Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Chuyện Tình Không Suy Tư - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Dù Chỉ Một Lần Thôi - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Kiếp Đam Mê - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Một Nữa Đời Em - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Một Thời Đã Xa - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Người Đàn Bà Đi Nhặt Mặt Trời - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Ngỡ Như Tình Đã Quên Mình - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Những Ngày Tháng Không Tên - Thiên Kim, Kenny Thái.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Trong Cuộc Tình Ân Hận - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Trái Tim Ăn Năn - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Tình Nhớ - Thiên Kim.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Tình Đời - Thiên Kim, Lâm Nhật Tiến, Minh Thông.vob</file>
+	<file>musics/Vietnamese/The Best Of Thiên Kim DVD 9_Iso/Vầng Trăng Tình Yêu - Thiên Kim, Quốc Khanh.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Bảy Ngày Đợi Mong - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Chiếc Lá Cuối Cùng - Y Phương, Bảo Yến.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Con Đường Việt Nam - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Các Anh Đi - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Dòng Sông Xanh - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Dấu Đạn Thù Trên Tường Vôi Trắng - Y Phương, Anh Khoa.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Liên Khúc Người Di Tản Buồn. Saigon Ơi Vĩnh Biệt - Y Phương, Anh Khoa, Anh Khoa.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Liên Khúc Người Đi Qua Đời Tôi. Nữa Hồn Thương Đau - Y Phương, Minh Thông.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Lần Đầu Cũng Là Lần Cuối - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Rượu Buồn - Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Thiên Thần Trong Bóng Tối - Y Phương, Diễm Liên.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Trả Nợ Tình Xa - Y Phương, Mai Lệ Huyền.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Tình Phụ - Nguyên Khang, Y Phương.vob</file>
+	<file>musics/Vietnamese/The Best Of Y Phương DVD 9 _Iso/Tạ Tình - Y Phương.vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Biết Nói Gì Đây - Tâm Đoan, Thế Sơn .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Cho Vừa Lòng Em - Tâm Đoan.vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Hành Trình Trên Đất Phù Sa - Hương Thủy, Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Mùa Đông Hoa Trắng - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Mười Thương - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Một Lần Xa Bến - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Ngày Đá Đơm Bông - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Người Mang Tâm Sự - Tâm Đoan.vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Nếu Biết Trước - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Rồi 30 Năm Qua - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Thoáng Giấc Mơ Qua - Tâm Đoan, Thế Sơn .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Thầm Ước - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Tâm Sự Ngày Xuân - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Tự Tình Quê Hương - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Xin Dìu Nhau Đến Tình Yêu - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Xuân Về - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Đàn Không Tiếng Hát - Tâm Đoan .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Đám Cưới Đầu Xuân - Tâm Đoan, Thế Sơn .vob</file>
+	<file>musics/Vietnamese/Thúy Nga Karaoke The Best Of Tâm Đoan/Đêm Ngậm Ngùi - Tâm Đoan, Như Quỳnh .vob</file>
 	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Ai Ra Xứ Huế - Duy Khánh.vob</file>
 	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Bao Giờ Quên Em - Duy Khánh.vob</file>
 	<file>musics/Vietnamese/Tinh Ca Xu Hue - Lang Van 60/Huế Bây Giờ - Hương Lan.vob</file>
